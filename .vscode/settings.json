@@ -1,0 +1,26 @@
+{
+    "cSpell.words": [
+        "columnspan",
+        "cstate",
+        "jsonload",
+        "lootable",
+        "oneof",
+        "oneormore",
+        "pstate",
+        "realtemplate",
+        "recipeid",
+        "refmaterial",
+        "refrealtemplate",
+        "usetemplateweight",
+        "yscrollcommand",
+        "zeroorone"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell",
+          "args": ["-ExecutionPolicy", "Bypass"]
+        }
+      },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+}
