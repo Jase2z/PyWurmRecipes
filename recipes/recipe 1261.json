@@ -1,0 +1,30 @@
+  {
+    "name":"pork belly rillons",
+    "recipeid":"1261",
+    "lootable":{"creature":"rift ogre","rarity":"rare"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"forge"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","material":"pork"},
+        {"id":"fat"},
+        {"id":"rosemary","pstate":"chopped"},
+        {"id":"garlic","cstate":"raw"},
+        {"id":"red wine","pstate":"none","ratio":50,"loss":25},
+        {"id":"potato","cstate":"raw","pstate":"mashed"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"pork belly rillons",
+      "difficulty":30,
+      "description":"As pork has to be specially imported to Jackal, this is a festive delicacy, served only on special occasions."
+    }
+  }

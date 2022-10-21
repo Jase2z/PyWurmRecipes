@@ -1,0 +1,26 @@
+  {
+    "name":"jam and cream scone",
+    "recipeid":"815",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"scone mix"},
+        {"id":"jam"},
+        {"id":"cream","pstate":"clotted","ratio":25,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"scone",
+      "name":"jam and cream scone",
+      "realtemplate":"milk",
+      "difficulty":20,
+      "description":"Fresh scones with jam and thick, clotted cream."
+    }
+  }

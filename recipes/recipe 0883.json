@@ -1,0 +1,32 @@
+  {
+    "name":"pancake",
+    "recipeid":"883",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"batter"},
+        {"id":"butter"}
+      ],
+      "optional":[
+        {"id":"maple syrup","ratio":0,"loss":0,"difficulty":5},
+        {"id":"jam","difficulty":5},
+        {"id":"any nut","cstate":"raw","difficulty":5},
+        {"id":"any berry","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"omelette",
+      "name":"pancake",
+      "difficulty":15,
+      "description":"A plain pancake."
+    }
+  }

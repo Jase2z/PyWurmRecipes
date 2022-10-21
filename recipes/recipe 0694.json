@@ -1,0 +1,19 @@
+  {
+    "name":"fermenting cider",
+    "recipeid":"694",
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fruit juice","realtemplate":"green apple","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"cider",
+      "pstate":"fermenting",
+      "difficulty":15
+    }
+  }

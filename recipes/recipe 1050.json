@@ -1,0 +1,38 @@
+  {
+    "name":"baked apple",
+    "recipeid":"1050",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":7}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"green apple","cstate":"raw"},
+        {"id":"honey","ratio":50,"loss":0},
+        {"id":"nutmeg","pstate":"ground"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"blue grapes","cstate":"raw"},
+            {"id":"green grapes","cstate":"raw"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"cream","ratio":25,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"pudding",
+      "name":"baked apple",
+      "difficulty":30,
+      "icon":"baked apple",
+      "description":"Apples, stuffed with raisins, honey and spices, and baked in an oven."
+    }
+  }

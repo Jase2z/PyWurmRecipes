@@ -1,0 +1,37 @@
+  {
+    "name":"sponge cake",
+    "recipeid":"791",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"any berry","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"jam","difficulty":5},
+            {"id":"cream","pstate":"whipped","ratio":50,"loss":0,"difficulty":5}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"icing","difficulty":7},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"sponge cake",
+      "refrealtemplate":"any berry",
+      "difficulty":20,
+      "description":"A sponge cake with # throughout."
+    }
+  }

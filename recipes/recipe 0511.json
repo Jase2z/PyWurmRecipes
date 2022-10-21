@@ -1,0 +1,13 @@
+  {    
+    "name":"chopped mushroom",
+    "recipeid":"511",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"any mushroom","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"any mushroom",
+      "pstate":"chopped",
+      "difficulty":5
+    }
+  }

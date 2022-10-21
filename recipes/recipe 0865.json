@@ -1,0 +1,29 @@
+  {
+    "name":"breakfast of squaddies",
+    "recipeid":"865",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"oat"},
+        {"id":"water","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":3},
+        {"id":"tomato ketchup","difficulty":3},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":3}
+      ]
+    },
+    "result":{
+      "id":"porridge",
+      "name":"breakfast of squaddies",
+      "difficulty":15,
+      "description":"A nourishing porridge, this can also be used to stop your helmet falling off in battle."
+    }
+  }

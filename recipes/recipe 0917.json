@@ -1,0 +1,33 @@
+  {
+    "name":"bangers and mash",
+    "recipeid":"917",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sausage"},
+        {"id":"potato","cstate":"raw","pstate":"mashed"}
+      ],
+      "optional":[
+        {"id":"gravy","ratio":20,"loss":0,"difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"bangers and mash",
+      "difficulty":25,
+      "achievement":"bangers and mash",
+      "description":"A traditional dish made of mashed potatoes and sausages."
+    }
+  }

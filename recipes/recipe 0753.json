@@ -1,0 +1,29 @@
+  {
+    "name":"steamed fish fillet",
+    "recipeid":"753",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","cstate":"raw","pstate":"none"},
+        {"id":"water","ratio":200,"loss":100}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"fish fillet",
+      "cstate":"steamed",
+      "refrealtemplate":"fish fillet",
+      "difficulty":5,
+      "description":"A fish fillet that has been steamed in its own juices."
+    }
+  }

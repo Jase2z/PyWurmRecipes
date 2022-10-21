@@ -1,0 +1,34 @@
+  {
+    "name":"undistilled orange brandy",
+    "recipeid":"1145",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"orange","cstate":"raw"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"red wine","pstate":"none","ratio":0,"loss":0},
+            {"id":"white wine","pstate":"none","ratio":0,"loss":0},
+            {"id":"rice wine","pstate":"none","ratio":0,"loss":0}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"brandy",
+      "name":"orange brandy",
+      "pstate":"undistilled",
+      "realtemplate":"orange",
+      "difficulty":45,
+      "description":"A wine with added oranges, that needs to be distilled."
+    }
+  }

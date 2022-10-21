@@ -1,0 +1,32 @@
+  {
+    "name":"fried slice",
+    "recipeid":"977",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw"},
+        {"id":"cooking oil","ratio":33,"loss":50}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"slice of bread",
+      "cstate":"fried",
+      "name":"slice",
+      "difficulty":15,
+      "description":"A slice of bread that's been fried in oil."
+    }
+  }

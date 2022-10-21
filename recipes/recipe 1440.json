@@ -1,0 +1,23 @@
+  {
+    "name":"ale",
+    "recipeid":"1440",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"wort","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"ale",
+      "realtemplate":"sage",
+      "achievement":"beer",
+      "description":"An alcoholic beverage created by brewing a mixture of barley and water."
+    }
+  }

@@ -1,0 +1,29 @@
+  {
+    "name":"ginger cake",
+    "recipeid":"792",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"ginger","pstate":"ground"}
+      ],
+      "optional":[
+        {"id":"icing","difficulty":7},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"ginger cake",
+      "realtemplate":"ginger",
+      "difficulty":30,
+      "description":"A dark cake with a distinctive taste of ginger."
+    }
+  }

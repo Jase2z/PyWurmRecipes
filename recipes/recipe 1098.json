@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented cherry gin",
+    "recipeid":"1098",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"cherries","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"cherry gin",
+      "pstate":"unfermented",
+      "realtemplate":"cherries",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra cherries, ready to be distilled."
+    }
+  }

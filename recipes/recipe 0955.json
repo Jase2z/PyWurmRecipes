@@ -1,0 +1,30 @@
+  {
+    "name":"fruit pie",
+    "recipeid":"955",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any fruit","cstate":"raw"},
+        {"id":"pastry"}
+      ],
+      "optional":[
+        {"id":"sugar","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"# pie",
+      "refrealtemplate":"any fruit",
+      "difficulty":25,
+      "achievement":"fruit pie",
+      "description":"A pie with # in it, normally sweetened, possibly spiced too."
+    }
+  }

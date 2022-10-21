@@ -1,0 +1,27 @@
+  {
+    "name":"baked cheesecake",
+    "recipeid":"1192",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"any cheese"},
+        {"id":"gelatine","ratio":25,"loss":0}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"baked cheesecake",
+      "difficulty":25
+    }
+  }

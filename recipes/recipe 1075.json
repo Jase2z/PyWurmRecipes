@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented blueberry gin",
+    "recipeid":"1075",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"blueberry","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"blueberry gin",
+      "pstate":"unfermented",
+      "realtemplate":"blueberry",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra blueberry, ready to be distilled."
+    }
+  }

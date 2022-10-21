@@ -1,0 +1,30 @@
+  {
+    "name":"chicken parmigiana",
+    "recipeid":"1459",
+	"known":true,
+    "trigger":"heat",
+    "skill":"hot food cooking",
+	"cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat fillet","cstate":"raw","material":"fowl"},
+		{"id":"egg","cstate":"raw"},
+		{"id":"flour"},
+		{"id":"breadcrumbs"},
+		{"id":"tomato","pstate":"chopped"},
+		{"id":"any cheese"},
+		{"id":"any herb","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"chicken parmigiana",
+      "difficulty":"30",
+      "description":"A crumbed fillet of Fowl topped with a tangy tomato sauce and melted cheese."
+    }
+  }

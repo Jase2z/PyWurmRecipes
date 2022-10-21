@@ -1,0 +1,23 @@
+  {
+    "name":"Rolf's favourite sandwich",
+    "recipeid":"666",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"buffalo cheese"},
+        {"id":"cucumber"},
+        {"id":"butter"}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"Rolf's favourite sandwich",
+      "difficulty":50,
+      "description":"A sandwich that Rolf, our creator, likes to eat."
+    }
+  }

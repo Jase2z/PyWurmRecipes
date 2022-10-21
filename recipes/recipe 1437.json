@@ -1,0 +1,23 @@
+  {
+    "name":"Jackal special brew",
+    "recipeid":"1437",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"rift wood","ratio":0,"loss":0},
+        {"id":"rift wood"}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"Jackal special brew",
+      "realtemplate":"rift wood",
+      "achievement":"beer",
+      "description":"A red-tinted beer with a decidedly odd flavour."
+    }
+  }

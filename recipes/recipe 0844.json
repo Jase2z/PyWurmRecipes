@@ -1,0 +1,40 @@
+  {
+    "name":"meat stir fry",
+    "recipeid":"844",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"any oil","ratio":33,"loss":100}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stir fry",
+      "name":"$ stir fry",
+      "refmaterial":"any meat",
+      "difficulty":40,
+      "description":"Meat and vegetables fried quickly to keep the flavour and texture."
+    }
+  }      

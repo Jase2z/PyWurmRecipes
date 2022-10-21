@@ -1,0 +1,13 @@
+  {
+    "name":"raw sheep spit",
+    "recipeid":"530",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"branch"},
+    "target":{"id":"corpse","creature":"sheep"},
+    "result":{
+      "id":"lamb spit",
+      "cstate":"raw",
+      "difficulty":5
+    }
+  }    

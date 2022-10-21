@@ -1,0 +1,16 @@
+  {
+    "name":"whipped bison cream",
+    "recipeid":"585",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"fork"},
+    "target":{"id":"cream","pstate":"none","realtemplate":"bison milk","ratio":0,"loss":0},
+    "result":{
+      "id":"cream",
+      "name":"bison cream",
+      "pstate":"whipped",
+      "realtemplate":"bison milk",
+      "difficulty":10,
+      "description":"Bison cream that has been whipped to add air into it and thicken it."
+    }
+  }

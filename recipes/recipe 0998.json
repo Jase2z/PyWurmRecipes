@@ -1,0 +1,34 @@
+  {
+    "name":"pasta carbonara",
+    "recipeid":"998",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"bacon"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"spaghetti","cstate":"raw"},
+        {"id":"butter"},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "optional":[
+        {"id":"garlic","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"spaghetti",
+      "cstate":"cooked",
+      "name":"spaghetti alla carbonara",
+      "difficulty":35,
+      "achievement":"pasta carbonara",
+      "description":"Strands of pasta with bacon in a creamy, egg-based sauce."
+    }
+  }

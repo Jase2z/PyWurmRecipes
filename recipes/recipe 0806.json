@@ -1,0 +1,26 @@
+  {
+    "name":"chocolate biscuit",
+    "recipeid":"806",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"cocoa"}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"chocolate biscuit",
+      "realtemplate":"cocoa",
+      "difficulty":40,
+      "achievement":"chocolate biscuit",
+      "description":"Dark brown biscuits that tast strongly of chocolate."
+    }
+  }

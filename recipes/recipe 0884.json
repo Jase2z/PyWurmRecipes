@@ -1,0 +1,31 @@
+  {
+    "name":"honey pancake",
+    "recipeid":"884",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"batter"},
+        {"id":"butter"},
+        {"id":"honey","ratio":33,"loss":0}
+      ],
+      "optional":[
+        {"id":"any nut","cstate":"raw","difficulty":5},
+        {"id":"any berry","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"omelette",
+      "name":"honey pancake",
+      "difficulty":20,
+      "description":"A pancake with honey in it."
+    }
+  }

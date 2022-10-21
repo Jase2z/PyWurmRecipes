@@ -1,0 +1,31 @@
+  {
+    "name":"Thor's Austrian dream schnitzel",
+    "recipeid":"1458",
+	"known":true,
+    "trigger":"heat",
+    "skill":"hot food cooking",
+	"cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat fillet","cstate":"raw","material":"pork"},
+		{"id":"maple syrup","ratio":25,"loss":0},
+		{"id":"flour"},
+		{"id":"egg","cstate":"raw"},
+		{"id":"lingonberry","cstate":"raw"},
+		{"id":"lemon"},
+		{"id":"any oil","ratio":10,"loss":75},
+		{"id":"fries"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"Thor's Austrian dream schnitzel",
+      "difficulty":"45",
+      "description":"A thin fillet of crumbed pork, crunchy with a sweet and tangy sauce. Reminds you of yodelling in the hills."
+    }
+  }

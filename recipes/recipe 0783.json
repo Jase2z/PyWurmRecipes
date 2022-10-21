@@ -1,0 +1,29 @@
+  {
+    "name":"kielbasa",
+    "recipeid":"783",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sausage skin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","pstate":"minced"},
+        {"id":"fat"},
+        {"id":"garlic","cstate":"raw","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"kielbasa",
+      "difficulty":50,
+      "achievement":"kielbasa",
+      "description":"A much healthier sausage than faster foods, but only when fresh."
+    }
+  }

@@ -1,0 +1,26 @@
+  {
+    "name":"plain toffee",
+    "recipeid":"1134",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"milk","ratio":50,"loss":50},
+        {"id":"butter"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"plain toffee",
+      "realtemplate":"milk",
+      "difficulty":25,
+      "description":"A soft, chewy toffee."
+    }
+  }

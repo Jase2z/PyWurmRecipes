@@ -1,0 +1,44 @@
+  {
+    "name":"nut roast",
+    "recipeid":"1072",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"stock","ratio":20,"loss":0},
+        {"id":"breadcrumbs"},
+        {"id":"egg","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any nut","cstate":"raw"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"passata","ratio":10,"loss":0,"difficulty":2},
+        {"id":"cheese","difficulty":2},
+        {"id":"any mushroom","pstate":"chopped","difficulty":2},
+        {"id":"salt","difficulty":2}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"nut roast",
+      "difficulty":50,
+      "description":"A rich and savoury vegetarian dish consisting of nuts, grains, stock, vegs and seasonings formed into a firm loaf shape."
+    }
+  }

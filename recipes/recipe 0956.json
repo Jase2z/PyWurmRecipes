@@ -1,0 +1,30 @@
+  {
+    "name":"berry pie",
+    "recipeid":"956",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any berry","cstate":"raw"},
+        {"id":"pastry"}
+      ],
+      "optional":[
+        {"id":"sugar","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"# pie",
+      "refrealtemplate":"any berry",
+      "difficulty":25,
+      "achievement":"berry pie",
+      "description":"A pie with # in it, normally sweetened, possibly spiced too."
+    }
+  }

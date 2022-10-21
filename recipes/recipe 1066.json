@@ -1,0 +1,25 @@
+  {
+    "name":"iced muffin",
+    "recipeid":"1066",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"icing"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"iced muffin",
+      "realtemplate":"icing",
+      "difficulty":35,
+      "description":"Muffins glazed with a sugar icing."
+    }
+  }

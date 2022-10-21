@@ -1,0 +1,35 @@
+  {
+    "name":"unfermented vodka",
+    "recipeid":"1101",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"potato"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"vodka",
+      "pstate":"unfermented",
+      "difficulty":50,
+      "description":"Potato and sugar, could make vodka if given time."
+    }
+  }

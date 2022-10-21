@@ -1,0 +1,32 @@
+  {
+    "name":"pork pie",
+    "recipeid":"938",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"any meat","pstate":"diced","material":"pork"},
+        {"id":"gelatine","ratio":50,"loss":0}
+      ],
+      "optional":[
+        {"id":"egg","cstate":"boiled","difficulty":15},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"pork pie",
+      "difficulty":35,
+      "achievement":"pork pie",
+      "description":"A traditional British cold meat pie. It consists of roughly chopped pork and pork jelly sealed in a hot water crust pastry."
+    }
+  }

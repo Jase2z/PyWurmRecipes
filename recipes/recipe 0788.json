@@ -1,0 +1,31 @@
+  {
+    "name":"carrot cake",
+    "recipeid":"788",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"icing","realtemplate":"cream"},
+        {"id":"walnut"}
+      ],
+      "optional":[
+        {"id":"pineapple","cstate":"raw"},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"carrot cake",
+      "realtemplate":"carrot",
+      "difficulty":30,
+      "description":"A cake that has mainly carrots in it, but can have extras too."
+    }
+  }

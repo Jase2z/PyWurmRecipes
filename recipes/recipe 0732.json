@@ -1,0 +1,31 @@
+  {
+    "name":"pumpkin jam",
+    "recipeid":"732",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pumpkin","pstate":"chopped"},
+        {"id":"maple syrup","ratio":100,"loss":50}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"jam",
+      "name":"pumpkin jam",
+      "realtemplate":"pumpkin",
+      "difficulty":30,
+      "description":"A sweet, orange preserve made from pumpkins."
+    }
+  }

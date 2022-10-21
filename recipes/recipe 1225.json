@@ -1,0 +1,25 @@
+  {
+    "name":"saucy lingonberry ice cream",
+    "recipeid":"1225",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"fruit juice","realtemplate":"lingonberry","ratio":100,"loss":0},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy lingonberry ice cream",
+      "realtemplate":"lingonberry",
+      "difficulty":30,
+      "description":"Ligonberry flavoured ice cream with a fudge sauce on it."
+    }
+  }

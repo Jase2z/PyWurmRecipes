@@ -1,0 +1,28 @@
+  {
+    "name":"fruit bread",
+    "recipeid":"766",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"any fruit","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"fruit bread",
+      "refmaterial":"dough",
+      "refrealtemplate":"any fruit",
+      "difficulty":30,
+      "achievement":"bread maker",
+      "description":"A rich loaf with added fruity goodness."
+    }
+  }

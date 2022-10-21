@@ -1,0 +1,39 @@
+  {
+    "name":"pasta ai funghi",
+    "recipeid":"1000",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any mushroom"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"pasta","cstate":"raw","realtemplate":"flour"},
+            {"id":"spaghetti","cstate":"raw"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"pasta ai funghi",
+      "difficulty":30,
+      "achievement":"pasta al funghi",
+      "description":"Strands of pasta with mushrooms and garlic."
+    }
+  }

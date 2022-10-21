@@ -1,5 +1,5 @@
 # PyWurmRecipes
-This program is a cooking recipe listing for the game Wurm Online. The goal of the listing is provide an instruction for all recipes.
+This program is a cooking recipe listing for the game Wurm Online. The goal of the listing is provide instruction for all recipes.
 <br>
 <br>
 <br>

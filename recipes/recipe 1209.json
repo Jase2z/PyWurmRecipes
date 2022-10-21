@@ -1,0 +1,25 @@
+  {
+    "name":"double chocolate ice cream",
+    "recipeid":"1209",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"cocoa"},
+        {"id":"chocolate","pstate":"none"}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"double chocolate ice cream",
+      "realtemplate":"cocoa bean",
+      "difficulty":40,
+      "description":"Chocolate flavoured ice cream with chocolate chips in it."
+    }
+  }

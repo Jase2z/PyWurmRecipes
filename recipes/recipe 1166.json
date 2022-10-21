@@ -1,0 +1,37 @@
+  {
+    "name":"Tich's game jalfrezi",
+    "recipeid":"1166",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced","material":"game"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"passata","ratio":25,"loss":25},
+        {"id":"cooking oil","realtemplate":"walnut","ratio":25,"loss":75},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"turmeric","pstate":"ground"},
+        {"id":"paprika","pstate":"ground"},
+        {"id":"vinegar","realtemplate":"cider","ratio":10,"loss":0},
+        {"id":"cornflour"},
+        {"id":"rice"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"Tich's game jalfrezi",
+      "refmaterial":"any meat",
+      "difficulty":70,
+      "achievement":"any curry",
+      "description":"A hot curry with onion and tomatoes. Marinated game is fried in oil and spices to produce a dry, thick sauce."
+    }
+  }

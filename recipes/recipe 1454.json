@@ -1,0 +1,23 @@
+  {
+    "name":"undistilled orange gin",
+    "recipeid":"1454",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"fermenting","realtemplate":"orange","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"orange gin",
+      "pstate":"undistilled",
+      "realtemplate":"orange",
+      "achievement":"gin",
+      "description":"Clear but coloured by oranges, but not drinkable yet."
+    }
+  }

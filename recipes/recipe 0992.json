@@ -1,0 +1,36 @@
+  {
+    "name":"frikadeller",
+    "recipeid":"992",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","pstate":"minced"},
+        {"id":"flour"},
+        {"id":"any oil","ratio":25,"loss":75}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meatballs",
+      "name":"frikadeller",
+      "cstate":"cooked",
+      "realtemplate":"flour",
+      "refmaterial":"any meat",
+      "difficulty":50,
+      "achievement":"frikadeller",
+      "description":"Flat, pan-fried dumplings of minced meat."
+    }
+  }

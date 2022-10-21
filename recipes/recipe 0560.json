@@ -1,0 +1,14 @@
+  {
+    "name":"lingonberry juice",
+    "recipeid":"560",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"lingonberry","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"lingonberry juice",
+      "realtemplate":"lingonberry",
+      "difficulty":20
+    }
+  }

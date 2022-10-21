@@ -1,0 +1,28 @@
+  {
+    "name":"fruit muffin",
+    "recipeid":"1067",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"any fruit","cstate":"raw","pstate":"none"}
+      ],
+      "optional":[
+        {"id":"icing","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"# muffin",
+      "refrealtemplate":"any fruit",
+      "difficulty":30,
+      "description":"Small, fluffy cake-like treats, studded with cooked fruit."
+    }
+  }

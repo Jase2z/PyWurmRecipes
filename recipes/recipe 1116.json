@@ -1,0 +1,29 @@
+  {
+    "name":"peppermint tea",
+    "recipeid":"1116",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"},
+      {"id":"pottery bowl","difficulty":1}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":800,"loss":0},
+        {"id":"mint","pstate":"chopped"},
+        {"id":"sage","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"tea",
+      "name":"peppermint tea",
+      "realtemplate":"tea",
+      "difficulty":35,
+      "achievement":"tea",
+      "description":"A herbal tea made from an infusion of mint and sage."
+    }
+  }

@@ -1,0 +1,35 @@
+  {
+    "name":"cheesy fish paella",
+    "recipeid":"900",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"rice"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"any cheese"},
+        {"id":"any oil","ratio":33,"loss":100}
+      ],
+      "optional":[
+        {"id":"garlic","pstate":"chopped","difficulty":5},
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"# paella",
+      "refrealtemplate":"fish fillet",
+      "difficulty":30,
+      "achievement":"paella",
+      "description":"A colourful mixture of rice and #.  With extra cheese."
+    }
+  }

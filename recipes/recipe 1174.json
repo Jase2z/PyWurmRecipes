@@ -1,0 +1,42 @@
+  {
+    "name":"meat madras",
+    "recipeid":"1174",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"fennel","pstate":"chopped"},
+        {"id":"fruit juice","realtemplate":"lemon","ratio":10,"loss":0},
+        {"id":"cornflour"},
+        {"id":"passata","ratio":25,"loss":25},
+        {"id":"rice"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any spice","pstate":"chopped"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"$ madras",
+      "refmaterial":"any meat",
+      "difficulty":40,
+      "achievement":"any curry",
+      "description":"A hotter version of a plain meat curry or quite rich in tomatoes."
+    }
+  }

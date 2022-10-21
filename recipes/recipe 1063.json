@@ -1,0 +1,25 @@
+  {
+    "name":"berry muffin",
+    "recipeid":"1063",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"any berry","cstate":"raw","pstate":"none"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"# muffin",
+      "refrealtemplate":"any berry",
+      "difficulty":30,
+      "description":"Small, fluffy cake-like treats, studded with berries."
+    }
+  }

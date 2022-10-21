@@ -1,0 +1,32 @@
+  {
+    "name":"corn dog",
+    "recipeid":"1156",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"batter"},
+        {"id":"sausage"}
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":3},
+        {"id":"tomato ketchup","difficulty":3},
+        {"id":"salt","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"corn dog #",
+      "refrealtemplate":"sausage",
+      "refmaterial":"sausage",
+      "difficulty":30,
+      "description":"A battered sausage, such cruelty."
+    }
+  }

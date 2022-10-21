@@ -1,0 +1,31 @@
+  {
+    "name":"marmalade",
+    "recipeid":"726",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"orange"},
+        {"id":"maple syrup","ratio":100,"loss":50}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"jam",
+      "name":"marmalade",
+      "realtemplate":"orange",
+      "difficulty":20,
+      "description":"A fruit preserve made from the juice and peel of oranges boiled with mayple syrup."
+    }
+  }

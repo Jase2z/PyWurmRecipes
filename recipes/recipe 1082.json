@@ -1,0 +1,34 @@
+  {
+    "name":"sweet popcorn",
+    "recipeid":"1082",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"corn","cstate":"raw"},
+        {"id":"cooking oil","ratio":25,"loss":80},
+        {"id":"sugar"}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"nutmeg","pstate":"ground","difficulty":5},
+            {"id":"cumin","pstate":"ground","difficulty":5}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"sweet popcorn",
+      "difficulty":25,
+      "description":"Popcorn is a type of corn that expands from the kernel and puffs up when heated in oil, with added sugar."
+    }
+  }

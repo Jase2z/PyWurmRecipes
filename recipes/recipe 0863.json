@@ -1,0 +1,37 @@
+  {
+    "name":"veg casserole",
+    "recipeid":"863",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":300,"loss":0},
+        {"id":"flour"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"casserole",
+      "name":"veg casserole",
+      "difficulty":15,
+      "description":"A tasty veg casserole."
+    }
+  }

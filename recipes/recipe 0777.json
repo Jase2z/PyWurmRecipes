@@ -1,0 +1,28 @@
+  {
+    "name":"cheese toast",
+    "recipeid":"777",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"toast","realtemplate":"slice of bread"},
+        {"id":"butter"},
+        {"id":"any cheese"}
+      ]
+    },
+    "result":{
+      "id":"toast",
+      "refrealtemplate":"any cheese",
+      "name":"# toast",
+      "refmaterial":"toast",
+      "difficulty":20,
+      "description":"Toast, covered in cheese and baked until golden and crunchy on top."
+    }
+  }

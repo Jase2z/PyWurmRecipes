@@ -1,0 +1,29 @@
+  {
+    "name":"chocolate cookie",
+    "recipeid":"1138",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"},
+        {"id":"cocoa"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "name":"chocolate cookie",
+      "realtemplate":"cocoa",
+      "difficulty":30,
+      "achievement":"chocolate cookie",
+      "description":"A cookie tasting of chocolate."
+    }
+  }

@@ -1,0 +1,60 @@
+  {
+    "name":"dagwood",
+    "recipeid":"668",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":3}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2},
+            {"id":"any herb","difficulty":2},
+            {"id":"any cheese","difficulty":2},
+            {"id":"any nut","cstate":"raw","difficulty":2},
+            {"id":"any spice","difficulty":2},
+            {"id":"bacon","cstate":"cooked","difficulty":2},
+            {"id":"sausage","difficulty":2},
+            {"id":"fries","difficulty":2},
+            {"id":"pesto","ratio":50,"loss":0,"difficulty":2},
+            {"id":"haggis","difficulty":2},
+            {"id":"slice of bread","cstate":"fried","difficulty":2},
+            {"id":"croutons","difficulty":2},
+            {"id":"tomato ketchup","difficulty":2},
+            {"id":"pineapple","cstate":"raw","difficulty":2},
+            {"id":"chocolate nut spread","difficulty":2},
+            {"id":"jam","difficulty":2},
+            {"id":"kielbasa","difficulty":2},
+            {"id":"any berry","cstate":"raw","difficulty":2},
+            {"id":"honey","ratio":50,"loss":0,"difficulty":2},
+            {"id":"salt","difficulty":2},
+            {"id":"white sauce","realtemplate":"egg","ratio":0,"loss":0,"difficulty":2}
+          ]
+        }
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"meat","cstate":"cooked","difficulty":5},
+            {"id":"meat fillet","cstate":"cooked","difficulty":5},
+            {"id":"any fish","cstate":"cooked","difficulty":5},
+            {"id":"fish fillet","cstate":"cooked","difficulty":5}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"dagwood",
+      "difficulty":30,
+      "description":"A marvel of engineering, in sandwich form."
+    }
+  }

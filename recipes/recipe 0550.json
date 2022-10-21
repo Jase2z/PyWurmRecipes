@@ -1,0 +1,14 @@
+  {
+    "name":"blue grape juice",
+    "recipeid":"550",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"blue grapes","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"blue grape juice",
+      "realtemplate":"blue grapes",
+      "difficulty":10
+    }
+  }

@@ -1,0 +1,22 @@
+  {
+    "name":"red wine",
+    "recipeid":"1418",
+    "known":true,
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"red wine","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"red wine",
+      "pstate":"none",
+      "achievement":"wine",
+      "description":"Strong hints of coffee and cassis bring together a full body, making this an excellent wine to cook with.  You might even add some to the food."
+    }
+  }

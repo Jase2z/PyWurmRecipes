@@ -1,0 +1,32 @@
+  {
+    "name":"steak and chips",
+    "recipeid":"927",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat","material":"beef","cstate":"fried"},
+        {"id":"fries"}
+      ],
+      "optional":[
+        {"id":"mushy peas","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"egg","cstate":"fried","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"steak and chips",
+      "difficulty":25,
+      "description":"A good old thick steak with chunky chips."
+    }
+  }

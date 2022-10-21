@@ -1,0 +1,20 @@
+  {
+    "name":"hog roast",
+    "recipeid":"711",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"hog roast","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"hog roast",
+      "cstate":"roasted",
+      "difficulty":25,
+      "description":"A whole pig, turned on a spit."
+    }
+  }

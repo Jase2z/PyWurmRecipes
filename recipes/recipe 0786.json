@@ -1,0 +1,32 @@
+  {
+    "name":"veg sausage",
+    "recipeid":"786",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sausage skin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"fat"},
+        {"id":"breadcrumbs"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5},
+        {"id":"any fruit","cstate":"raw","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sausage",
+      "name":"# sausage",
+      "refrealtemplate":"any veg",
+      "difficulty":20,
+      "description":"A repurposed length of internal organ, stuffed with various delicious things."
+    }
+  }

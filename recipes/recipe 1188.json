@@ -1,0 +1,32 @@
+  {
+    "name":"baked chocolate cheesecake",
+    "recipeid":"1188",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"sugar"},
+        {"id":"butter"},
+        {"id":"any cheese"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"chocolate"},
+        {"id":"cocoa"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"baked chocolate cheesecake",
+      "difficulty":35,
+      "description":"A sweet dessert using biscuit as a base, and covered with a chocolate filling, then baked."
+    }
+  }

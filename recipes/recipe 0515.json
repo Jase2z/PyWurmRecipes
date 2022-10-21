@@ -1,0 +1,14 @@
+  {    
+    "name":"minced meat",
+    "recipeid":"515",
+    "known":true,
+    "skill":"butchering",
+    "active":{"id":"knife"},
+    "target":{"id":"any meat","pstate":"diced"},
+    "result":{
+      "id":"meat",
+      "pstate":"minced",
+      "refmaterial":"any meat",
+      "difficulty":3
+    }
+  }    

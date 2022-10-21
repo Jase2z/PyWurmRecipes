@@ -1,0 +1,28 @@
+  {
+    "name":"gruel",
+    "recipeid":"776",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any cereal"},
+        {"id":"water","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"porridge",
+      "name":"gruel",
+      "refmaterial":"any cereal",
+      "difficulty":15,
+      "achievement":"gruel",
+      "description":"Porridge made from grain and water."
+    }
+  }

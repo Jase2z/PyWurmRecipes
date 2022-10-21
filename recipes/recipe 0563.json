@@ -1,0 +1,13 @@
+  {
+    "name":"raspberry juice",
+    "recipeid":"563",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"raspberries","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"raspberry juice",
+      "realtemplate":"raspberries",
+      "difficulty":20
+    }
+  }

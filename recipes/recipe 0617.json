@@ -1,0 +1,22 @@
+  {
+    "name":"spaghetti",
+    "recipeid":"617",
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour","material":"wheat"},
+        {"id":"water","ratio":100,"loss":0},
+        {"id":"salt"}
+      ]
+    },
+    "result":{
+      "id":"spaghetti",
+      "cstate":"raw",
+      "difficulty":15,
+      "description":"A long, thin, cylindrical, solid pasta."
+    }
+  }

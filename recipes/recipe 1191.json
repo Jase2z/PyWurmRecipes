@@ -1,0 +1,30 @@
+  {
+    "name":"baked berry cheesecake",
+    "recipeid":"1191",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"any cheese"},
+        {"id":"gelatine","ratio":25,"loss":0},
+        {"id":"any berry","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"baked # cheesecake",
+      "refrealtemplate":"any berry",
+      "difficulty":30,
+      "description":"A sweet dessert using biscuit as a base, and covered with a # flavoured filling, then baked."
+    }
+  }

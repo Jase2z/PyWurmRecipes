@@ -1,0 +1,14 @@
+  {
+    "name":"unfermented rice wine",
+    "recipeid":"589",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"maple syrup","ratio":100,"loss":0},
+    "target":{"id":"cooked rice"},
+    "result":{
+      "id":"rice wine",
+      "pstate":"unfermented",
+      "difficulty":70,
+      "description":"Unfermented rice wine."
+    }
+  }

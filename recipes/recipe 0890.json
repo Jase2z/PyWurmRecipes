@@ -1,0 +1,27 @@
+  {
+    "name":"deep fried haven bar",
+    "recipeid":"890",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"batter"},
+        {"id":"any oil","ratio":10,"loss":100},
+        {"id":"chocolate"},
+        {"id":"honey","ratio":10,"loss":0},
+        {"id":"any nut","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"deep fried haven bar",
+      "difficulty":50,
+      "description":"A deep fried heart attack."
+    }
+  }

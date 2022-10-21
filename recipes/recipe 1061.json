@@ -1,0 +1,23 @@
+  {
+    "name":"oven roasted chestnut",
+    "recipeid":"1061",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"chestnut","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"chestnut",
+      "cstate":"roasted",
+      "difficulty":5,
+      "description":"A chestnut roasted on an oven."
+    }
+  }

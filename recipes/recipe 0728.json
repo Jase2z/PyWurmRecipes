@@ -1,0 +1,37 @@
+  {
+    "name":"stock",
+    "recipeid":"728",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":400,"loss":25},
+        {"id":"onion"},
+        {"id":"carrot"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"heart"},
+            {"id":"eye"},
+            {"id":"gland"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stock",
+      "difficulty":10
+    }
+  }

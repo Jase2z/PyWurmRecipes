@@ -1,0 +1,28 @@
+  {
+    "name":"jam scone",
+    "recipeid":"818",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"scone mix"},
+        {"id":"jam"}
+      ],
+      "optional":[
+        {"id":"cream","pstate":"whipped","ratio":25,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"scone",
+      "name":"jam scone",
+      "refrealtemplate":"jam",
+      "difficulty":20,
+      "description":"Fresh scones with jam and cream."
+    }
+  }

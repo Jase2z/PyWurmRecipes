@@ -1,0 +1,26 @@
+  {
+    "name":"english tea scone",
+    "recipeid":"814",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"scone mix"},
+        {"id":"jam","realtemplate":"raspberries"},
+        {"id":"cream","pstate":"clotted","ratio":25,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"scone",
+      "name":"english tea scone",
+      "realtemplate":"tea",
+      "difficulty":25,
+      "description":"Crunchy baked scones with raspberry jam and clotted cream.  Just the thing, old boy!"
+    }
+  }

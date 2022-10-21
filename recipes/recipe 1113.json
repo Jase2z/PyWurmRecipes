@@ -1,0 +1,43 @@
+  {
+    "name":"wort with lots of hops",
+    "recipeid":"1113",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":400,"loss":0},
+        {"id":"hops","amount":3}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"barley"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"wort",
+      "name":"wort with lots of hops",
+      "realtemplate":"wheat",
+      "difficulty":40,
+      "description":"A liquid extracted from the mashing process during the brewing of beer with a pungent smell of hops."
+    }
+  }

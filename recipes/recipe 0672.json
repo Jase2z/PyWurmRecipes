@@ -1,0 +1,28 @@
+  {
+    "name":"fried egg sandwich",
+    "recipeid":"672",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"egg","cstate":"fried"}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","difficulty":5,"ratio":20,"loss":0},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"salt"}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"fried egg sandwich",
+      "realtemplate":"egg",
+      "difficulty":20,
+      "description":"A hot fried egg between two slices of bread."
+    }
+  }      

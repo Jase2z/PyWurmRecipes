@@ -1,0 +1,40 @@
+  {
+    "name":"stew (meat) with dumplings",
+    "recipeid":"1384",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat"},
+        {"id":"dough"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":2}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"meat stew with dumplings",
+      "difficulty":8,
+      "description":"A delicious meat and veg stew with added dumplings."
+    }
+  }

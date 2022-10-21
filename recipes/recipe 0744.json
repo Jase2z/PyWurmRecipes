@@ -1,0 +1,33 @@
+  {
+    "name":"tuna and mayo baked potato",
+    "recipeid":"744",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"baking stone"},
+      {"id":"pottery bowl","difficulty":5}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","cstate":"raw","pstate":"none"},
+        {"id":"fish fillet","realtemplate":"tuna"},
+        {"id":"white sauce","realtemplate":"egg","ratio":25,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"olive oil","ratio":10,"loss":100},
+        {"id":"cheese","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"tuna and mayo baked potato",
+      "difficulty":15,
+      "description":"Baked potato with tuna and mayo filling."
+    }
+  }

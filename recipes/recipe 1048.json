@@ -1,0 +1,29 @@
+  {
+    "name":"candied rose petals",
+    "recipeid":"1048",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rose flower"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"rose petals",
+      "cstate":"candied",
+      "realtemplate":"sugar",
+      "difficulty":30,
+      "icon":"rose flower",
+      "description":"Rose petals coated with melted sugar."
+    }
+  }

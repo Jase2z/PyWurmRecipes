@@ -1,0 +1,36 @@
+  {
+    "name":"red meat curry",
+    "recipeid":"1180",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"coconut"},
+        {"id":"any oil","ratio":25,"loss":75},
+        {"id":"red mushroom"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"cumin","pstate":"ground"},
+        {"id":"turmeric","pstate":"ground"},
+        {"id":"rice"}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"red $ curry",
+      "refmaterial":"any meat",
+      "difficulty":45,
+      "achievement":"any curry",
+      "description":"A fragrant meat curry, with the heat tempered by coconut milk."
+    }
+  }

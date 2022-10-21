@@ -1,0 +1,36 @@
+  {
+    "name":"unfermented gin",
+    "recipeid":"1107",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "pstate":"unfermented",
+      "realtemplate":"none",
+      "difficulty":30,
+      "description":"A mulsh of wheat with sugar, ready to be distilled."
+    }
+  }

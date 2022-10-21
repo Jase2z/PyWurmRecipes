@@ -1,0 +1,26 @@
+  {
+    "name":"custard",
+    "recipeid":"626",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"pottery bowl","difficulty":10},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"},
+        {"id":"cornflour"},
+        {"id":"any milk","ratio":33,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"custard",
+      "difficulty":10
+    }
+  }

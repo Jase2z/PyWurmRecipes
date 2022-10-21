@@ -1,0 +1,30 @@
+  {
+    "name":"dandelion bread pudding",
+    "recipeid":"1046",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"bouquet of yellow flowers"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"cream","pstate":"whipped","ratio":20,"loss":0},
+        {"id":"feta cheese"},
+        {"id":"breadcrumbs"}
+      ]
+    },
+    "result":{
+      "id":"pudding",
+      "name":"dandelion bread pudding",
+      "difficulty":50,
+      "description":"Stale bread with cream containing an egg and various vegs with a dandelion on top."
+    }
+  }

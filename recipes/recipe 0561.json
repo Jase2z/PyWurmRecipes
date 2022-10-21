@@ -1,0 +1,14 @@
+  {
+    "name":"cherry juice",
+    "recipeid":"561",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"cherries","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"cherry juice",
+      "realtemplate":"cherries",
+      "difficulty":15
+    }
+  }

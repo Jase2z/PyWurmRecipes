@@ -1,0 +1,25 @@
+  {
+    "name":"fish nigiri",
+    "recipeid":"639",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cooked rice"},
+        {"id":"fish fillet","cstate":"raw","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"pickle","realtemplate":"ginger","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "refrealtemplate":"fish fillet",
+      "name":"# nigiri",
+      "difficulty":25,
+      "description":"Oblong balls of rice topped with thinly sliced fish."
+    }
+  }

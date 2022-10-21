@@ -1,0 +1,22 @@
+  {
+    "name":"beer",
+    "recipeid":"1433",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"hops","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "realtemplate":"oregano",
+      "achievement":"beer",
+      "description":"A cheap, mass-produced affair, lacking serious palette, flavour or depth; a perfect example of canoe fornication."
+    }
+  }

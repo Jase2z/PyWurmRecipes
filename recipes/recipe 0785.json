@@ -1,0 +1,32 @@
+  {
+    "name":"meat sausage",
+    "recipeid":"785",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sausage skin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","pstate":"minced"},
+        {"id":"fat"},
+        {"id":"breadcrumbs"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5},
+        {"id":"any fruit","cstate":"raw","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sausage",
+      "name":"$ sausage",
+      "refmaterial":"any meat",
+      "difficulty":20,
+      "description":"A repurposed length of internal organ, stuffed with various delicious things."
+    }
+  }

@@ -1,0 +1,25 @@
+  {
+    "name":"tomato ketchup",
+    "recipeid":"623",
+    "skill":"cooking",
+    "active":{"id":"fork"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"tomato"},
+        {"id":"onion"},
+        {"id":"fennel"},
+        {"id":"vinegar","ratio":33,"loss":50},
+        {"id":"ginger"},
+        {"id":"garlic"},
+        {"id":"basil"},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"tomato ketchup",
+      "difficulty":40
+    }
+  }

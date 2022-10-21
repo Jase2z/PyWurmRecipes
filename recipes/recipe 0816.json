@@ -1,0 +1,25 @@
+  {
+    "name":"cheese scone",
+    "recipeid":"816",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"scone mix"},
+        {"id":"any cheese"}
+      ]
+    },
+    "result":{
+      "id":"scone",
+      "name":"cheese scone",
+      "realtemplate":"cheese",
+      "difficulty":35,
+      "description":"A savoury baked scone with added cheese."
+    }
+  }

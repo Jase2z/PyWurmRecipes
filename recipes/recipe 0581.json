@@ -1,0 +1,16 @@
+  {
+    "name":"sheep cream",
+    "recipeid":"581",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"spoon"},
+    "target":{"id":"sheep milk","ratio":0,"loss":75},
+    "result":{
+      "id":"cream",
+      "name":"sheep cream",
+      "pstate":"none",
+      "realtemplate":"sheep milk",
+      "difficulty":15,
+      "description":"A dairy product composed of the higher-butterfat layer skimmed from the top of sheep milk."
+    }
+  }

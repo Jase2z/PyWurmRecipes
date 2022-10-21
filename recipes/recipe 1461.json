@@ -1,0 +1,27 @@
+  {
+    "name":"fish 'n chips",
+    "recipeid":"1461",
+	"known":true,
+    "trigger":"heat",
+    "skill":"hot food cooking",
+	"cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fries"},
+		{"id":"fish fillet","pstate":"none","cstate":"raw"},
+		{"id":"lemon"},
+		{"id":"cooking oil","ratio":100,"loss":90}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"fish 'n chips",
+      "difficulty":"20",
+      "description":"Simple battered fish with chips, a wedge of lemon brings out the flavour."
+    }
+  }

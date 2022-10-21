@@ -1,0 +1,22 @@
+  {
+    "name":"rice wine",
+    "recipeid":"1419",
+    "known":true,
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rice wine","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"rice wine",
+      "pstate":"none",
+      "achievement":"rice wine",
+      "description":"Strong but moreish.  After the second bottle, the sake drinks you."
+    }
+  }

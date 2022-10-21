@@ -1,0 +1,23 @@
+  {
+    "name":"flake ice cream",
+    "recipeid":"1221",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"ice cream","realtemplate":"none"},
+        {"id":"chocolate","pstate":"none"}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"flake ice cream",
+      "realtemplate":"chocolate",
+      "difficulty":25,
+      "description":"Plain ice cream with a chocolate flake in it, otherwise known as a 99."
+    }
+  }

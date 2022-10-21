@@ -1,0 +1,26 @@
+  {
+    "name":"tamago sushi",
+    "recipeid":"633",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cooked rice"},
+        {"id":"nori"},
+        {"id":"omelette"}
+      ],
+      "optional":[
+        {"id":"pickle","realtemplate":"ginger","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "name":"tamago sushi",
+      "difficulty":35,
+      "achievement":"sushi maker",
+      "description":"A specially-prepared omlette, sliced up and tied to balls of rice with dried seaweed."
+    }
+  }

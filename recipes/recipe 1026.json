@@ -1,0 +1,25 @@
+  {
+    "name":"cornbread",
+    "recipeid":"1026",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"corn dough"}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"cornbread",
+      "realtemplate":"corn",
+      "difficulty":25,
+      "achievement":"bread maker",
+      "description":"A heavier, crumbly loaf made from ground corn."
+    }
+  }

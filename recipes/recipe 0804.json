@@ -1,0 +1,26 @@
+  {
+    "name":"custard creams",
+    "recipeid":"804",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"custard","ratio":75,"loss":25}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"custard creams",
+      "realtemplate":"custard",
+      "difficulty":30,
+      "achievement":"custard creams",
+      "description":"Two thin biscuits laminated together with a wierd, yellow gunk."
+    }
+  }

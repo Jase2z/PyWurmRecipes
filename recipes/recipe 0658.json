@@ -1,0 +1,25 @@
+  {
+    "name":"berry trifle",
+    "recipeid":"658",
+    "skill":"baking",
+    "active":{"id":"spoon"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake","realtemplate":"cake mix"},
+        {"id":"custard","ratio":50,"loss":0},
+        {"id":"jelly"},
+        {"id":"any berry","cstate":"raw"},
+        {"id":"cream","pstate":"whipped","ratio":50,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"pudding",
+      "name":"# trifle",
+      "refrealtemplate":"any berry",
+      "difficulty":20,
+      "description":"A tasty dessert with berries, custard and cream."
+    }
+  }

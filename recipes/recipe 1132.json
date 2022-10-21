@@ -1,0 +1,27 @@
+  {
+    "name":"ginger toffee",
+    "recipeid":"1132",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"milk","ratio":50,"loss":50},
+        {"id":"butter"},
+        {"id":"ginger","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"ginger toffee",
+      "realtemplate":"ginger",
+      "difficulty":30,
+      "description":"A spicy toffee made with ginger."
+    }
+  }

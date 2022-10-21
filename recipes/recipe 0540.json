@@ -1,0 +1,12 @@
+  {
+    "name":"nori",
+    "recipeid":"540",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"press"},
+    "target":{"id":"kelp"},
+    "result":{
+      "id":"nori",
+      "difficulty":20
+    }
+  }    

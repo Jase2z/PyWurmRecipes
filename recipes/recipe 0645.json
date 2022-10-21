@@ -1,0 +1,30 @@
+  {
+    "name":"ploughman's lunch",
+    "recipeid":"645",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cheese","pstate":"none"},
+        {"id":"bread"},
+        {"id":"pickle","realtemplate":"onion"}
+      ],
+      "optional":[
+        {"id":"lettuce"},
+        {"id":"tomato"},
+        {"id":"onion"},
+        {"id":"egg","cstate":"boiled"},
+        {"id":"green apple"},
+        {"id":"any meat","cstate":"cooked"}
+      ]
+    },
+    "result":{
+      "id":"salad",
+      "name":"ploughman's lunch",
+      "difficulty":30,
+      "description":"An English cold meal which consists of cheese, pickle, and bread."
+    }
+  }

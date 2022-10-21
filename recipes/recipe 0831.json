@@ -1,0 +1,32 @@
+  {
+    "name":"meat broth",
+    "recipeid":"831",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan","difficulty":5},
+      {"id":"pottery bowl","difficulty":5},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"stock","ratio":300,"loss":0}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"broth",
+      "name":"$ meat broth",
+      "refmaterial":"any meat",
+      "realtemplate":"meat",
+      "difficulty":20,
+      "description":"A basic meat broth."
+    }
+  }

@@ -1,0 +1,36 @@
+  {
+    "name":"red fish curry",
+    "recipeid":"1181",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"coconut"},
+        {"id":"any oil","ratio":25,"loss":75},
+        {"id":"red mushroom"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"cumin","pstate":"ground"},
+        {"id":"turmeric","pstate":"ground"},
+        {"id":"rice"}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"red # curry",
+      "refrealtemplate":"fish fillet",
+      "difficulty":45,
+      "achievement":"any curry",
+      "description":"A fragrant fish curry, with the heat tempered by coconut milk."
+    }
+  }

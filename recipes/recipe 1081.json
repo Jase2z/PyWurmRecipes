@@ -1,0 +1,29 @@
+  {
+    "name":"salted popcorn",
+    "recipeid":"1081",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"corn","cstate":"raw"},
+        {"id":"cooking oil","ratio":25,"loss":80},
+        {"id":"salt"}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"salted popcorn",
+      "difficulty":25,
+      "description":"Popcorn is a type of corn that expands from the kernel and puffs up when heated in oil, with added salt."
+    }
+  }

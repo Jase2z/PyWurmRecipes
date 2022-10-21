@@ -1,0 +1,22 @@
+  {
+    "name":"cake mix",
+    "recipeid":"610",
+    "skill":"baking",
+    "active":{"id":"spoon"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"sugar"},
+        {"id":"any milk","ratio":100,"loss":0},
+        {"id":"salt"}
+      ]
+    },
+    "result":{
+      "id":"cake mix",
+      "difficulty":10
+    }
+  }

@@ -1,0 +1,30 @@
+  {
+    "name":"oat porridge",
+    "recipeid":"775",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"oat"},
+        {"id":"water","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":3}
+      ]
+    },
+    "result":{
+      "id":"porridge",
+      "material":"oat",
+      "difficulty":15,
+      "description":"Porridge made from oats, just like McGrandma used to make."
+    }
+  }

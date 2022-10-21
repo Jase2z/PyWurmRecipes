@@ -1,0 +1,28 @@
+  {
+    "name":"lavender honey cake",
+    "recipeid":"797",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"lavender flower"},
+        {"id":"custard","ratio":25,"loss":0},
+        {"id":"honey","ratio":25,"loss":10},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"lavender honey cake",
+      "realtemplate":"lavender flower",
+      "difficulty":50,
+      "description":"A cake with honey in, hope the bees were removed."
+    }
+  }

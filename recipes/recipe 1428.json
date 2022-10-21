@@ -1,0 +1,25 @@
+  {
+    "name":"berry brandy",
+    "recipeid":"1428",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"brandy","pstate":"undistilled","realtemplate":"any berry","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"brandy",
+      "name":"# brandy",
+      "pstate":"none",
+      "refrealtemplate":"brandy",
+      "achievement":"brandy",
+      "description":"Rich and dark with a hint of #, and traditionally accompanied by cigars. What's a cigar?"
+    }
+  }

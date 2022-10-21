@@ -1,0 +1,33 @@
+  {
+    "name":"fishermans soup",
+    "recipeid":"839",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl","difficulty":7},
+      {"id":"cauldron","difficulty":5},
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","cstate":"raw"},
+        {"id":"water","ratio":200,"loss":10},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"carrot","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"fishermans soup",
+      "refrealtemplate":"fish fillet",
+      "difficulty":30,
+      "description":"A classic soup enjoyed by those who plough the ocean wave.  Better hope those ploughs float!"
+    }
+  }

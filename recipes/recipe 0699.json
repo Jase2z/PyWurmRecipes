@@ -1,0 +1,21 @@
+  {
+    "name":"fermenting rift beer",
+    "recipeid":"699",
+    "skill":"beverages",
+    "active":{"id":"rift wood"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"wort","realtemplate":"wort","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"fermenting",
+      "name":"rift beer",
+      "realtemplate":"rift wood",
+      "difficulty":60
+    }
+  }

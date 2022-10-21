@@ -1,0 +1,13 @@
+  {
+    "name":"hazelnut oil",
+    "recipeid":"552",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"hazelnuts","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"hazelnuts",
+      "difficulty":30
+    }
+  }

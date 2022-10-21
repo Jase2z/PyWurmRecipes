@@ -1,0 +1,28 @@
+  {
+    "name":"grilled fish fillet",
+    "recipeid":"752",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","cstate":"raw","pstate":"none"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"fish fillet",
+      "cstate":"grilled",
+      "refrealtemplate":"fish fillet",
+      "difficulty":5,
+      "description":"A fish fillet that has been grilled."
+    }
+  }

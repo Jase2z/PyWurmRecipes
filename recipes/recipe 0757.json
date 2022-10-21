@@ -1,0 +1,33 @@
+  {
+    "name":"omelette",
+    "recipeid":"757",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"egg","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"any meat","cstate":"cooked","difficulty":5},
+        {"id":"any cheese","difficulty":5},
+        {"id":"any mushroom","difficulty":5},
+        {"id":"tomato","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"omelette",
+      "difficulty":15,
+      "description":"A hearty omelette with cheese, mushroom, and tomato."
+    }
+  }

@@ -1,0 +1,24 @@
+  {
+    "name":"plain muffin",
+    "recipeid":"1071",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"plain muffin",
+      "realtemplate":"cake mix",
+      "difficulty":20,
+      "description":"Plain, unadorned muffins.  So sad."
+    }
+  }

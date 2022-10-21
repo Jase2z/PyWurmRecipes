@@ -1,0 +1,14 @@
+  {
+    "name":"mashed veg",
+    "recipeid":"521",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"fork"},
+    "target":{"id":"any veg","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"any veg",
+      "cstate":"raw",
+      "pstate":"mashed",
+      "difficulty":5
+    }
+  }    

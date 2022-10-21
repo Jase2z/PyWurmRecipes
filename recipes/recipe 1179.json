@@ -1,0 +1,54 @@
+  {
+    "name":"veg jalfrezi",
+    "recipeid":"1179",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"passata","ratio":25,"loss":25},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"vinegar","ratio":10,"loss":0},
+        {"id":"cornflour"},
+        {"id":"salt"},
+        {"id":"rice"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any spice","pstate":"chopped"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"corn","pstate":"chopped","difficulty":5},
+            {"id":"potato","pstate":"chopped","difficulty":5},
+            {"id":"pumpkin","pstate":"chopped","difficulty":5},
+            {"id":"cabbage","pstate":"chopped","difficulty":5},
+            {"id":"carrot","pstate":"chopped","difficulty":5},
+            {"id":"lettuce","pstate":"chopped","difficulty":5},
+            {"id":"pea","pstate":"chopped","difficulty":5},
+            {"id":"pea pod","pstate":"chopped","difficulty":5},
+            {"id":"tomato","pstate":"chopped","difficulty":5},
+            {"id":"cucumber","pstate":"chopped","difficulty":5}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"veg jalfrezi",
+      "difficulty":60,
+      "achievement":"any curry",
+      "description":"A hot curry with onion and tomatoes. Marinated fish is fried in oil and spices to produce a dry, thick sauce."
+    }
+  }

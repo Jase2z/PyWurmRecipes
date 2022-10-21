@@ -1,0 +1,34 @@
+  {
+    "name":"veg soup",
+    "recipeid":"837",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan","difficulty":5},
+      {"id":"pottery bowl","difficulty":5},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"water","ratio":300,"loss":10}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"any spice","pstate":"ground","difficulty":2},
+        {"id":"croutons","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"# soup",
+      "refrealtemplate":"any veg",
+      "difficulty":25,
+      "description":"Vegetables cooked into a pleasant, filling soup."
+    }
+  }

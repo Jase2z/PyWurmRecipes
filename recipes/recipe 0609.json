@@ -1,0 +1,24 @@
+  {
+    "name":"biscuit mix",
+    "recipeid":"609",
+    "skill":"baking",
+    "active":{"id":"spoon"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"sugar"},
+        {"id":"any milk","ratio":100,"loss":0},
+        {"id":"egg","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"biscuit mix",
+      "refmaterial":"flour",
+      "name":"$ biscuit mix",
+      "difficulty":10
+    }
+  }

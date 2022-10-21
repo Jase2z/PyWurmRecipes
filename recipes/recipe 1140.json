@@ -1,0 +1,29 @@
+  {
+    "name":"spiced cookie",
+    "recipeid":"1140",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"},
+        {"id":"any spice","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "difficulty":45,
+      "name":"spiced cookie",
+      "refrealtemplate":"any spice",
+      "achievement":"cookies",
+      "description":"A cookie tasting of #."
+    }
+  }

@@ -1,0 +1,27 @@
+  {
+    "name":"pizza marinara",
+    "recipeid":"1010",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"passata","ratio":20,"loss":0},
+        {"id":"garlic"}
+      ]
+    },
+    "result":{
+      "id":"pizza",
+      "name":"pizza marinara",
+      "difficulty":25,
+      "achievement":"pizza marinara",
+      "description":"The simplest pizza possible, this one doesn't even have any cheese."
+    }
+  }

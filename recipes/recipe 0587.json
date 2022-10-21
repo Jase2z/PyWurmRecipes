@@ -1,0 +1,14 @@
+  {
+    "name":"unfermented white wine",
+    "recipeid":"587",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"maple syrup","ratio":100,"loss":0},
+    "target":{"id":"fruit juice","realtemplate":"green grapes","ratio":0,"loss":0},
+    "result":{
+      "id":"white wine",
+      "pstate":"unfermented",
+      "difficulty":30,
+      "description":"Unfermented white wine."
+    }
+  }

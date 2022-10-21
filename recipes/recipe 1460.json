@@ -1,0 +1,23 @@
+  {
+    "name":"Robbycrusoe's poutine",
+    "recipeid":"1460",
+	"known":true,
+    "active":{"id":"hand"},
+    "skill":"hot food cooking",
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fries"},
+		{"id":"any cheese"},
+		{"id":"gravy","ratio":50,"loss":10}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"Robbycrusoe's poutine",
+      "difficulty":"20",
+      "description":"A national favourite. Crunchy fries topped with cheese curds and gravy."
+    }
+  }

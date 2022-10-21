@@ -1,0 +1,21 @@
+  {
+    "name":"fermenting ginger beer",
+    "recipeid":"1201",
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"wort","realtemplate":"ginger","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "name":"ginger beer",
+      "pstate":"fermenting",
+      "realtemplate":"ginger",
+      "difficulty":10
+    }
+  }

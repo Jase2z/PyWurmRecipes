@@ -1,0 +1,40 @@
+  {
+    "name":"stew (meat)",
+    "recipeid":"1381",
+    "skill":"hot food cooking",
+    "known":true,
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":3}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"meat stew",
+      "difficulty":5,
+      "description":"A delicious meat and veg stew."
+    }
+  }

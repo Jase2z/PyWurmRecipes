@@ -1,0 +1,44 @@
+  {
+    "name":"stew (veg) with dumplings",
+    "recipeid":"1383",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2}
+          ]
+        },
+        {
+          "list":[
+            {"id":"any berry","difficulty":2}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":2}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"veg stew with dumplings",
+      "difficulty":7,
+      "description":"A delicious veg and berry stew with added dumplings."
+    }
+  }

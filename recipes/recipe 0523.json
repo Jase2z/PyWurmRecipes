@@ -1,0 +1,13 @@
+  {
+    "name":"ground spice",
+    "recipeid":"523",
+    "known":true,
+    "skill":"milling",
+    "active":{"id":"mortar and pestle"},
+    "target":{"id":"any spice","pstate":"none"},
+    "result":{
+      "id":"any spice",
+      "pstate":"ground",
+      "difficulty":10
+    }
+  }    

@@ -1,0 +1,12 @@
+  {
+    "name":"croutons",
+    "recipeid":"537",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"toast","realtemplate":"slice of bread"},
+    "result":{
+      "id":"croutons",
+      "difficulty":10
+    }
+  }    

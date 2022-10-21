@@ -1,0 +1,38 @@
+  {
+    "name":"veg stir fry",
+    "recipeid":"845",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any oil","ratio":33,"loss":100}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stir fry",
+      "name":"vegetable stir fry",
+      "difficulty":30,
+      "description":"A vegetarian dish made from vegetables, quickly fried in a pan to keep their freshness and crunch."
+    }
+  }      

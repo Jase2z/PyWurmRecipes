@@ -1,0 +1,31 @@
+  {
+    "name":"four seasons pizza",
+    "recipeid":"1009",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"passata","ratio":20,"loss":0},
+        {"id":"any cheese"},
+        {"id":"bacon"},
+        {"id":"any mushroom"},
+        {"id":"olives"},
+        {"id":"fennel"}
+      ]
+    },
+    "result":{
+      "id":"pizza",
+      "name":"four seasons pizza",
+      "difficulty":35,
+      "achievement":"four seasons pizza",
+      "description":"A version of the classic pizza with bacon, mushrooms, olives and fennel.  Even Art wouldn't choke on this."
+    }
+  }

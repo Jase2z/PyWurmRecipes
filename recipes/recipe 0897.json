@@ -1,0 +1,40 @@
+  {
+    "name":"welsh rarebit",
+    "recipeid":"897",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"toast","realtemplate":"slice of bread"},
+        {"id":"cheese"},
+        {"id":"flour"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"beer","ratio":33,"loss":0},
+            {"id":"any milk","ratio":33,"loss":0}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"welsh rarebit",
+      "difficulty":30,
+      "description":"Like cheese on toast, but much, much fancier."
+    }
+  }

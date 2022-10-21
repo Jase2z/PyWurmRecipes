@@ -1,0 +1,20 @@
+  {
+    "name":"fermenting rice wine",
+    "recipeid":"698",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rice wine","pstate":"unfermented","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"rice wine",
+      "pstate":"fermenting",
+      "difficulty":40
+    }
+  }

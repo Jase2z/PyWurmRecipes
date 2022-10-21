@@ -1,0 +1,45 @@
+  {
+    "name":"meal (meat)",
+    "recipeid":"1355",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":5}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":5},
+        {"id":"any nut","cstate":"raw","difficulty":5},
+        {"id":"any spice","difficulty":5},
+        {"id":"any cheese","difficulty":5},
+        {"id":"bread","difficulty":5}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"$ meal",
+      "refmaterial":"any meat",
+      "difficulty":35,
+      "achievement":"cook a meal",
+      "description":"A delicious well-prepared meal with $ meat and veg as its main ingredients."
+    }
+  }

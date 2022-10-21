@@ -1,0 +1,23 @@
+  {
+    "name":"undistilled lingonberry gin",
+    "recipeid":"1442",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"fermenting","realtemplate":"lingonberry","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"lingonberry gin",
+      "pstate":"undistilled",
+      "realtemplate":"lingonberry",
+      "achievement":"gin",
+      "description":"Clear but coloured by lingonberries, but not drinkable yet."
+    }
+  }

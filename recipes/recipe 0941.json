@@ -1,0 +1,35 @@
+  {
+    "name":"cottage pie",
+    "recipeid":"941",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"potato","cstate":"raw","pstate":"mashed"},
+        {"id":"gravy","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"cheese","difficulty":5},
+        {"id":"pastry","difficulty":5},
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"cottage pie",
+      "refmaterial":"any meat",
+      "difficulty":40,
+      "achievement":"cottage pie",
+      "description":"A pie containing chunky $ with gravy, topped with mashed potato, made to look like a cottage."
+    }
+  }

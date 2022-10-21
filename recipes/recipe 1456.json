@@ -1,0 +1,25 @@
+  {
+    "name":"chocolate milk",
+    "recipeid":"1456",
+    "known":true,
+    "trigger":"heat",
+    "skill":"dairy food making",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"milk","realtemplate":"none","ratio":200,"loss":0},
+        {"id":"sugar"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"chocolate milk",
+      "difficulty":"20",
+      "description":"Good old chocolate milk. Reminds you of hot summer days."
+    }
+  }

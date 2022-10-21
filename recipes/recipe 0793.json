@@ -1,0 +1,29 @@
+  {
+    "name":"lemon drizzle cake",
+    "recipeid":"793",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"lemon","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"icing","difficulty":7},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"lemon drizzle cake",
+      "realtemplate":"lemon",
+      "difficulty":30,
+      "description":"A sponge cake made with whole lemon juice and zest."
+    }
+  }

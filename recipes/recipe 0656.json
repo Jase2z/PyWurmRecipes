@@ -1,0 +1,26 @@
+  {
+    "name":"chocolate toffee trifle",
+    "recipeid":"656",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake","realtemplate":"cocoa"},
+        {"id":"fudge sauce","ratio":50,"loss":0},
+        {"id":"cream","pstate":"whipped","ratio":50,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"pudding",
+      "name":"chocolate toffee trifle",
+      "difficulty":60,
+      "achievement":"chocolate fudge trifle",
+      "description":"A delicious layered dessert with chocolate cake, whipped cream and hot fudge sauce."
+    }
+  }

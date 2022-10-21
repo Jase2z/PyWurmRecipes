@@ -1,0 +1,24 @@
+  {
+    "name":"digestive biscuit",
+    "recipeid":"808",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"digestive biscuit",
+      "realtemplate":"biscuit mix",
+      "difficulty":25,
+      "description":"A coarse, rich biscuit, perfect with a cup of tea."
+    }
+  }

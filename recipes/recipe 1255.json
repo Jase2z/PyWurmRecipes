@@ -1,0 +1,30 @@
+  {
+    "name":"fishyfingers",
+    "recipeid":"1255",
+    "lootable":{"creature":"goblin","rarity":"common"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"},
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","cstate":"raw"},
+        {"id":"fat"},
+        {"id":"breadcrumbs"},
+        {"id":"salt"},
+        {"id":"tomato ketchup"},
+        {"id":"vinegar","ratio":10,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"fishyfingers",
+      "difficulty":10,
+      "description":"Smells like fish, tastes like chicken, you know it's finger-lickin' good."
+    }
+  }

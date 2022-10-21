@@ -1,0 +1,28 @@
+  {      
+    "name":"boiled egg sandwich",    
+    "recipeid":"671",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[    
+      {"id":"plate"}
+    ],    
+    "ingredients":{    
+      "mandatory":[  
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"egg","cstate":"boiled"}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"boiled egg sandwich",
+      "realtemplate":"egg",
+      "difficulty":20,
+      "description":"Cooked, mashed egg that has been made into a sandwich."
+    }
+  }      

@@ -1,0 +1,31 @@
+  {
+    "name":"baked lemon cheesecake",
+    "recipeid":"1189",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"sugar"},
+        {"id":"butter"},
+        {"id":"any cheese"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"lemon"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"baked lemon cheesecake",
+      "difficulty":30,
+      "description":"A sweet dessert using biscuit as a base, and covered with a lemon flavoured filling, then baked."
+    }
+  }

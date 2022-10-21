@@ -1,0 +1,33 @@
+  {
+    "name":"poppies golden spaghetti",
+    "recipeid":"1047",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"spaghetti","cstate":"raw"},
+        {"id":"turmeric","pstate":"ground"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"buffalo cheese"},
+        {"id":"bouquet of orange-red flowers"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"poppies golden spaghetti",
+      "difficulty":60,
+      "description":"Spaghetti with poppies cooked with it."
+    }
+  }

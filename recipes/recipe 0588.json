@@ -1,0 +1,14 @@
+  {
+    "name":"unfermented red wine",
+    "recipeid":"588",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"maple syrup","ratio":100,"loss":0},
+    "target":{"id":"fruit juice","realtemplate":"blue grapes","ratio":0,"loss":0},
+    "result":{
+      "id":"red wine",
+      "pstate":"unfermented",
+      "difficulty":35,
+      "description":"Unfermented red wine."
+    }
+  }

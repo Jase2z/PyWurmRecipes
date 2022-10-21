@@ -1,0 +1,13 @@
+  {
+    "name":"pinenut oil",
+    "recipeid":"558",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"pinenut","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"pinenut",
+      "difficulty":35
+    }
+  }

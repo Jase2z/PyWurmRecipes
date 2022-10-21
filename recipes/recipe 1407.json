@@ -1,0 +1,33 @@
+  {
+    "name":"white wine vinegar",
+    "recipeid":"1407",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"white wine","pstate":"fermenting","ratio":0,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"wood scrap","material":"applewood"},
+            {"id":"wood scrap","material":"cherrywood"},
+            {"id":"wood scrap","material":"lemonwood"},
+            {"id":"wood scrap","material":"olivewood"},
+            {"id":"wood scrap","material":"orangewood"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"vinegar",
+      "name":"# vinegar",
+      "pstate":"none",
+      "realtemplate":"white wine",
+      "achievement":"vinegar",
+      "description":"A vinegar made from white wine."
+    }
+  }

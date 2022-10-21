@@ -1,0 +1,30 @@
+  {
+    "name":"brown ale",
+    "recipeid":"1439",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"wort","ratio":0,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"wood scrap","material":"chestnut"},
+            {"id":"wood scrap","material":"lindenwood"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"brown ale",
+      "realtemplate":"rosemary",
+      "achievement":"beer",
+      "description":"A nutty malt flavor with a caramel aroma."
+    }
+  }

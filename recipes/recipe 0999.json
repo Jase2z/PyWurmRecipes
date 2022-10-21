@@ -1,0 +1,35 @@
+  {
+    "name":"Budda's terrible pasta dish",
+    "recipeid":"999",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pasta","cstate":"raw","realtemplate":"egg"},
+        {"id":"any meat","pstate":"minced"},
+        {"id":"tomato ketchup"},
+        {"id":"potato","pstate":"chopped"},
+        {"id":"any cheese"}
+      ],
+      "optional":[
+        {"id":"bacon","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"Budda's terrible pasta dish",
+      "difficulty":35,
+      "achievement":"any pasta",
+      "icon":"string",
+      "description":"Layers of potato, meat, pasta and cheese with a tomato sauce. Strangely similar to spaghetti code."
+    }
+  }

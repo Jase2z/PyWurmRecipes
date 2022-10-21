@@ -1,0 +1,13 @@
+  {
+    "name":"feta cheese",
+    "recipeid":"567",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"cheese drill"},
+    "target":{"id":"sheep milk","ratio":0,"loss":20},
+    "result":{
+      "id":"feta cheese",
+      "difficulty":15,
+      "usetemplateweight":true
+    }
+  }

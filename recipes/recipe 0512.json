@@ -1,0 +1,13 @@
+  {    
+    "name":"chopped camellia",
+    "recipeid":"512",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"camellia","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"camellia",
+      "pstate":"chopped",
+      "difficulty":4
+    }
+  }

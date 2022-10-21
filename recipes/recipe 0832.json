@@ -1,0 +1,32 @@
+  {
+    "name":"ox tail soup",
+    "recipeid":"832",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan","difficulty":5},
+      {"id":"pottery bowl","difficulty":5},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"tail"},
+        {"id":"water","ratio":300,"loss":10}
+      ],
+      "optional":[
+        {"id":"croutons","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"ox tail soup",
+      "realtemplate":"tail",
+      "difficulty":30,
+      "description":"A rich soup made from the aft-end meat of a bison, or other similar creature.  Probably."
+    }
+  }

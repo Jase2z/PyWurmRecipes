@@ -1,0 +1,28 @@
+  {
+    "name":"onion crisps",
+    "recipeid":"1088",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"crisps",
+      "name":"onion crisps",
+      "difficulty":40,
+      "description":"A crisp that is somehow made from onions."
+    }
+  }

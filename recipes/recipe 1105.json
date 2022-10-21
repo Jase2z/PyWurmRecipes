@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented apple gin",
+    "recipeid":"1105",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"green apple","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"apple gin",
+      "pstate":"unfermented",
+      "realtemplate":"green apple",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra apples, ready to be distilled."
+    }
+  }

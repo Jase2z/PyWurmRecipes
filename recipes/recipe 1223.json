@@ -1,0 +1,25 @@
+  {
+    "name":"saucy chocolate ice cream",
+    "recipeid":"1223",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"cocoa"},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy chocolate ice cream",
+      "realtemplate":"cocoa",
+      "difficulty":35,
+      "description":"Chocolate flavoured ice cream with a fudge sauce on it."
+    }
+  }

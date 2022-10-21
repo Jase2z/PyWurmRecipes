@@ -1,0 +1,46 @@
+  {
+    "name":"salad",
+    "recipeid":"647",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"lettuce"}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"any meat","cstate":"roasted","difficulty":3},
+            {"id":"any meat","cstate":"fried","difficulty":3},
+            {"id":"any fish","cstate":"steamed","difficulty":3},
+            {"id":"any fish","cstate":"grilled","difficulty":3}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any mushroom","difficulty":3},
+        {"id":"corn","cstate":"raw","difficulty":3},
+        {"id":"onion","cstate":"raw","difficulty":3},
+        {"id":"potato","cstate":"raw","difficulty":3},
+        {"id":"pumpkin","cstate":"raw","pstate":"chopped","difficulty":3},
+        {"id":"cabbage","cstate":"raw","difficulty":3},
+        {"id":"carrot","cstate":"raw","difficulty":3},
+        {"id":"pea","cstate":"raw","difficulty":3},
+        {"id":"pea pod","cstate":"raw","difficulty":3},
+        {"id":"tomato","cstate":"raw","difficulty":3},
+        {"id":"cucumber","cstate":"raw","difficulty":3},
+        {"id":"any herb","difficulty":3},
+        {"id":"any fruit","cstate":"raw","difficulty":3},
+        {"id":"any nut","cstate":"raw","difficulty":3},
+        {"id":"crisps","difficulty":3},
+        {"id":"croutons","difficulty":3}
+      ]
+    },
+    "result":{
+      "id":"salad",
+      "difficulty":15
+    }
+  }

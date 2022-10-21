@@ -1,0 +1,30 @@
+  {
+    "name":"white sauce",
+    "recipeid":"825",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cornflour"},
+        {"id":"milk","ratio":100,"loss":0},
+        {"id":"butter"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"white sauce",
+      "realtemplate":"milk",
+      "difficulty":10,
+      "description":"A thickened roux, consisting of milk, butter and flour."
+    }
+  }

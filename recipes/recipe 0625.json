@@ -1,0 +1,24 @@
+  {
+    "name":"pesto",
+    "recipeid":"625",
+    "skill":"cooking",
+    "active":{"id":"fork"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pinenut"},
+        {"id":"basil"},
+        {"id":"garlic"},
+        {"id":"any oil","ratio":33,"loss":50}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pesto",
+      "difficulty":15
+    }
+  }

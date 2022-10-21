@@ -1,0 +1,22 @@
+  {
+    "name":"vanilla ice cream",
+    "recipeid":"1218",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"vanilla ice cream",
+      "difficulty":15,
+      "description":"Plain ice cream."
+    }
+  }

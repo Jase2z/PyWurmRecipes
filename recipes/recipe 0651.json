@@ -1,0 +1,25 @@
+  {
+    "name":"pickled ginger",
+    "recipeid":"651",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery jar"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"vinegar","ratio":200,"loss":100},
+        {"id":"ginger"}
+      ],
+      "optional":[
+        {"id":"salt"}
+      ]
+    },
+    "result":{
+      "id":"pickle",
+      "name":"pickled ginger",
+      "realtemplate":"ginger",
+      "difficulty":15,
+      "description":"Ginger that has been preserved and flavored in a solution of vinegar."
+    }
+  }

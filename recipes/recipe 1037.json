@@ -1,0 +1,31 @@
+  {
+    "name":"stuffed garlic mushroom",
+    "recipeid":"1037",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"mushroom"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"onion","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"bacon","difficulty":3},
+        {"id":"any cheese","difficulty":1},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stuffed mushroom",
+      "name":"stuffed garlic #",
+      "realtemplate":"mushroom",
+      "difficulty":25,
+      "description":"A # stuffed with garlic and onion."
+    }
+  }

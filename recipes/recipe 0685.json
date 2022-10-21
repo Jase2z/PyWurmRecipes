@@ -1,0 +1,25 @@
+  {
+    "name":"chocolate cheesecake",
+    "recipeid":"685",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit","realtemplate":"cocoa"},
+        {"id":"sugar"},
+        {"id":"butter"},
+        {"id":"cream","pstate":"none","ratio":50,"loss":0},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"chocolate cheesecake",
+      "difficulty":35,
+      "description":"A no bake dessert with a crushed biscuit base, fresh cream and plenty of chocolate."
+    }
+  }

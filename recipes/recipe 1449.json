@@ -1,0 +1,21 @@
+  {
+    "name":"undistilled rum",
+    "recipeid":"1449",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rum","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"rum",
+      "pstate":"undistilled",
+      "achievement":"pirates",
+      "description":"A clear liquid, but not drinkable yet."
+    }
+  }

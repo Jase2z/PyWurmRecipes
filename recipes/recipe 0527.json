@@ -1,0 +1,13 @@
+  {
+    "name":"raw hog roast",
+    "recipeid":"527",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"branch"},
+    "target":{"id":"corpse","creature":"pig"},
+    "result":{
+      "id":"hog roast",
+      "cstate":"raw",
+      "difficulty":1
+    }
+  }    

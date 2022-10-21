@@ -1,0 +1,40 @@
+  {
+    "name":"stew (fish fillet) with dumplings",
+    "recipeid":"1387",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet"},
+        {"id":"dough"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":2}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"fish fillet stew with dumplings",
+      "difficulty":9,
+      "description":"A delicious fish and veg stew with added dumplings."
+    }
+  }

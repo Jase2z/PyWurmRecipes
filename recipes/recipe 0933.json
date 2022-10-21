@@ -1,0 +1,33 @@
+  {
+    "name":"fish pasty",
+    "recipeid":"933",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"fish fillet","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"white sauce","realtemplate":"milk","ratio":25,"loss":10,"difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasty",
+      "name":"# pasty",
+      "refrealtemplate":"fish fillet",
+      "difficulty":30,
+      "description":"Chopped #, normally with rough chunks of vegetable, in a white sauce with a light peppery seasoning, enclosed in pastry."
+    }
+  }

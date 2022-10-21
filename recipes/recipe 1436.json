@@ -1,0 +1,23 @@
+  {
+    "name":"root beer",
+    "recipeid":"1436",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"sassafras","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"root beer",
+      "realtemplate":"sassafras",
+      "achievement":"beer",
+      "description":"A brown sweet beverage traditionally made using sassafras."
+    }
+  }

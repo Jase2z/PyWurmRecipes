@@ -1,0 +1,32 @@
+  {
+    "name":"garlic bread",
+    "recipeid":"1023",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"butter"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"garlic bread",
+      "realtemplate":"garlic",
+      "difficulty":20,
+      "achievement":"bread maker",
+      "description":"Partially-sliced bread, baked with garlic and butter."
+    }
+  }

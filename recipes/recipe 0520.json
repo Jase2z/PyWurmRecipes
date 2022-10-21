@@ -1,0 +1,14 @@
+  {
+    "name":"chopped veg",
+    "recipeid":"520",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"any veg","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"any veg",
+      "cstate":"raw",
+      "pstate":"chopped",
+      "difficulty":5
+    }
+  }    

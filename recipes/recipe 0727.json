@@ -1,0 +1,33 @@
+  {
+    "name":"gelatine",
+    "recipeid":"727",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":25}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"hoof"},
+            {"id":"horn"},
+            {"id":"twisted horn"},
+            {"id":"long horn"},
+            {"id":"tooth"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gelatine",
+      "difficulty":10
+    }
+  }

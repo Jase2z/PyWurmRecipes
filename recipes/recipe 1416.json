@@ -1,0 +1,25 @@
+  {
+    "name":"berry flavoured gin",
+    "recipeid":"1416",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"undistilled","realtemplate":"any berry","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"# gin",
+      "pstate":"none",
+      "refrealtemplate":"gin",
+      "achievement":"gin",
+      "description":"Clear but coloured by # with a hint of botanicals and maternal ruin."
+    }
+  }

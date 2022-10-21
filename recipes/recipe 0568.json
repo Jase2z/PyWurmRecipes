@@ -1,0 +1,13 @@
+  {
+    "name":"buffalo cheese",
+    "recipeid":"568",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"cheese drill"},
+    "target":{"id":"bison milk","ratio":0,"loss":20},
+    "result":{
+      "id":"buffalo cheese",
+      "difficulty":25,
+      "usetemplateweight":true
+    }
+  }

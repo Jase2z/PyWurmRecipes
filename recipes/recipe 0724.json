@@ -1,0 +1,21 @@
+  {
+    "name":"fire roasted meat",
+    "recipeid":"724",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","pstate":"none"}
+      ]
+    },
+    "result":{
+      "id":"meat",
+      "cstate":"roasted",
+      "refmaterial":"any meat",
+      "difficulty":10,
+      "description":"Roasted meat from an animal, done over an open fire."
+    }
+  }

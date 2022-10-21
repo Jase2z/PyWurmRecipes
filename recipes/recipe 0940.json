@@ -1,0 +1,34 @@
+  {
+    "name":"game pie",
+    "recipeid":"940",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"any meat","pstate":"diced","material":"game"},
+        {"id":"gravy","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"game pie",
+      "refmaterial":"any meat",
+      "difficulty":30,
+      "achievement":"meat pie",
+      "description":"A pie that is game."
+    }
+  }

@@ -1,0 +1,12 @@
+  {    
+    "name":"cornflour",
+    "recipeid":"505",
+    "known":true,
+    "skill":"milling",
+    "active":{"id":"grindstone"},
+    "target":{"id":"corn","cstate":"raw"},
+    "result":{
+      "id":"cornflour",
+      "difficulty":15
+    }
+  }    

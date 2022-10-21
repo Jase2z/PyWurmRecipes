@@ -1,0 +1,28 @@
+  {
+    "name":"corn crisps",
+    "recipeid":"1086",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"corn dough"},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":2}
+      ]
+    },
+    "result":{
+      "id":"crisps",
+      "name":"corn crisps",
+      "difficulty":20,
+      "description":"A corn chip is a snack food made from cornmeal covered in oil and baked, usually in the shape of a small noodle or scoop. Corn chips are thick, rigid and very crunchy."
+    }
+  }

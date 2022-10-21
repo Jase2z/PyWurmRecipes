@@ -1,0 +1,20 @@
+  {
+    "name":"fermenting white wine",
+    "recipeid":"696",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"white wine","pstate":"unfermented","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"white wine",
+      "pstate":"fermenting",
+      "difficulty":30
+    }
+  }

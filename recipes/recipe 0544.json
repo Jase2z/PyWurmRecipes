@@ -1,0 +1,14 @@
+  {
+    "name":"mushroom for stuffing",
+    "recipeid":"544",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"spoon"},
+    "target":{"id":"any mushroom","cstate":"raw"},
+    "result":{
+      "id":"mushroom",
+      "name":"#",
+      "refrealtemplate":"any mushroom",
+      "difficulty":15
+    }
+  }

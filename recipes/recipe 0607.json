@@ -1,0 +1,24 @@
+  {
+    "name":"corn dough",
+    "recipeid":"607",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cornflour"},
+        {"id":"any milk","ratio":100,"loss":0},
+        {"id":"egg","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"corn dough",
+      "difficulty":20,
+      "description":"A dough made primarily from ground corn."
+    }
+  }

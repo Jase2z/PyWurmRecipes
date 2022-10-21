@@ -1,0 +1,25 @@
+  {
+    "name":"candied berry",
+    "recipeid":"1125",
+    "skill":"cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any berry","cstate":"raw"},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"candied #",
+      "refrealtemplate":"any berry",
+      "difficulty":25,
+      "description":"A sweet with a # flavour."
+    }
+  }

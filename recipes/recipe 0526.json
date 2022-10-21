@@ -1,0 +1,13 @@
+  {
+    "name":"raw rat on a stick",
+    "recipeid":"526",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"branch"},
+    "target":{"id":"corpse","creature":"large rat"},
+    "result":{
+      "id":"rat-on-a-stick",
+      "cstate":"raw",
+      "difficulty":1
+    }
+  }    

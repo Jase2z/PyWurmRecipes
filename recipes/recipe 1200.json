@@ -1,0 +1,21 @@
+  {
+    "name":"fermenting sassafras beer",
+    "recipeid":"1200",
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"wort","realtemplate":"sassafras","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "name":"sassafras beer",
+      "pstate":"fermenting",
+      "realtemplate":"sassafras",
+      "difficulty":10
+    }
+  }

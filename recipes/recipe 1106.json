@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented strawberry gin",
+    "recipeid":"1106",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"strawberries","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"strawberry gin",
+      "pstate":"unfermented",
+      "realtemplate":"strawberries",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra strawberries, ready to be distilled."
+    }
+  }

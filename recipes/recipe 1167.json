@@ -1,0 +1,37 @@
+  {
+    "name":"butter meat curry",
+    "recipeid":"1167",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"fruit juice","realtemplate":"lemon","ratio":10,"loss":0},
+        {"id":"paprika","pstate":"ground"},
+        {"id":"turmeric","pstate":"ground"},
+        {"id":"salt"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"cream","pstate":"whipped","ratio":25,"loss":0},
+        {"id":"butter"},
+        {"id":"rice"}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"butter $ curry",
+      "refmaterial":"any meat",
+      "difficulty":50,
+      "achievement":"any curry",
+      "description":"Chunks of meat cooked in a smooth buttery and creamy tomato based gravy."
+    }
+  }

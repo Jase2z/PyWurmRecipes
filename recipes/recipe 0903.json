@@ -1,0 +1,41 @@
+  {
+    "name":"doner meat keebab",
+    "recipeid":"903",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"salt"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"lemon"},
+        {"id":"butter"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any spice","pstate":"ground"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"doner $ keebab",
+      "refmaterial":"any meat",
+      "difficulty":25,
+      "description":"A doner dish of pieces of $."
+    }
+  }

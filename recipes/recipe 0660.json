@@ -1,0 +1,27 @@
+  {
+    "name":"egg salad crostini",
+    "recipeid":"660",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":1},
+        {"id":"egg","cstate":"boiled"},
+        {"id":"vinegar","realtemplate":"red wine","ratio":50,"loss":0},
+        {"id":"bouquet of white flowers"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","difficulty":5,"ratio":20,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"egg salad crostini",
+      "difficulty":30,
+      "description":"A sandwich containing a tangy egg salad."
+    }
+  }

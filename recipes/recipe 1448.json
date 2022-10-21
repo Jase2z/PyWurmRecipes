@@ -1,0 +1,21 @@
+  {
+    "name":"undistilled moonshine",
+    "recipeid":"1448",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"moonshine","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"moonshine",
+      "pstate":"undistilled",
+      "achievement":"moonshine",
+      "description":"Called white lightning, mountain dew, hooch or even homebrew, but not drinkable yet."
+    }
+  }

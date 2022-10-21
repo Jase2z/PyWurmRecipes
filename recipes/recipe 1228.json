@@ -1,0 +1,25 @@
+  {
+    "name":"saucy raspberry ripple",
+    "recipeid":"1228",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"fruit juice","realtemplate":"raspberries","ratio":100,"loss":0},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy raspberry ripple",
+      "realtemplate":"raspberries",
+      "difficulty":25,
+      "description":"Raspberry flavoured ice cream with a fudge sauce on it."
+    }
+  }

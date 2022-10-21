@@ -1,0 +1,30 @@
+  {
+    "name":"pilsner",
+    "recipeid":"1430",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"hops","ratio":0,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"wood scrap","material":"birchwood"},
+            {"id":"wood scrap","material":"walnut"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"pilsner",
+      "realtemplate":"belladonna",
+      "achievement":"beer",
+      "description":"Pale gold in color with a medium hop flavor and a slight note of maltiness."
+    }
+  }

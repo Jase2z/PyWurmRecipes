@@ -1,0 +1,13 @@
+  {
+    "name":"chopped herb",
+    "recipeid":"522",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"any herb","pstate":"none"},
+    "result":{
+      "id":"any herb",
+      "pstate":"chopped",
+      "difficulty":5
+    }
+  }    

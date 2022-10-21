@@ -1,0 +1,33 @@
+  {
+    "name":"fish fillet meal",
+    "recipeid":"913",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","cstate":"raw","pstate":"none"},
+        {"id":"any veg","cstate":"raw","pstate":"none"},
+        {"id":"white sauce","realtemplate":"milk","ratio":50,"loss":25}
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"# meal",
+      "refrealtemplate":"fish fillet",
+      "difficulty":15,
+      "description":"A roasted meal with a # fillet as the main part."
+    }
+  }

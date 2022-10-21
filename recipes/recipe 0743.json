@@ -1,0 +1,31 @@
+  {
+    "name":"cheesy baked potato",
+    "recipeid":"743",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"baking stone"},
+      {"id":"pottery bowl","difficulty":5}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","cstate":"raw","pstate":"none"},
+        {"id":"cheese"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"olive oil","ratio":10,"loss":100,"difficulty":5},
+        {"id":"tomato ketchup","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"cheesy baked potato",
+      "difficulty":15,
+      "description":"Baked potato with cheese filling."
+    }
+  }

@@ -1,0 +1,27 @@
+  {
+    "name":"roasted fish",
+    "recipeid":"748",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any fish","cstate":"raw","pstate":"none"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"any fish",
+      "cstate":"roasted",
+      "difficulty":5,
+      "description":"A fish that has been slowly roasted."
+    }
+  }

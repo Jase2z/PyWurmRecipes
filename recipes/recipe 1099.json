@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented lemon gin",
+    "recipeid":"1099",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"lemon","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"lemon gin",
+      "pstate":"unfermented",
+      "realtemplate":"lemon",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra lemons, ready to be distilled."
+    }
+  }

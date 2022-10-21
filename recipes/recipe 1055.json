@@ -1,0 +1,37 @@
+  {
+    "name":"fish cake",
+    "recipeid":"1055",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"potato","cstate":"raw","pstate":"mashed"},
+        {"id":"breadcrumbs"},
+        {"id":"parsley"}
+      ],
+      "optional":[
+        {"id":"egg","cstate":"raw","difficulty":2},
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"any spice","pstate":"ground","difficulty":2},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"fish cake",
+      "refrealtemplate":"fish fillet",
+      "difficulty":25,
+      "description":"Chopped #, mashed potato and fresh parsley, coated in breadcrumbs and deep fried."
+    }
+  }

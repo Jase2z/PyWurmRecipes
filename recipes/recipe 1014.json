@@ -1,0 +1,29 @@
+  {
+    "name":"hawaiian pizza",
+    "recipeid":"1014",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","material":"pork"},
+        {"id":"dough"},
+        {"id":"passata","ratio":20,"loss":0},
+        {"id":"pineapple","cstate":"raw"},
+        {"id":"buffalo cheese"}
+      ]
+    },
+    "result":{
+      "id":"pizza",
+      "name":"hawaiian pizza",
+      "difficulty":50,
+      "achievement":"hawaiian pizza",
+      "description":"The classic ham and pineapple pizza.  Wait, who grew pineapple???"
+    }
+  }

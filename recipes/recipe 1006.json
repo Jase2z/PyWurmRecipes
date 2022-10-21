@@ -1,0 +1,37 @@
+  {
+    "name":"simple pasta",
+    "recipeid":"1006",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":100,"loss":90},
+        {"id":"pesto","ratio":50,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"pasta","cstate":"raw"},
+            {"id":"spaghetti","cstate":"raw"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "difficulty":15,
+      "achievement":"simple pasta",
+      "description":"Pasta with pesto, for those busy weeknights after a long day of grind."
+    }
+  }

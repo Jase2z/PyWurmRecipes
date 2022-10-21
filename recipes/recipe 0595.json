@@ -1,0 +1,11 @@
+  {
+    "name":"honey water",
+    "recipeid":"595",
+    "skill":"beverages",
+    "active":{"id":"water","ratio":100,"loss":0},
+    "target":{"id":"honey","ratio":0,"loss":0},
+    "result":{
+      "id":"honey water",
+      "difficulty":10
+    }
+  }

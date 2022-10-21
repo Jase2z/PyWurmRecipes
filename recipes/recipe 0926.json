@@ -1,0 +1,32 @@
+  {
+    "name":"fries",
+    "recipeid":"926",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fries","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"cooking oil","ratio":10,"loss":90,"difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5},
+        {"id":"vinegar","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"fries",
+      "cstate":"cooked",
+      "difficulty":15,
+      "description":"Potatos thick cut julienne, then fried. Barely French."
+    }
+  }

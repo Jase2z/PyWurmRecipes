@@ -1,0 +1,43 @@
+  {
+    "name":"herb tea",
+    "recipeid":"1119",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"},
+      {"id":"pottery bowl","difficulty":1}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":800,"loss":0},
+        {"id":"any herb","pstate":"chopped"}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"sugar"},
+            {"id":"maple syrup","ratio":0,"loss":0},
+            {"id":"honey","ratio":0,"loss":0}
+          ]
+        },
+        {
+          "list":[
+            {"id":"fruit juice","realtemplate":"lemon","ratio":10,"loss":0},
+            {"id":"any milk","ratio":0,"loss":0}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"tea",
+      "name":"# tea",
+      "refrealtemplate":"any herb",
+      "difficulty":15,
+      "achievement":"tea",
+      "description":"A herbal tea made from an infusion of #."
+    }
+  }

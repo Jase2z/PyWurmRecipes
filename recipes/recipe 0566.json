@@ -1,0 +1,13 @@
+  {
+    "name":"cheese (cow)",
+    "recipeid":"566",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"cheese drill"},
+    "target":{"id":"milk","ratio":0,"loss":20},
+    "result":{
+      "id":"cheese",
+      "difficulty":5,
+      "usetemplateweight":true
+    }
+  }

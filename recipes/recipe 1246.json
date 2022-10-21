@@ -1,0 +1,22 @@
+  {
+    "name":"fermenting lemon flavoured gin",
+    "recipeid":"1246",
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"unfermented","realtemplate":"lemon","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"# gin",
+      "pstate":"fermenting",
+      "realtemplate":"lemon",
+      "difficulty":25,
+      "description":"Mostly clear with lots of bubbles and a tinge of yellow."
+    }
+  }

@@ -1,0 +1,32 @@
+  {
+    "name":"Pandalet's one true pizza",
+    "recipeid":"1012",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"passata","ratio":20,"loss":0},
+        {"id":"garlic"},
+        {"id":"pineapple","cstate":"raw"},
+        {"id":"feta cheese"},
+        {"id":"bacon"},
+        {"id":"olives"},
+        {"id":"buffalo cheese"}
+      ]
+    },
+    "result":{
+      "id":"pizza",
+      "name":"Pandalet's one true pizza",
+      "difficulty":70,
+      "achievement":"one true pizza",
+      "description":"The pinnacle of pizza-hood, it simply doesn't get any better than this.  Pandas have been known to make all sorts of wierd noises for one."
+    }
+  }

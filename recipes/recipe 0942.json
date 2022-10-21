@@ -1,0 +1,33 @@
+  {
+    "name":"meat pie",
+    "recipeid":"942",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"any meat","pstate":"diced","difficulty":5},
+        {"id":"gravy","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"$ pie",
+      "difficulty":35,
+      "refmaterial":"any meat",
+      "achievement":"meat pie",
+      "description":"A pie containing chunky $ with gravy."
+    }
+  }

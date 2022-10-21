@@ -1,0 +1,25 @@
+  {
+    "name":"toast",
+    "recipeid":"772",
+    "known":true,
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"toast",
+      "realtemplate":"slice of bread",
+      "refmaterial":"slice of bread",
+      "difficulty":5
+    }
+  }

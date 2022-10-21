@@ -1,0 +1,32 @@
+  {
+    "name":"foot and mouth stew",
+    "recipeid":"1253",
+    "lootable":{"creature":"troll","rarity":"fantastic"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","material":"game"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"moonshine","pstate":"none","ratio":25,"loss":25},
+        {"id":"belladonna","pstate":"chopped"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"potato","pstate":"chopped"},
+        {"id":"goblin skull"},
+        {"id":"hoof"}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"foot and mouth stew",
+      "difficulty":55,
+      "description":"foot and mouth waiting to happen."
+    }
+  }

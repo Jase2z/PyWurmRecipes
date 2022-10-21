@@ -1,0 +1,30 @@
+  {
+    "name":"pale ale",
+    "recipeid":"1438",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"wort","ratio":0,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"wood scrap","material":"maplewood"},
+            {"id":"wood scrap","material":"birchwood"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"pale ale",
+      "realtemplate":"parsley",
+      "achievement":"beer",
+      "description":"An ale made with predominantly pale malt which results in a lighter color."
+    }
+  }

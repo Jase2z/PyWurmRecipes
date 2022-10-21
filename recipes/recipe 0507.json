@@ -1,0 +1,14 @@
+  {
+    "name":"dough",
+    "recipeid":"507",
+    "known":true,
+    "skill":"baking",
+    "active":{"id":"water","ratio":100,"loss":0},
+    "target":{"id":"flour"},
+    "result":{
+      "id":"dough",
+      "refmaterial":"flour",
+      "name":"$ dough",
+      "difficulty":10
+    }
+  }

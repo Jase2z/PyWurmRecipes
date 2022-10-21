@@ -1,0 +1,21 @@
+  {
+    "name":"icing",
+    "recipeid":"680",
+    "skill":"baking",
+    "active":{"id":"fork"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"water","ratio":50,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"icing",
+      "realtemplate":"water",
+      "difficulty":15,
+      "description":"A sweet, creamy spread, as of sugar and butter, for covering cakes,cookies, etc."
+    }
+  }

@@ -1,0 +1,25 @@
+  {
+    "name":"saucy blueberry ice cream",
+    "recipeid":"1226",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"fruit juice","realtemplate":"blueberry","ratio":100,"loss":0},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy blueberry ice cream",
+      "realtemplate":"blueberry",
+      "difficulty":30,
+      "description":"Blueberry flavoured ice cream with a fudge sauce on it."
+    }
+  }

@@ -1,0 +1,40 @@
+  {
+    "name":"mushroom stir fry",
+    "recipeid":"842",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any mushroom"},
+        {"id":"any oil","ratio":33,"loss":100}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stir fry",
+      "name":"# stir fry",
+      "refrealtemplate":"any mushroom",
+      "difficulty":30,
+      "description":"Vegetables and mushrooms fried quickly to keep their flavour and texture."
+    }
+  }      

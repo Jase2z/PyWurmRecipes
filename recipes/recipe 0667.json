@@ -1,0 +1,26 @@
+  {
+    "name":"bacon butty",
+    "recipeid":"667",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"bacon"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"butter","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"bacon butty",
+      "difficulty":20,
+      "description":"Hot fried bacon, dripping fat into bread; the perfect start to a day."
+    }
+  }

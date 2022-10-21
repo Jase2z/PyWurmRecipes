@@ -1,0 +1,30 @@
+  {
+    "name":"raw meatballs",
+    "recipeid":"691",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"minced"},
+        {"id":"any milk","ratio":50,"loss":0},
+        {"id":"breadcrumbs"}
+      ],
+      "optional":[
+        {"id":"any spice","difficulty":5},
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"any cheese","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meatballs",
+      "cstate":"raw",
+      "realtemplate":"none",
+      "refmaterial":"any meat",
+      "difficulty":20,
+      "description":"Minced meat mixed with breadcrumbs and milk."
+    }
+  }

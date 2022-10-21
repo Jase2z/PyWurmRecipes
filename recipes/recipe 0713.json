@@ -1,0 +1,20 @@
+  {
+    "name":"rat on a stick",
+    "recipeid":"713",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rat-on-a-stick","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"rat-on-a-stick",
+      "cstate":"roasted",
+      "difficulty":15,
+      "description":"A cooked rat, on a stick.  As served in all good hole food delicatessens."
+    }
+  }

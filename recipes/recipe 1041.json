@@ -1,0 +1,25 @@
+  {
+    "name":"chocolate",
+    "recipeid":"1041",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cocoa"},
+        {"id":"milk","ratio":100,"loss":50},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"chocolate",
+      "difficulty":40,
+      "achievement":"chocolate"
+    }
+  }

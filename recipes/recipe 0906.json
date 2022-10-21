@@ -1,0 +1,40 @@
+  {
+    "name":"shish fish keebab",
+    "recipeid":"906",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"salt"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"lemon"},
+        {"id":"butter"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any spice","pstate":"ground"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"shish # keebab",
+      "refrealtemplate":"fish fillet",
+      "difficulty":35,
+      "description":"A shish dish of pieces of #."
+    }
+  }

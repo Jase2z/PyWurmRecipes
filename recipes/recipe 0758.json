@@ -1,0 +1,24 @@
+  {
+    "name":"boiled egg",
+    "recipeid":"758",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"egg","cstate":"raw"},
+        {"id":"water","ratio":400,"loss":100}
+      ]
+    },
+    "result":{
+      "id":"egg",
+      "cstate":"boiled",
+      "difficulty":5
+    }
+  }

@@ -1,0 +1,30 @@
+  {
+    "name":"chocolate cake",
+    "recipeid":"795",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"cocoa"},
+        {"id":"icing","realtemplate":"cocoa"}
+      ],
+      "optional":[
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"chocolate cake",
+      "realtemplate":"cocoa",
+      "difficulty":20,
+      "achievement":"chocolate cake",
+      "description":"Chocolate cake with chocolate icing, what more do you want!"
+    }
+  }

@@ -1,0 +1,25 @@
+  {
+    "name":"surimi sushi",
+    "recipeid":"635",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cooked rice"},
+        {"id":"crab meat","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"pickle","realtemplate":"ginger","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "name":"surimi sushi",
+      "difficulty":25,
+      "achievement":"sushi maker",
+      "description":"Balls of rice with thin slices of crab meat."
+    }
+  }

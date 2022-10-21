@@ -1,0 +1,24 @@
+  {
+    "name":"syrup sandwich",
+    "recipeid":"673",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"maple syrup","ratio":50,"loss":0}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"syrup sandwich",
+      "difficulty":15,
+      "description":"Syrup and bread, when simplicity is its own reward."
+    }
+  }

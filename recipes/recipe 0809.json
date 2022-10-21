@@ -1,0 +1,26 @@
+  {
+    "name":"chocolate chip biscuit",
+    "recipeid":"809",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"chocolate chip biscuit",
+      "realtemplate":"chocolate",
+      "difficulty":40,
+      "achievement":"chocolate chip biscuit",
+      "description":"Chocolate biscuits with added chocolate.  Because chocolate!"
+    }
+  }

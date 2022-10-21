@@ -1,0 +1,32 @@
+  {
+    "name":"haggis",
+    "recipeid":"784",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sausage skin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"eye"},
+        {"id":"heart"},
+        {"id":"oat"},
+        {"id":"fat"},
+        {"id":"gland"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"haggis",
+      "cstate":"raw",
+      "difficulty":50,
+      "achievement":"haggis",
+      "description":"Originally made from the corpses of wild haggis, over-hunting has ensured this is the other kind.  At least its legs are the right length."
+    }
+  }

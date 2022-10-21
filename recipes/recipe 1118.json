@@ -1,0 +1,43 @@
+  {
+    "name":"tea",
+    "recipeid":"1118",
+    "known":true,
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"},
+      {"id":"pottery bowl","difficulty":1}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":800,"loss":0},
+        {"id":"camellia","pstate":"chopped"}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"sugar"},
+            {"id":"maple syrup","ratio":0,"loss":0},
+            {"id":"honey","ratio":0,"loss":0}
+          ]
+        },
+        {
+          "list":[
+            {"id":"fruit juice","realtemplate":"lemon","ratio":10,"loss":0},
+            {"id":"any milk","ratio":0,"loss":0}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"tea",
+      "realtemplate":"camellia",
+      "difficulty":15,
+      "achievement":"tea",
+      "description":"A tea made from an infusion of camellia."
+    }
+  }

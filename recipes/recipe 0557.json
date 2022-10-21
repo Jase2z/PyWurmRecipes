@@ -1,0 +1,13 @@
+  {
+    "name":"cotton seed oil",
+    "recipeid":"557",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"cotton seed","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"cotton seed",
+      "difficulty":25
+    }
+  }

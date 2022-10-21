@@ -1,0 +1,24 @@
+  {
+    "name":"pastry",
+    "recipeid":"605",
+    "known":true,
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"salt"},
+        {"id":"water", "ratio":100,"loss":0},
+        {"id":"butter"}
+      ]
+    },
+    "result":{
+      "id":"pastry",
+      "refmaterial":"flour",
+      "difficulty":10,
+      "description":"A dough of flour, water and shortening"
+    }
+  }

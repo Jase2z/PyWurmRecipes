@@ -1,0 +1,28 @@
+  {
+    "name":"cooked rice",
+    "recipeid":"773",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rice"},
+        {"id":"water","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":3}
+      ]
+    },
+    "result":{
+      "id":"cooked rice",
+      "difficulty":10
+    }
+  }

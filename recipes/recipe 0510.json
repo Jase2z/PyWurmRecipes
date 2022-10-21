@@ -1,0 +1,14 @@
+  {    
+    "name":"diced meat",
+    "recipeid":"510",
+    "known":true,
+    "skill":"butchering",
+    "active":{"id":"knife"},
+    "target":{"id":"any meat","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"meat",
+      "pstate":"diced",
+      "refmaterial":"any meat",
+      "difficulty":5
+    }
+  }    

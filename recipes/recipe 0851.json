@@ -1,0 +1,33 @@
+  {
+    "name":"meat stew",
+    "recipeid":"851",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"water","ratio":300,"loss":0},
+        {"id":"flour"}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"$ stew",
+      "refmaterial":"any meat",
+      "difficulty":15,
+      "description":"A robust meat stew."
+    }
+  }      

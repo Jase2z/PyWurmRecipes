@@ -1,0 +1,13 @@
+  {
+    "name":"lemonade",
+    "recipeid":"594",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"maple syrup","ratio":100,"loss":0},
+    "target":{"id":"fruit juice","realtemplate":"lemon","ratio":0,"loss":0},
+    "result":{
+      "id":"lemonade",
+      "realtemplate":"lemon",
+      "difficulty":1
+    }
+  }

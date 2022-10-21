@@ -1,0 +1,30 @@
+  {
+    "name":"white fish salad",
+    "recipeid":"646",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"lettuce"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"olives"},
+        {"id":"bouquet of white flowers"},
+        {"id":"sassafras"},
+        {"id":"any fish","cstate":"steamed"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"salad",
+      "name":"white # salad",
+      "refrealtemplate":"any fish",
+      "difficulty":30,
+      "description":"A fish salad with some pretty white flowers on top."
+    }
+  }

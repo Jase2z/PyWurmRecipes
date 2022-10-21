@@ -1,0 +1,30 @@
+  {
+    "name":"fried egg",
+    "recipeid":"756",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"egg","cstate":"raw"},
+        {"id":"any oil","ratio":0,"loss":100}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"egg",
+      "cstate":"fried",
+      "difficulty":5
+    }
+  }

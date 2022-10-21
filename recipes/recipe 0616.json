@@ -1,0 +1,24 @@
+  {
+    "name":"fresh pasta",
+    "recipeid":"616",
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour","material":"wheat"},
+        {"id":"water","ratio":100,"loss":0},
+        {"id":"egg","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "name":"fresh pasta",
+      "cstate":"raw",
+      "realtemplate":"egg",
+      "difficulty":20,
+      "description":"A noodle made from an unleavened dough of wheat flour mixed with eggs."
+    }
+  }

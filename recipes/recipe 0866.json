@@ -1,0 +1,34 @@
+  {
+    "name":"campaign bread",
+    "recipeid":"866",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"barley"},
+        {"id":"wheat"},
+        {"id":"lovage"},
+        {"id":"water","ratio":100,"loss":0},
+        {"id":"any meat"}
+      ],
+      "optional":[
+        {"id":"any nut","cstate":"raw","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"campaign bread",
+      "realtemplate":"lovage",
+      "refmaterial":"any meat",
+      "difficulty":20,
+      "achievement":"bread maker",
+      "description":"A coarse bread often made by soldiers in the field.  No gravel was harmed in the making of this loaf."
+    }
+  }

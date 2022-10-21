@@ -1,0 +1,26 @@
+  {
+    "name":"chocolate coated nut",
+    "recipeid":"1154",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any nut","cstate":"raw"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"any nut",
+      "cstate":"chocolate coated",
+      "refrealtemplate":"any nut",
+      "difficulty":25,
+      "description":"A # thinly coated with chocolate."
+    }
+  }

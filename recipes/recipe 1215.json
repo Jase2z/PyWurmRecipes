@@ -1,0 +1,24 @@
+  {
+    "name":"blueberry ice cream",
+    "recipeid":"1215",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"fruit juice","realtemplate":"blueberry","ratio":20,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"blueberry ice cream",
+      "realtemplate":"blueberry",
+      "difficulty":25,
+      "description":"Blueberry flavoured ice cream."
+    }
+  }

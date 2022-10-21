@@ -1,0 +1,28 @@
+  {
+    "name":"eyeball stew",
+    "recipeid":"1256",
+    "lootable":{"creature":"goblin","rarity":"rare"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"eye","cstate":"raw"},
+        {"id":"heart","cstate":"raw"},
+        {"id":"salt"},
+        {"id":"water","ratio":50,"loss":10},
+        {"id":"any veg","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"eyeball stew",
+      "difficulty":20,
+      "description":"If your meal is staring at you, you're not eating it fast enough."
+    }
+  }

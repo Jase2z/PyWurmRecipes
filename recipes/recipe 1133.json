@@ -1,0 +1,27 @@
+  {
+    "name":"chocolate toffee",
+    "recipeid":"1133",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"milk","ratio":50,"loss":50},
+        {"id":"butter"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"chocolate toffee",
+      "realtemplate":"cocoa",
+      "difficulty":35,
+      "description":"A soft, chewy toffee encased in chocolate."
+    }
+  }

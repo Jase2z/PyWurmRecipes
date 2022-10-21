@@ -1,0 +1,27 @@
+  {
+    "name":"mint toffee",
+    "recipeid":"1131",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"milk","ratio":50,"loss":50},
+        {"id":"butter"},
+        {"id":"mint","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"mint toffee",
+      "realtemplate":"mint",
+      "difficulty":30,
+      "description":"A soft, chewy toffee with a mild minty flavour."
+    }
+  }

@@ -1,0 +1,28 @@
+  {
+    "name":"Cherries Jubilee",
+    "recipeid":"1463",
+    "skill":"cooking",
+    "trigger":"create",
+    "known":true,
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream", "pstate": "none", "ratio":50, "loss":0},
+        {"id":"cherries"},
+        {"id":"lemon"},
+        {"id":"fruit juice", "realtemplate":"lemon", "ratio": 10, "loss": 0},
+        {"id":"rum","pstate":"none","ratio":10,"loss":0},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"Cherries Jubilee",
+      "difficulty":35,
+      "description":"Vanilla ice cream covered with cherries and rum. A celebration in a bowl."
+    }
+  }

@@ -1,0 +1,33 @@
+  {
+    "name":"haggis with whisky sauce",
+    "recipeid":"1019",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","cstate":"raw","pstate":"none"},
+        {"id":"haggis","cstate":"raw"},
+        {"id":"butter"},
+        {"id":"cream","ratio":40,"loss":0},
+        {"id":"fennel seed","pstate":"none"},
+        {"id":"whisky","pstate":"none","ratio":10,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"haggis with whisky sauce",
+      "difficulty":80,
+      "description":"Celebrate Burns Night with a recipe of haggis, tatties and whisky sauce."
+    }
+  }

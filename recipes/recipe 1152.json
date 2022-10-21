@@ -1,0 +1,26 @@
+  {
+    "name":"chocolate coated berry",
+    "recipeid":"1152",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any berry","realtemplate":"none"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"any berry",
+      "cstate":"chocolate coated",
+      "refrealtemplate":"any berry",
+      "difficulty":25,
+      "description":"A # thinly coated with chocolate."
+    }
+  }

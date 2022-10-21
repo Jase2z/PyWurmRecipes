@@ -1,0 +1,20 @@
+  {
+    "name":"fire roasted chestnut",
+    "recipeid":"1060",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"chestnut","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"chestnut",
+      "cstate":"roasted",
+      "difficulty":5,
+      "description":"A chestnut roasted on an open fire."
+    }
+  }

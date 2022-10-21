@@ -1,0 +1,36 @@
+  {
+    "name":"unfermented moonshine",
+    "recipeid":"1108",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg"},
+            {"id":"any cereal"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"moonshine",
+      "pstate":"unfermented",
+      "difficulty":20,
+      "description":"White lightning, mountain dew, hooch, homebrew, and white whiskey are terms used to describe high-proof distilled spirits, but at the moment it needs distilling."
+    }
+  }

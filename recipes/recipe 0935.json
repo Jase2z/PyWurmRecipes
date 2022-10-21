@@ -1,0 +1,30 @@
+  {
+    "name":"hawaiian pasty",
+    "recipeid":"935",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"any cheese"},
+        {"id":"pineapple","cstate":"raw"},
+        {"id":"bacon"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasty",
+      "name":"hawaiian pasty",
+      "difficulty":60,
+      "description":"A hawiian pizza made into a pasty."
+    }
+  }

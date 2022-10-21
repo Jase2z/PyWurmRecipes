@@ -1,0 +1,26 @@
+  {
+    "name":"lemon cheesecake",
+    "recipeid":"686",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit","realtemplate":"biscuit mix"},
+        {"id":"sugar"},
+        {"id":"butter"},
+        {"id":"cream","pstate":"none","ratio":50,"loss":0},
+        {"id":"any cheese"},
+        {"id":"lemon"}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"lemon cheesecake",
+      "difficulty":25,
+      "description":"A classic lemon cheesecake is a no-bake wonder."
+    }
+  }

@@ -1,0 +1,33 @@
+  {
+    "name":"hunter's stew",
+    "recipeid":"850",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced","material":"game"},
+        {"id":"water","ratio":300,"loss":0},
+        {"id":"flour"}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"hunter's stew",
+      "refmaterial":"any meat",
+      "difficulty":20,
+      "description":"Made while out hunting, to build up hunters.  So they can go hunting, to make more stew."
+    }
+  }      

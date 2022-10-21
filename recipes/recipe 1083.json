@@ -1,0 +1,25 @@
+  {
+    "name":"plain popcorn",
+    "recipeid":"1083",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"corn","cstate":"raw"},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"plain popcorn",
+      "difficulty":20,
+      "description":"Popcorn is a type of corn that expands from the kernel and puffs up when heated in oil."
+    }
+  }

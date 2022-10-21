@@ -1,0 +1,15 @@
+  {
+    "name":"fruit-ade",
+    "recipeid":"596",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"maple syrup","ratio":100,"loss":0},
+    "target":{"id":"fruit juice","ratio":0,"loss":0},
+    "result":{
+      "id":"lemonade",
+      "refrealtemplate":"fruit juice",
+      "name":"#ade",
+      "difficulty":5,
+      "description":"A very refreshing sweet drink flavoured by #."
+    }
+  }

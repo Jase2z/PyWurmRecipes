@@ -1,0 +1,26 @@
+  {
+    "name":"cooked bacon",
+    "recipeid":"720",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"forge","difficulty":10},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"bacon","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"bacon",
+      "cstate":"cooked",
+      "name":"bacon",
+      "difficulty":5,
+      "description":"Mouth watering bacon. Nicely cooked just the way you like it."
+    }
+  }

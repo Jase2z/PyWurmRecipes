@@ -1,0 +1,28 @@
+  {
+    "name":"choc chip muffin",
+    "recipeid":"1064",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"chocolate"}
+      ],
+      "optional":[
+        {"id":"any nut","cstate":"raw","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"choc chip muffin",
+      "realtemplate":"chocolate",
+      "difficulty":35,
+      "description":"Fluffy sponge muffins, studded with small pieces of chocolate."
+    }
+  }

@@ -1,0 +1,31 @@
+  {
+    "name":"onion rings",
+    "recipeid":"888",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"batter"},
+        {"id":"any oil","ratio":10,"loss":100},
+        {"id":"onion","pstate":"none"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"onion rings",
+      "difficulty":20,
+      "description":"Thick-cut onion rings made from whole white onions, battered with a subtle blend of spices, letting the onion's natural sweetness shine."
+    }
+  }

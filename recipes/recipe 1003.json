@@ -1,0 +1,41 @@
+  {
+    "name":"tagliatelle",
+    "recipeid":"1003",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pasta","cstate":"raw","realtemplate":"egg"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"water","ratio":100,"loss":90},
+        {"id":"cream","ratio":10,"loss":50}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"white wine","pstate":"none","ratio":10,"loss":50},
+            {"id":"red wine","pstate":"none","ratio":10,"loss":50}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"tagliatelle",
+      "difficulty":30,
+      "achievement":"any pasta",
+      "description":"Fat strips of pasta in a simple cream sauce."
+    }
+  }

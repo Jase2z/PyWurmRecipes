@@ -1,0 +1,33 @@
+  {
+    "name":"cider vinegar",
+    "recipeid":"1403",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cider","pstate":"fermenting","ratio":0,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"wood scrap","material":"applewood"},
+            {"id":"wood scrap","material":"cherrywood"},
+            {"id":"wood scrap","material":"lemonwood"},
+            {"id":"wood scrap","material":"olivewood"},
+            {"id":"wood scrap","material":"orangewood"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"vinegar",
+      "name":"cider vinegar",
+      "pstate":"none",
+      "realtemplate":"cider",
+      "achievement":"vinegar",
+      "description":"A type of vinegar made from cider and has a pale to medium amber color."
+    }
+  }

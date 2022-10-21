@@ -1,0 +1,32 @@
+  {
+    "name":"jelly",
+    "recipeid":"827",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gelatine","ratio":100,"loss":0},
+        {"id":"fruit juice","ratio":100,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"any fruit","cstate":"raw"},
+            {"id":"any berry","cstate":"raw"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"jelly",
+      "name":"# jelly",
+      "refrealtemplate":"fruit juice",
+      "difficulty":15
+    }
+  }

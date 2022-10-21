@@ -1,0 +1,15 @@
+  {
+    "name":"whipped cream (cow)",
+    "recipeid":"582",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"fork"},
+    "target":{"id":"cream","pstate":"none","realtemplate":"milk","ratio":0,"loss":0},
+    "result":{
+      "id":"cream",
+      "pstate":"whipped",
+      "realtemplate":"milk",
+      "difficulty":10,
+      "description":"Cream that has been whipped to add air into it and thicken it."
+    }
+  }

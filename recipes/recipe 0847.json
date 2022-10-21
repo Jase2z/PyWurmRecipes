@@ -1,0 +1,31 @@
+  {
+    "name":"campania style fennel",
+    "recipeid":"847",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fennel","pstate":"chopped"},
+        {"id":"flour"},
+        {"id":"cooking oil","ratio":0,"loss":100}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"campania style fennel",
+      "difficulty":50,
+      "description":"Battered fennel root, shallow fried in oil."
+    }
+  }      

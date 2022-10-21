@@ -1,0 +1,24 @@
+  {
+    "name":"chocolate ice cream",
+    "recipeid":"1210",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"cocoa"}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"chocolate ice cream",
+      "realtemplate":"cocoa",
+      "difficulty":30,
+      "description":"Chocolate flavoured ice cream."
+    }
+  }

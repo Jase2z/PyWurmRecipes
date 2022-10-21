@@ -1,0 +1,25 @@
+  {
+    "name":"candied fruit",
+    "recipeid":"1124",
+    "skill":"cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any fruit","cstate":"raw"},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"candied #",
+      "refrealtemplate":"any fruit",
+      "difficulty":25,
+      "description":"A sweet with a # flavour."
+    }
+  }

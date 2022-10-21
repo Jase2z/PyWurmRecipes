@@ -1,0 +1,23 @@
+  {
+    "name":"rum",
+    "recipeid":"1427",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rum","pstate":"undistilled","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"rum",
+      "pstate":"none",
+      "achievement":"pirates",
+      "description":"Yarr, we be battening down the clubs and a-comin' for ye loot!"
+    }
+  }

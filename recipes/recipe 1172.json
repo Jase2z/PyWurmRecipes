@@ -1,0 +1,37 @@
+  {
+    "name":"fish korma",
+    "recipeid":"1172",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"parsley","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"cream","pstate":"none","ratio":25,"loss":0},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"rice"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"# korma",
+      "refrealtemplate":"fish fillet",
+      "difficulty":30,
+      "achievement":"any curry",
+      "description":"A mild fish curry with a sauce made with cream and parsley."
+    }
+  }

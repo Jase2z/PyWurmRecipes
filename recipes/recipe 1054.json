@@ -1,0 +1,33 @@
+  {
+    "name":"spaghetti bolognese",
+    "recipeid":"1054",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"spaghetti","cstate":"raw"},
+        {"id":"passata","ratio":50,"loss":25},
+        {"id":"any meat","pstate":"minced"},
+        {"id":"any cheese"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"spaghetti bolognese",
+      "refmaterial":"any meat",
+      "difficulty":30,
+      "achievement":"spaghetti bolognese",
+      "description":"A pasta dish consisting of spaghetti served with a sauce made from tomatoes and minced $."
+    }
+  }

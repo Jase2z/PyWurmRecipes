@@ -1,0 +1,27 @@
+  {
+    "name":"maple ice cream",
+    "recipeid":"1213",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"maple syrup","ratio":20,"loss":0}
+      ],
+      "optional":[
+        {"id":"any nut","cstate":"raw","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"maple ice cream",
+      "realtemplate":"maple syrup",
+      "difficulty":30,
+      "description":"Maple flavoured ice cream."
+    }
+  }

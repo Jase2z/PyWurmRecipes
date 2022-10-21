@@ -1,0 +1,37 @@
+  {
+    "name":"mountain gulasch",
+    "recipeid":"1462",
+	"known":true,
+    "trigger":"heat",
+    "skill":"hot food cooking",
+	"cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+		{"id":"onion","pstate":"chopped"},
+		{"id":"carrot","pstate":"chopped"},
+		{"id":"any spice","pstate":"ground"},
+		{"id":"fat"},
+		{"id":"flour"},
+		{"id":"pasta","realtemplate":"egg","cstate":"raw"},
+		{"id":"tomato","pstate":"chopped"},
+		{"id":"garlic","pstate":"chopped"},
+		{"id":"potato","pstate":"chopped"},
+		{"id":"pea pod","pstate":"chopped"},
+		{"id":"cucumber","pstate":"chopped"},
+		{"id":"corn","pstate":"chopped"},
+		{"id":"sage"}
+      ]
+    },
+    "result":{
+      "id":"gulasch",
+      "name":"mountain gulasch",
+      "difficulty":"40",
+      "description":"A thick and rich gulasch, stories could be made about this."
+    }
+  }

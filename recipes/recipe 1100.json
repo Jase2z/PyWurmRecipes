@@ -1,0 +1,35 @@
+  {
+    "name":"unfermented whisky",
+    "recipeid":"1100",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"rye"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"whisky",
+      "pstate":"unfermented",
+      "difficulty":50,
+      "description":"Whisky in the making. Just needs time now."
+    }
+  }

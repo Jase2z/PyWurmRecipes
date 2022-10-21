@@ -1,0 +1,36 @@
+  {
+    "name":"meat burger",
+    "recipeid":"1150",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"minced"},
+        {"id":"slice of bread","cstate":"raw","amount":2}
+      ],
+      "optional":[
+        {"id":"onion","pstate":"chopped","difficulty":3},
+        {"id":"any cheese","difficulty":3},
+        {"id":"tomato","pstate":"chopped","difficulty":3},
+        {"id":"lettuce","pstate":"chopped","difficulty":3},
+        {"id":"any mushroom","pstate":"diced","difficulty":3},
+        {"id":"salt","difficulty":3},
+        {"id":"tomato ketchup","difficulty":3},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":3}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"$ burger",
+      "refmaterial":"any meat",
+      "difficulty":30,
+      "description":"A juicy patty of ground meat often served on bread with various toppings of your choice."
+    }
+  }

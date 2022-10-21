@@ -1,0 +1,25 @@
+  {
+    "name":"cheese muffin",
+    "recipeid":"1068",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"any cheese"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"# muffin",
+      "refrealtemplate":"any cheese",
+      "difficulty":30,
+      "description":"Small, fluffy cakes containing savoury cheese."
+    }
+  }

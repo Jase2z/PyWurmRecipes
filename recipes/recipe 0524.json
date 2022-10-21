@@ -1,0 +1,16 @@
+  {
+    "name":"chopped fish fillet",
+    "recipeid":"524",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"fish fillet","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"fish fillet",
+      "name":"fillet of #",
+      "refrealtemplate":"fish fillet",
+      "cstate":"raw",
+      "pstate":"chopped",
+      "difficulty":8
+    }
+  }    

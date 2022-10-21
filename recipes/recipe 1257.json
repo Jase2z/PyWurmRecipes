@@ -1,0 +1,30 @@
+  {
+    "name":"tall tail sausage",
+    "recipeid":"1257",
+    "lootable":{"creature":"goblin","rarity":"supreme"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sausage skin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"fat"},
+        {"id":"tail"},
+        {"id":"nettles","pstate":"chopped"},
+        {"id":"breadcrumbs"},
+        {"id":"salt"},
+        {"id":"lemon","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"sausage",
+      "name":"tall tail sausage",
+      "difficulty":30,
+      "description":"Just don't ask what meat was used to make this."
+    }
+  }

@@ -1,0 +1,38 @@
+  {
+    "name":"ratatouille",
+    "recipeid":"879",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"any herb","pstate":"chopped"},
+        {"id":"any oil","ratio":33,"loss":100}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"red wine","pstate":"none","ratio":10,"loss":25},
+            {"id":"white wine","pstate":"none","ratio":10,"loss":25},
+            {"id":"rice wine","pstate":"none","ratio":10,"loss":25}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"ratatouille",
+      "difficulty":25,
+      "achievement":"ratatouille",
+      "description":"A baked dish of vegetables and herbs.  Rats are not involved, in any form."
+    }
+  }

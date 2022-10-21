@@ -1,0 +1,31 @@
+  {
+    "name":"plain omelette",
+    "recipeid":"755",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"egg","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"omelette",
+      "name":"plain omelette",
+      "realtemplate":"egg",
+      "difficulty":15,
+      "description":"A simple omelette."
+    }
+  }

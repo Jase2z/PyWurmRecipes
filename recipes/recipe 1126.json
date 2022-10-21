@@ -1,0 +1,29 @@
+  {
+    "name":"marshmallow",
+    "recipeid":"1126",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gelatine","ratio":100,"loss":0},
+        {"id":"sugar"}
+      ],
+      "optional":[
+        {"id":"honey","ratio":10,"loss":25,"difficulty":5},
+        {"id":"any nut","cstate":"raw","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"marshmallow",
+      "realtemplate":"sugar",
+      "difficulty":30,
+      "description":"A fluffy cloud in sugar form."
+    }
+  }

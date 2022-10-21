@@ -1,0 +1,16 @@
+  {
+    "name":"whipped sheep cream",
+    "recipeid":"584",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"fork"},
+    "target":{"id":"cream","pstate":"none","realtemplate":"sheep milk","ratio":0,"loss":0},
+    "result":{
+      "id":"cream",
+      "name":"sheep cream",
+      "pstate":"whipped",
+      "realtemplate":"sheep milk",
+      "difficulty":10,
+      "description":"Sheep cream that has been whipped to add air into it and thicken it."
+    }
+  }

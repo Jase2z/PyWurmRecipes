@@ -1,0 +1,26 @@
+  {
+    "name":"double chocolate muffin",
+    "recipeid":"1065",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"chocolate"},
+        {"id":"cocoa"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"double chocolate muffin",
+      "realtemplate":"cocoa",
+      "difficulty":40,
+      "description":"Fluffy chocolate muffins, studded with added chocolate."
+    }
+  }

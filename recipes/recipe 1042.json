@@ -1,0 +1,25 @@
+  {
+    "name":"fudge sauce",
+    "recipeid":"1042",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"butter"},
+        {"id":"chocolate"},
+        {"id":"sugar"},
+        {"id":"maple syrup","ratio":25,"loss":0},
+        {"id":"cream","pstate":"none","ratio":25,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"fudge sauce",
+      "difficulty":60
+    }
+  }

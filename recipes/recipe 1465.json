@@ -1,0 +1,38 @@
+  {
+    "name":"Hot cross bun",
+    "recipeid":"1465",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"any milk","ratio":10,"loss":0},
+        {"id":"lingonberry"},
+        {"id":"sugar"},
+        {"id":"egg", "cstate":"raw"},
+        {"id":"nutmeg","pstate":"ground"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"blue grapes","cstate":"raw"},
+            {"id":"green grapes","cstate":"raw"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"Hot cross bun",
+      "realtemplate":"sugar",
+      "difficulty":15,
+      "achievement":"bread maker",
+      "description":"Hot cross buns, one a penny two a penny, hot cross buns!"
+    }
+  }

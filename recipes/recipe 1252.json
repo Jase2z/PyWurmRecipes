@@ -1,0 +1,30 @@
+  {
+    "name":"billy sheep gruff stew",
+    "recipeid":"1252",
+    "lootable":{"creature":"troll","rarity":"supreme"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","material":"lamb"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"moonshine","pstate":"none","ratio":25,"loss":25},
+        {"id":"belladonna","pstate":"chopped"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"potato","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"billy sheep gruff stew",
+      "difficulty":35,
+      "achievement":"Cook Billy Sheep Gruff Stew",
+      "description":"He won't come trap-trap-trapping over the bridge any more!"
+    }
+  }

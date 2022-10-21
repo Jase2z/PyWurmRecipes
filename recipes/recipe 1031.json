@@ -1,0 +1,47 @@
+  {
+    "name":"breakfast",
+    "recipeid":"1031",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":5},
+            {"id":"any herb","difficulty":5},
+            {"id":"any cheese","difficulty":5},
+            {"id":"any nut","cstate":"raw","difficulty":5},
+            {"id":"any meat","difficulty":5},
+            {"id":"any fish","difficulty":5},
+            {"id":"any spice","difficulty":5},
+            {"id":"bacon","difficulty":5},
+            {"id":"sausage","difficulty":5},
+            {"id":"fries","difficulty":5},
+            {"id":"pesto","ratio":20,"loss":0,"difficulty":5},
+            {"id":"haggis","difficulty":5},
+            {"id":"slice of bread","difficulty":5},
+            {"id":"croutons","difficulty":5}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"breakfast",
+      "difficulty":15,
+      "achievement":"cook a breakfast",
+      "description":"Your day starts with this, whatever it is."
+    }
+  }

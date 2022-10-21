@@ -1,0 +1,23 @@
+  {
+    "name":"vodka",
+    "recipeid":"1423",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"vodka","pstate":"undistilled","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"vodka",
+      "pstate":"none",
+      "achievement":"vodka",
+      "description":"Clear and strong, and best drunk where it's cold.  Can also be used to remove ice from weapons."
+    }
+  }

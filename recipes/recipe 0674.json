@@ -1,0 +1,46 @@
+  {
+    "name":"sandwich",
+    "recipeid":"674",
+    "known":true,
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"egg","cstate":"boiled","difficulty":5},
+            {"id":"egg","cstate":"fried","difficulty":5},
+            {"id":"any mushroom","cstate":"raw","difficulty":5},
+            {"id":"any veg","cstate":"raw","pstate":"none","difficulty":5},
+            {"id":"any herb","pstate":"chopped","difficulty":5},
+            {"id":"any cheese","difficulty":2},
+            {"id":"bacon","cstate":"cooked","difficulty":5},
+            {"id":"sausage","difficulty":5},
+            {"id":"pesto","ratio":50,"loss":0,"difficulty":5},
+            {"id":"butter","difficulty":5}
+          ]
+        }
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"meat","cstate":"cooked","difficulty":5},
+            {"id":"meat fillet","cstate":"cooked","difficulty":5},
+            {"id":"any fish","cstate":"cooked","difficulty":5},
+            {"id":"fish fillet","cstate":"cooked","difficulty":5}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "difficulty":15,
+      "description":"Two slices of bread enclosing various wonderful things."
+    }
+  }

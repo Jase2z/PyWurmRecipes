@@ -1,0 +1,23 @@
+  {
+    "name":"undistilled raspberry gin",
+    "recipeid":"1451",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"fermenting","realtemplate":"raspberries","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"raspberry gin",
+      "pstate":"undistilled",
+      "realtemplate":"raspberries",
+      "achievement":"gin",
+      "description":"Clear but coloured by raspberries, but not drinkable yet."
+    }
+  }

@@ -1,0 +1,29 @@
+  {
+    "name":"jaffa cake",
+    "recipeid":"798",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"jelly","realtemplate":"orange"},
+        {"id":"chocolate"}
+      ],
+      "optional":[
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"jaffa cake",
+      "realtemplate":"orange",
+      "difficulty":40,
+      "description":"A biscuit-sized cakes with three layers, cake, orange jelly and chocolate on top."
+    }
+  }

@@ -1,0 +1,24 @@
+  {
+    "name":"maple syrup",
+    "recipeid":"705",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"maple sap","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"maple syrup",
+      "difficulty":10
+    }
+  }

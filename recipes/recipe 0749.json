@@ -1,0 +1,27 @@
+  {
+    "name":"grilled fish",
+    "recipeid":"749",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any fish","cstate":"raw","pstate":"none"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"any fish",
+      "cstate":"grilled",
+      "difficulty":5,
+      "description":"A fish that has been grilled."
+    }
+  }

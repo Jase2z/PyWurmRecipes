@@ -1,0 +1,25 @@
+  {
+    "name":"egg nog",
+    "recipeid":"649",
+    "skill":"baking",
+    "active":{"id":"spoon"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"milk","ratio":500,"loss":0},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"whisky","pstate":"none","realtemplate":"none","ratio":100,"loss":0},
+        {"id":"egg","cstate":"raw"},
+        {"id":"nutmeg","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"whisky",
+      "name":"egg nog",
+      "realtemplate":"egg",
+      "difficulty":30,
+      "description":"A slightly slimy alcoholic beverage, brimming with festive good cheer.  Merry hangover!"
+    }
+  }

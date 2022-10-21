@@ -1,0 +1,25 @@
+  {
+    "name":"jam sandwich",
+    "recipeid":"669",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"jam"}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"jam sandwich",
+      "refrealtemplate":"jam",
+      "difficulty":15,
+      "description":"Slices of bread with jam in the middle, scrummy."
+    }
+  }

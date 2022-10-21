@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented raspberry gin",
+    "recipeid":"1076",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"raspberries","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"raspberry gin",
+      "pstate":"unfermented",
+      "realtemplate":"raspberries",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra raspberries, ready to be distilled."
+    }
+  }

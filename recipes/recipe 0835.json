@@ -1,0 +1,35 @@
+  {
+    "name":"meat soup",
+    "recipeid":"835",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"water","ratio":300,"loss":10}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":2},
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"any spice","pstate":"ground","difficulty":2},
+        {"id":"croutons","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"$ soup",
+      "refmaterial":"any meat",
+      "difficulty":25,
+      "description":"A meaty soup, perfect for using up left-overs."
+    }
+  }

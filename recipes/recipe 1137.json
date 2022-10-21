@@ -1,0 +1,29 @@
+  {
+    "name":"chocolate chip cookie",
+    "recipeid":"1137",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "name":"chocolate chip cookie",
+      "realtemplate":"chocolate",
+      "difficulty":30,
+      "achievement":"chocolate chip cookie",
+      "description":"A cookie with chunks of chocolate in it."
+    }
+  }

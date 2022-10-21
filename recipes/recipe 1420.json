@@ -1,0 +1,23 @@
+  {
+    "name":"brandy",
+    "recipeid":"1420",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"brandy","pstate":"undistilled","realtemplate":"none","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"brandy",
+      "pstate":"none",
+      "achievement":"brandy",
+      "description":"Rich and dark, and traditionally accompanied by cigars. What's a cigar?"
+    }
+  }

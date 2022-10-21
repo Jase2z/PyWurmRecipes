@@ -1,0 +1,28 @@
+  {
+    "name":"nougat",
+    "recipeid":"1127",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gelatine","ratio":100,"loss":0},
+        {"id":"sugar"},
+        {"id":"honey","ratio":25,"loss":25},
+        {"id":"any nut","cstate":"raw"},
+        {"id":"any fruit","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"# nougat",
+      "refrealtemplate":"any fruit",
+      "difficulty":40,
+      "description":"A chewy, sticky delight incorporating nuts and fruit with honey."
+    }
+  }

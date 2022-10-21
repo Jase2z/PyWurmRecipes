@@ -1,0 +1,12 @@
+  {
+    "name":"pineapple",
+    "recipeid":"532",
+    "skill":"cooking",
+    "active":{"id":"pinenut"},
+    "target":{"id":"green apple","cstate":"raw"},
+    "result":{
+      "id":"pineapple",
+      "cstate":"raw",
+      "difficulty":40
+    }
+  }    

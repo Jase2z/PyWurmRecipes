@@ -1,0 +1,28 @@
+  {
+    "name":"fruit cheesecake",
+    "recipeid":"687",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit","realtemplate":"biscuit mix"},
+        {"id":"any cheese"},
+        {"id":"gelatine","ratio":50,"loss":0},
+        {"id":"any fruit","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"# cheesecake",
+      "refrealtemplate":"any fruit",
+      "difficulty":25,
+      "description":"An irresistible sweet treat that's made even better by the addition of fruit."
+    }
+  }

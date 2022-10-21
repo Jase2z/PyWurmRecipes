@@ -1,0 +1,32 @@
+  {
+    "name":"lemon herb battered chicken",
+    "recipeid":"1455",
+	"known":true,
+    "trigger":"heat",
+    "skill":"hot food cooking",
+	"cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat","cstate":"raw","material":"fowl"},
+		{"id":"egg","cstate":"raw"},
+		{"id":"flour"},
+		{"id":"lemon"},
+		{"id":"oregano","pstate":"chopped"},
+		{"id":"parsley","pstate":"chopped"},
+		{"id":"sage","pstate":"chopped"},
+		{"id":"thyme","pstate":"chopped"},
+		{"id":"paprika","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"lemon herb battered chicken",
+      "difficulty":"35",
+      "description":"Fried chicken with a light and tangy batter."
+    }
+  }

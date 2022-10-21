@@ -1,0 +1,29 @@
+  {
+    "name":"bacon, lettuce and tomato sandwich",
+    "recipeid":"664",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"bacon","cstate":"cooked"},
+        {"id":"lettuce"},
+        {"id":"tomato"}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"bacon, lettuce and tomato sandwich",
+      "difficulty":20,
+      "description":"Bacon, lettuce and tomato stuffed between 2 pieces of bread."
+    }
+  }

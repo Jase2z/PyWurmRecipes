@@ -1,0 +1,23 @@
+  {
+    "name":"undistilled lemon gin",
+    "recipeid":"1453",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"fermenting","realtemplate":"lemon","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"lemon gin",
+      "pstate":"undistilled",
+      "realtemplate":"lemon",
+      "achievement":"gin",
+      "description":"Clear but coloured by lemons, but not drinkable yet."
+    }
+  }

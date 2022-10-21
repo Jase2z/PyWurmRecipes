@@ -1,0 +1,33 @@
+  {
+    "name":"meatballs with potato",
+    "recipeid":"993",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meatballs"},
+        {"id":"potato"},
+        {"id":"gravy","ratio":75,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"meatballs with potato",
+      "refmaterial":"meatballs",
+      "difficulty":30,
+      "description":"Balls of minced meat with potato and gravy."
+    }
+  }

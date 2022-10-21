@@ -1,0 +1,34 @@
+  {
+    "name":"crab bisque",
+    "recipeid":"834",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"crab meat"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"stock","ratio":200,"loss":0},
+        {"id":"cream","ratio":100,"loss":0},
+        {"id":"flour"}
+      ],
+      "optional":[
+        {"id":"croutons","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"crab bisque",
+      "difficulty":50,
+      "description":"A creamy soup with chunks of crab floating in it."
+    }
+  }

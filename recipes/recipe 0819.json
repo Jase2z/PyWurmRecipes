@@ -1,0 +1,27 @@
+  {
+    "name":"plain scone",
+    "recipeid":"819",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"scone mix"}
+      ],
+      "optional":[
+        {"id":"cream","pstate":"whipped","ratio":25,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"scone",
+      "name":"plain scone",
+      "realtemplate":"scone mix",
+      "difficulty":15,
+      "description":"Plain scones, uncontaminated with any distractions.  The whipped cream goes without saying, of course."
+    }
+  }

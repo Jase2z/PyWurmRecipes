@@ -1,0 +1,37 @@
+  {
+    "name":"meatballs",
+    "recipeid":"987",
+    "nameable":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"minced","cstate":"raw"},
+        {"id":"parsley","pstate":"chopped"},
+        {"id":"cooking oil","realtemplate":"hazelnuts","ratio":25,"loss":75},
+        {"id":"fennel seed","pstate":"ground"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meatballs",
+      "name":"meatballs",
+      "cstate":"cooked",
+      "realtemplate":"parsley",
+      "refmaterial":"any meat",
+      "difficulty":35,
+      "description":"Balls of minced meat with parsley, fried in hazlenut oil."
+    }
+  }

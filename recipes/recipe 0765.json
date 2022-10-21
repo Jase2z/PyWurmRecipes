@@ -1,0 +1,28 @@
+  {
+    "name":"olive bread",
+    "recipeid":"765",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"olives"}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"olive bread",
+      "refmaterial":"dough",
+      "realtemplate":"olives",
+      "difficulty":20,
+      "achievement":"bread maker",
+      "description":"A loaf of bread studded with olives."
+    }
+  }

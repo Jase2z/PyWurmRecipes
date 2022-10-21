@@ -1,0 +1,32 @@
+  {
+    "name":"roast meal",
+    "recipeid":"907",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat"},
+        {"id":"any veg"},
+        {"id":"gravy","ratio":25,"loss":0}
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"roast $ meal",
+      "refmaterial":"any meat",
+      "difficulty":20,
+      "description":"The Sunday roast is a traditional British main meal that is traditionally served on Sunday.  Oddly enough."
+    }
+  }

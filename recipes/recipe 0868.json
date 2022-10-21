@@ -1,0 +1,31 @@
+  {
+    "name":"warrior's Stew",
+    "recipeid":"868",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","pstate":"none"},
+        {"id":"any veg","cstate":"raw","pstate":"none"},
+        {"id":"water","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"any spice","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"warrior's Stew",
+      "refmaterial":"any meat",
+      "difficulty":20,
+      "description":"Krunk cook, Krunk eat, Krunk smash!"
+    }
+  }

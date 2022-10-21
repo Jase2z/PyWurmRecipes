@@ -1,0 +1,31 @@
+  {
+    "name":"cheese stuffed mushroom",
+    "recipeid":"1036",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"mushroom"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any cheese"}
+      ],
+      "optional":[
+        {"id":"bacon","difficulty":3},
+        {"id":"garlic","difficulty":2},
+        {"id":"any spice","pstate":"ground","difficulty":4},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stuffed mushroom",
+      "name":"cheese stuffed #",
+      "realtemplate":"mushroom",
+      "difficulty":30,
+      "description":"A # stuffed with cheese."
+    }
+  }

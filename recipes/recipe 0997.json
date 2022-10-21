@@ -1,0 +1,40 @@
+  {
+    "name":"pasta napolitana",
+    "recipeid":"997",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"passata","ratio":100,"loss":0},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"olive oil","ratio":20,"loss":100},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"pasta","cstate":"raw","realtemplate":"flour"},
+            {"id":"spaghetti","cstate":"raw"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"pasta al sugo",
+      "difficulty":25,
+      "achievement":"pasta napolitana",
+      "description":"Simple strands of pasta in a tomato sauce."
+    }
+  }

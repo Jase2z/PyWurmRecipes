@@ -1,0 +1,33 @@
+  {
+    "name":"veg fritter",
+    "recipeid":"971",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","cstate":"raw","pstate":"mashed"},
+        {"id":"cornflour"},
+        {"id":"any oil","ratio":33,"loss":50}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "refrealtemplate":"any veg",
+      "difficulty":35,
+      "name":"veg fritter",
+      "description":"A # dusted in flour and then fried in oil."
+    }
+  }

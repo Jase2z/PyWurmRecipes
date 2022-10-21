@@ -1,0 +1,50 @@
+  {
+    "name":"green veg curry",
+    "recipeid":"1165",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"coconut"},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"belladonna","pstate":"chopped"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"sugar"},
+        {"id":"basil","pstate":"chopped"},
+        {"id":"rice"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"corn","pstate":"chopped","difficulty":5},
+            {"id":"potato","pstate":"chopped","difficulty":5},
+            {"id":"pumpkin","pstate":"chopped","difficulty":5},
+            {"id":"cabbage","pstate":"chopped","difficulty":5},
+            {"id":"carrot","pstate":"chopped","difficulty":5},
+            {"id":"lettuce","pstate":"chopped","difficulty":5},
+            {"id":"pea","pstate":"chopped","difficulty":5},
+            {"id":"pea pod","pstate":"chopped","difficulty":5},
+            {"id":"tomato","pstate":"chopped","difficulty":5},
+            {"id":"cucumber","pstate":"chopped","difficulty":5}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"green veg curry",
+      "difficulty":45,
+      "achievement":"any curry",
+      "description":"A spicy yet sweet vegetable curry, with the heat tempered by coconut milk."
+    }
+  }

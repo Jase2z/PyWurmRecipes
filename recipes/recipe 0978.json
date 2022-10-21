@@ -1,0 +1,34 @@
+  {
+    "name":"fried dandelions",
+    "recipeid":"978",
+    "nameable":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"bouquet of yellow flowers"},
+        {"id":"cooking oil","realtemplate":"fennel","ratio":25,"loss":75},
+        {"id":"salt"},
+        {"id":"batter"},
+        {"id":"thyme","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stir fry",
+      "name":"fried dandelions",
+      "difficulty":40,
+      "description":"Battered dandelions, lightly fried, with salt and herbs; a crispy country delight."
+    }
+  }

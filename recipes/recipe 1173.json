@@ -1,0 +1,51 @@
+  {
+    "name":"veg korma",
+    "recipeid":"1173",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"parsley","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"cream","pstate":"none","ratio":25,"loss":0},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"rice"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"corn","pstate":"chopped","difficulty":5},
+            {"id":"potato","pstate":"chopped","difficulty":5},
+            {"id":"pumpkin","pstate":"chopped","difficulty":5},
+            {"id":"cabbage","pstate":"chopped","difficulty":5},
+            {"id":"carrot","pstate":"chopped","difficulty":5},
+            {"id":"lettuce","pstate":"chopped","difficulty":5},
+            {"id":"pea","pstate":"chopped","difficulty":5},
+            {"id":"pea pod","pstate":"chopped","difficulty":5},
+            {"id":"tomato","pstate":"chopped","difficulty":5},
+            {"id":"cucumber","pstate":"chopped","difficulty":5}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"veg korma",
+      "difficulty":30,
+      "achievement":"any curry",
+      "description":"A mild veg curry with a sauce made with cream and parsley."
+    }
+  }

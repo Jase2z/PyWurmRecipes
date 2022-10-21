@@ -1,0 +1,25 @@
+  {
+    "name":"jammy dodgers",
+    "recipeid":"805",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"jam"}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"jammy dodgers",
+      "refrealtemplate":"jam",
+      "difficulty":50,
+      "description":"A round biscuit with a dollop of jam in the middle."
+    }
+  }

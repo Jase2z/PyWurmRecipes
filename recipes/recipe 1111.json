@@ -1,0 +1,37 @@
+  {
+    "name":"wort",
+    "recipeid":"1111",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":400,"loss":0},
+        {"id":"any herb"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"barley"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"wort",
+      "realtemplate":"wort",
+      "difficulty":20,
+      "description":"A liquid extracted from the mashing process during the brewing of beer."
+    }
+  }

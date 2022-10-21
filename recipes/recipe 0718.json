@@ -1,0 +1,30 @@
+  {
+    "name":"steak",
+    "recipeid":"718",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"forge","difficulty":10},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","material":"beef"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meat",
+      "cstate":"fried",
+      "name":"steak",
+      "material":"beef",
+      "difficulty":5,
+      "description":"Fried steak from an beef animal."
+    }
+  }

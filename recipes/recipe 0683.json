@@ -1,0 +1,25 @@
+  {
+    "name":"chocolate buttercream icing",
+    "recipeid":"683",
+    "skill":"baking",
+    "active":{"id":"fork"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"cocoa"},
+        {"id":"butter"},
+        {"id":"any milk","ratio":33,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"icing",
+      "name":"chocolate buttercream icing",
+      "realtemplate":"chocolate",
+      "difficulty":25,
+      "achievement":"chocolate icing",
+      "description":"An easy chocolate buttercream that tastes better than the usual, because of the real chocolate."
+    }
+  }

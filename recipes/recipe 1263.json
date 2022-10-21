@@ -1,0 +1,43 @@
+  {
+    "name":"cheese fondue",
+    "recipeid":"1263",
+    "lootable":{"creature":"rift ogre","rarity":"fantastic"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cheese"},
+        {"id":"feta cheese"},
+        {"id":"buffalo cheese"},
+        {"id":"white wine","pstate":"none","ratio":25,"loss":0},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"bread"}
+      ],
+      "optional":[
+        {"id":"corn","pstate":"chopped","difficulty":2},
+        {"id":"onion","pstate":"chopped","difficulty":2},
+        {"id":"potato","pstate":"chopped","difficulty":2},
+        {"id":"pumpkin","pstate":"chopped","difficulty":2},
+        {"id":"cabbage","pstate":"chopped","difficulty":2},
+        {"id":"carrot","pstate":"chopped","difficulty":2},
+        {"id":"lettuce","pstate":"chopped","difficulty":2},
+        {"id":"pea","difficulty":2},
+        {"id":"pea pod","pstate":"chopped","difficulty":2},
+        {"id":"tomato","pstate":"chopped","difficulty":2},
+        {"id":"cucumber","pstate":"chopped","difficulty":2}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"cheese fondue",
+      "difficulty":70,
+      "description":"Delightful things dipped into a pot of melted cheese, all good Jackal homes have a little kit stashed away somewhere for making this."
+    }
+  }

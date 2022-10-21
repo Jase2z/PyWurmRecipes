@@ -1,0 +1,20 @@
+  {
+    "name":"mead",
+    "recipeid":"1412",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"mead","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"mead",
+      "pstate":"none",
+      "achievement":"mead"
+    }
+  }

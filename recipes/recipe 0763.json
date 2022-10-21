@@ -1,0 +1,34 @@
+  {
+    "name":"waybread",
+    "recipeid":"763",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"honey","ratio":33,"loss":0},
+        {"id":"salt"},
+        {"id":"butter"},
+        {"id":"sugar"},
+        {"id":"any milk","ratio":33,"loss":25},
+        {"id":"green apple","cstate":"raw"},
+        {"id":"any nut","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"waybread",
+      "realtemplate":"honey",
+      "refmaterial":"dough",
+      "difficulty":50,
+      "achievement":"bread maker",
+      "description":"Also known as lembas, one of these will keep even tall men going after a long day of grinding."
+    }
+  }

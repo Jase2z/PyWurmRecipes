@@ -1,0 +1,36 @@
+  {
+    "name":"green meat curry",
+    "recipeid":"1163",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"coconut"},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"belladonna","pstate":"chopped"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"sugar"},
+        {"id":"basil","pstate":"chopped"},
+        {"id":"rice"}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"green $ curry",
+      "refmaterial":"any meat",
+      "difficulty":45,
+      "achievement":"any curry",
+      "description":"A spicy yet sweet meat curry, with the heat tempered by coconut milk."
+    }
+  }

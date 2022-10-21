@@ -1,0 +1,29 @@
+  {
+    "name":"applesauce",
+    "recipeid":"1160",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"green apple","cstate":"raw","amount":2},
+        {"id":"water","ratio":100,"loss":100},
+        {"id":"sugar"},
+        {"id":"nutmeg","pstate":"ground"},
+        {"id":"ginger","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"white sauce",
+      "name":"applesauce",
+      "realtemplate":"green apple",
+      "difficulty":10,
+      "description":"A puree of stewed apples, typically sweetened."
+    }
+  }

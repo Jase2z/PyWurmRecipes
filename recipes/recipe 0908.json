@@ -1,0 +1,32 @@
+  {
+    "name":"lemon fowl",
+    "recipeid":"908",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat","cstate":"raw","material":"fowl"},
+        {"id":"broth","realtemplate":"meat","material":"fowl","ratio":50,"loss":50},
+        {"id":"cooking oil","ratio":10,"loss":100},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"lemon"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"lemon fowl",
+      "difficulty":50,
+      "description":"A meal with lemon thats particulary fowl."
+    }
+  }

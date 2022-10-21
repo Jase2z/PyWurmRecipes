@@ -1,0 +1,15 @@
+  {    
+    "name":"flour",
+    "recipeid":"504",
+    "known":true,
+    "skill":"milling",
+    "active":{"id":"grindstone"},
+    "target":{"id":"any cereal"},  
+    "result":{
+      "id":"flour",
+      "name":"$ flour",
+      "refmaterial":"any cereal",
+      "difficulty":5,
+      "description":"Flour made from ground $."
+    }  
+  }    

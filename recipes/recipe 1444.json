@@ -1,0 +1,21 @@
+  {
+    "name":"undistilled whisky",
+    "recipeid":"1444",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"whisky","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"whisky",
+      "pstate":"undistilled",
+      "achievement":"whisky",
+      "description":"Golden colour with rich scents of peat, but not drinkable yet."
+    }
+  }

@@ -1,0 +1,35 @@
+  {
+    "name":"bug guts stew",
+    "recipeid":"857",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"},
+      {"id":"forge"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"cauldron"},
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced","material":"insect"},
+        {"id":"cochineal"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"water","ratio":100,"loss":0},
+        {"id":"flour"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"bug guts stew",
+      "difficulty":40,
+      "achievement":"insect stew",
+      "description":"It's a stew, made from odd bits of giant insect.  No, I don't know why you made it either."
+    }
+  }

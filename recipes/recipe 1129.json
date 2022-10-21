@@ -1,0 +1,26 @@
+  {
+    "name":"mint humbugs",
+    "recipeid":"1129",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"water","ratio":50,"loss":80},
+        {"id":"mint","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"mint humbugs",
+      "realtemplate":"mint",
+      "difficulty":40,
+      "description":"A hard candy made from sugar and mint."
+    }
+  }

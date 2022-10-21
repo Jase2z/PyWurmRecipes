@@ -1,0 +1,33 @@
+  {
+    "name":"ravioli in spiced butter sauce",
+    "recipeid":"996",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pasta","cstate":"raw"},
+        {"id":"any mushroom"},
+        {"id":"buffalo cheese"},
+        {"id":"bouquet of purple flowers"},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"ravioli in spiced butter sauce",
+      "difficulty":60,
+      "achievement":"any pasta",
+      "description":"Small parcels of pasta filled with cheese in a rich, creamy sauce."
+    }
+  }

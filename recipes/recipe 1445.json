@@ -1,0 +1,21 @@
+  {
+    "name":"undistilled vodka",
+    "recipeid":"1445",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"vodka","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"vodka",
+      "pstate":"undistilled",
+      "achievement":"vodka",
+      "description":"Clear and strong, but not drinkable yet."
+    }
+  }

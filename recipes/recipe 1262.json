@@ -1,0 +1,29 @@
+  {
+    "name":"pain au chocolat",
+    "recipeid":"1262",
+    "lootable":{"creature":"rift ogre","rarity":"supreme"},
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"milk","ratio":50,"loss":10},
+        {"id":"sugar"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"pudding",
+      "name":"pain au chocolat",
+      "difficulty":50,
+      "description":"This delicate pastry is so delicious, it's almost painful."
+    }
+  }

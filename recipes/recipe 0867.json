@@ -1,0 +1,38 @@
+  {
+    "name":"marine's stew",
+    "recipeid":"867",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","cstate":"raw","pstate":"none"},
+        {"id":"water","ratio":100,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"any fish","cstate":"raw","pstate":"none"},
+            {"id":"fish fillet","cstate":"raw","pstate":"none"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"any spice","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"marine's stew",
+      "material":"meat",
+      "difficulty":20,
+      "description":"Ever wonder why marines have short hair?  It reduces the smell of fish, because they live off this."
+    }
+  }

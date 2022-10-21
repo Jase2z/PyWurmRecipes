@@ -1,0 +1,24 @@
+  {
+    "name":"whisky",
+    "recipeid":"1422",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"whisky","pstate":"undistilled","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"whisky",
+      "pstate":"none",
+      "realtemplate":"none",
+      "achievement":"whisky",
+      "description":"Golden colour with rich scents of peat and a roughness across the throat."
+    }
+  }

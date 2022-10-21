@@ -1,0 +1,25 @@
+  {
+    "name":"fruit drops",
+    "recipeid":"1130",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"fruit juice","ratio":50,"loss":80}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"# drops",
+      "refrealtemplate":"fruit juice",
+      "difficulty":40,
+      "description":"A hard candy made from sugar and fruit."
+    }
+  }

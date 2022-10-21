@@ -1,0 +1,14 @@
+  {
+    "name":"lemon juice",
+    "recipeid":"548",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"lemon","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"lemon juice",
+      "realtemplate":"lemon",
+      "difficulty":15
+    }
+  }

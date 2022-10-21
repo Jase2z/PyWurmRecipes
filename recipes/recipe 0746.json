@@ -1,0 +1,20 @@
+  {
+    "name":"fire roasted fish",
+    "recipeid":"746",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any fish","cstate":"raw","pstate":"none"}
+      ]
+    },
+    "result":{
+      "id":"any fish",
+      "cstate":"roasted",
+      "difficulty":5,
+      "description":"A fish that has been slowly roasted over an open fire."
+    }
+  }

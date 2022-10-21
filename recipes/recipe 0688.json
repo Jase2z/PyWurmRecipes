@@ -1,0 +1,28 @@
+  {
+    "name":"berry cheesecake",
+    "recipeid":"688",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit","realtemplate":"biscuit mix"},
+        {"id":"any cheese"},
+        {"id":"gelatine","ratio":50,"loss":0},
+        {"id":"any berry","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"# cheesecake",
+      "refrealtemplate":"any berry",
+      "difficulty":30,
+      "description":"Combines the sweet taste of the berries with rich cheesecake. It has a light and fluffy texture, making every bite melt in your mouth."
+    }
+  }

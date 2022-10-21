@@ -1,0 +1,12 @@
+  {
+    "name":"olive oil",
+    "recipeid":"551",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"olives","loss":10},
+    "result":{
+      "id":"olive oil",
+      "difficulty":10
+    }
+  }

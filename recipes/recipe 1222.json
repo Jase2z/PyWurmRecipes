@@ -1,0 +1,26 @@
+  {
+    "name":"saucy double chocolate ice cream",
+    "recipeid":"1222",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"cocoa"},
+        {"id":"chocolate","pstate":"none"},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy double chocolate ice cream",
+      "realtemplate":"cocoa bean",
+      "difficulty":45,
+      "description":"Chocolate flavoured ice cream with chocolate chips in it and a fudge sauce on it."
+    }
+  }

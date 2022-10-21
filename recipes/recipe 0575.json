@@ -1,0 +1,12 @@
+  {
+    "name":"salt",
+    "recipeid":"575",
+    "known":true,
+    "skill":"milling",
+    "active":{"id":"grindstone"},
+    "target":{"id":"rock salt"},
+    "result":{
+      "id":"salt",
+      "difficulty":50
+    }
+  }

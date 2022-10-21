@@ -1,0 +1,42 @@
+  {
+    "name":"meatloaf",
+    "recipeid":"984",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"forge"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","material":"tough","pstate":"minced"},
+        {"id":"breadcrumbs"},
+        {"id":"egg","cstate":"raw"}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"sage","pstate":"chopped"},
+            {"id":"parsley","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"potato","cstate":"raw","pstate":"mashed","difficulty":5},
+        {"id":"any cereal","difficulty":5},
+        {"id":"bacon","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"meatloaf",
+      "difficulty":25,
+      "description":"A dish of meat mixed with egg and breadcrumbs, formed into a loaf shape, then baked."
+    }
+  }

@@ -1,0 +1,31 @@
+  {
+    "name":"meatballs and spaghetti",
+    "recipeid":"990",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meatballs"},
+        {"id":"spaghetti"},
+        {"id":"parsley"},
+        {"id":"passata","ratio":20,"loss":0}
+      ],
+      "optional":[
+        {"id":"sugar"},
+        {"id":"salt"},
+        {"id":"basil"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"meatballs and spaghetti",
+      "difficulty":40,
+      "description":"A meal made with meatballs and spaghetti garnished with parsley and a tomato sauce."
+    }
+  }

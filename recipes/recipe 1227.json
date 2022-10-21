@@ -1,0 +1,25 @@
+  {
+    "name":"saucy strawberry ice cream",
+    "recipeid":"1227",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"fruit juice","realtemplate":"strawberries","ratio":100,"loss":0},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy strawberry ice cream",
+      "realtemplate":"strawberries",
+      "difficulty":25,
+      "description":"Strawberry flavoured ice cream with a fudge sauce on it."
+    }
+  }

@@ -1,0 +1,26 @@
+  {
+    "name":"yorkshire pudding",
+    "recipeid":"886",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"milk","ratio":100,"loss":25},
+        {"id":"any oil","ratio":20,"loss":100},
+        {"id":"flour"},
+        {"id":"egg","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"yorkshire pudding",
+      "difficulty":20,
+      "description":"Made from batter and often served with sunday roast."
+    }
+  }

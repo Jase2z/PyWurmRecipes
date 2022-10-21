@@ -1,0 +1,30 @@
+  {
+    "name":"cheese and onion stuffed mushroom",
+    "recipeid":"1034",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"mushroom"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any cheese"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"sage","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stuffed mushroom",
+      "name":"cheese and onion stuffed #",
+      "refrealtemplate":"mushroom",
+      "difficulty":45,
+      "description":"A # stuffed with cheese and onion."
+    }
+  }

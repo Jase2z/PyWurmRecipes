@@ -1,0 +1,28 @@
+  {
+    "name":"gravy",
+    "recipeid":"826",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cornflour"},
+        {"id":"stock","ratio":100,"loss":0},
+        {"id":"fat"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"gravy",
+      "difficulty":10
+    }
+  }

@@ -1,0 +1,33 @@
+  {
+    "name":"quiche",
+    "recipeid":"943",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"egg","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"any meat","pstate":"diced","difficulty":5},
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"any cheese","difficulty":10},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"quiche",
+      "difficulty":40,
+      "description":"A savoury, open-faced pastry crust filled with one or more of cheese, meat or vegetables."
+    }
+  }

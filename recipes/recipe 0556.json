@@ -1,0 +1,13 @@
+  {
+    "name":"corn oil",
+    "recipeid":"556",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"corn","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"corn",
+      "difficulty":15
+    }
+  }

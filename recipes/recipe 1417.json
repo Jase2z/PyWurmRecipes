@@ -1,0 +1,22 @@
+  {
+    "name":"white wine",
+    "recipeid":"1417",
+    "known":true,
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"white wine","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"white wine",
+      "pstate":"none",
+      "achievement":"wine",
+      "description":"Light and crisp, with overtones of mown grass and citrus, this is a reminder of that long, hot summer. No, the other one."
+    }
+  }

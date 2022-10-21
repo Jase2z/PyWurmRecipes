@@ -1,0 +1,26 @@
+  {
+    "name":"breakfast muffin",
+    "recipeid":"1069",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"egg"},
+        {"id":"bacon"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"breakfast muffin",
+      "realtemplate":"bacon",
+      "difficulty":30,
+      "description":"This isn't a muffin, despite appearances.  Still, since it includes bacon, lead on McDonald!"
+    }
+  }

@@ -1,0 +1,30 @@
+  {
+    "name":"fried meat",
+    "recipeid":"719",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"forge","difficulty":10},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meat",
+      "cstate":"fried",
+      "name":"meat",
+      "refmaterial":"any meat",
+      "difficulty":5,
+      "description":"Fried meat from an animal."
+    }
+  }

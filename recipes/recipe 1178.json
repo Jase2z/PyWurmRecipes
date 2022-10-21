@@ -1,0 +1,42 @@
+  {
+    "name":"fish jalfrezi",
+    "recipeid":"1178",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"passata","ratio":25,"loss":25},
+        {"id":"cooking oil","ratio":25,"loss":75},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"vinegar","ratio":10,"loss":0},
+        {"id":"cornflour"},
+        {"id":"salt"},
+        {"id":"rice"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any spice","pstate":"chopped"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"# jalfrezi",
+      "refrealtemplate":"fish fillet",
+      "difficulty":60,
+      "achievement":"any curry",
+      "description":"A hot curry with onion and tomatoes. Marinated fish is fried in oil and spices to produce a dry, thick sauce."
+    }
+  }

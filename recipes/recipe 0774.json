@@ -1,0 +1,29 @@
+  {
+    "name":"rice porridge",
+    "recipeid":"774",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cooked rice"},
+        {"id":"any milk","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":3}
+      ]
+    },
+    "result":{
+      "id":"rice porridge",
+      "difficulty":15,
+      "description":"A thick porridge made from rice and milk.  When you've just risen, this stuff tastes great!"
+    }
+  }

@@ -1,0 +1,40 @@
+  {
+    "name":"macaroni cheese",
+    "recipeid":"1001",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"white sauce","realtemplate":"milk","ratio":50,"loss":25},
+        {"id":"any cheese"},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"pasta","cstate":"raw","realtemplate":"flour"},
+            {"id":"spaghetti","cstate":"raw"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"bacon","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"macaroni cheese",
+      "difficulty":20,
+      "achievement":"macaroni cheese",
+      "description":"Small tubes of pasta in a cheesy sauce.  Simple enough for even students to manage."
+    }
+  }

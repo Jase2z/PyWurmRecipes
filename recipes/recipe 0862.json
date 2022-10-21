@@ -1,0 +1,38 @@
+  {
+    "name":"fish casserole",
+    "recipeid":"862",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"water","ratio":300,"loss":0},
+        {"id":"flour"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"casserole",
+      "name":"# casserole",
+      "refrealtemplate":"fish fillet",
+      "difficulty":15,
+      "description":"A tasty # casserole."
+    }
+  }

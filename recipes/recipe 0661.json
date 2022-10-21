@@ -1,0 +1,27 @@
+  {
+    "name":"hot dog",
+    "recipeid":"661",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":1},
+        {"id":"sausage","material":"canine"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"onion","difficulty":5},
+        {"id":"butter","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"hot dog",
+      "difficulty":15,
+      "description":"A bun containing a sausage.  It won't come when you whistle, though."
+    }
+  }

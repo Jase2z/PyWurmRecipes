@@ -1,0 +1,32 @@
+  {
+    "name":"cheese and tomato swirls",
+    "recipeid":"768",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"passata","ratio":20,"loss":0},
+        {"id":"cheese"},
+        {"id":"onion","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped"},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasty",
+      "name":"cheese and tomato swirls",
+      "difficulty":55,
+      "description":"Delicious cheese and tomato swirls great for a picnic, lunch or a party treat"
+    }
+  }

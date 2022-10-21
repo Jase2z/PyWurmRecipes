@@ -1,0 +1,25 @@
+  {
+    "name":"rice pudding",
+    "recipeid":"1053",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any milk","ratio":200,"loss":50},
+        {"id":"rice"},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"pudding",
+      "name":"rice pudding",
+      "difficulty":20,
+      "description":"A dish made from rice mixed with milk sweetened with sugar."
+    }
+  }

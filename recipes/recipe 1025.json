@@ -1,0 +1,30 @@
+  {
+    "name":"focaccia",
+    "recipeid":"1025",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"any herb","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "name":"focaccia",
+      "refrealtemplate":"any herb",
+      "difficulty":30,
+      "achievement":"focaccia",
+      "description":"A flat, square loaf with herbs on top."
+    }
+  }

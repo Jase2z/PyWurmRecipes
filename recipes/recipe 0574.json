@@ -1,0 +1,12 @@
+  {
+    "name":"breadcrumbs",
+    "recipeid":"574",
+    "known":true,
+    "skill":"milling",
+    "active":{"id":"mortar and pestle"},
+    "target":{"id":"slice of bread","cstate":"raw"},
+    "result":{
+      "id":"breadcrumbs",
+      "difficulty":15
+    }
+  }

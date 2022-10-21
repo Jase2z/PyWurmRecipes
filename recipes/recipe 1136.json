@@ -1,0 +1,28 @@
+  {
+    "name":"cookie",
+    "recipeid":"1136",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "name":"cookie",
+      "realtemplate":"cookie",
+      "difficulty":20,
+      "achievement":"cookies",
+      "description":"A plain cookie!"
+    }
+  }

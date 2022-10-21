@@ -1,0 +1,27 @@
+  {
+    "name":"pickled veg",
+    "recipeid":"652",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery jar"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"vinegar","ratio":200,"loss":100},
+        {"id":"any veg","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"salt"},
+        {"id":"any spice","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"pickle",
+      "name":"pickled #",
+      "refrealtemplate":"any veg",
+      "difficulty":15,
+      "description":"# that has been preserved and flavored in a solution of vinegar."
+    }
+  }

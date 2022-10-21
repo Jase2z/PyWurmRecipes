@@ -1,0 +1,28 @@
+  {
+    "name":"mint hot chocolate",
+    "recipeid":"1121",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"},
+      {"id":"pottery bowl","difficulty":1}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":800,"loss":0},
+        {"id":"cocoa"},
+        {"id":"mint","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"tea",
+      "name":"mint hot chocolate",
+      "realtemplate":"chocolate",
+      "difficulty":45,
+      "description":"Hot chocolate with a hint of mint."
+    }
+  }

@@ -1,0 +1,29 @@
+  {
+    "name":"fruity cookie",
+    "recipeid":"1142",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"},
+        {"id":"any fruit"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "difficulty":45,
+      "name":"fruity cookie",
+      "refrealtemplate":"any fruit",
+      "achievement":"cookies",
+      "description":"A cookie tasting of #."
+    }
+  }

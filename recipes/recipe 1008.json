@@ -1,0 +1,30 @@
+  {
+    "name":"three cheese pizza",
+    "recipeid":"1008",
+    "nameable":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"passata","ratio":20,"loss":0},
+        {"id":"cheese"},
+        {"id":"feta cheese"},
+        {"id":"buffalo cheese"}
+      ]
+    },
+    "result":{
+      "id":"pizza",
+      "name":"three cheese pizza",
+      "difficulty":30,
+      "achievement":"three cheese pizza",
+      "description":"A pizza consisting mostly of cheese.  Mmm, cheese..."
+    }
+  }

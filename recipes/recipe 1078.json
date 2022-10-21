@@ -1,0 +1,24 @@
+  {
+    "name":"clotted cream (cow)",
+    "recipeid":"1078",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cream","pstate":"none","realtemplate":"milk","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"cream",
+      "pstate":"clotted",
+      "realtemplate":"milk",
+      "difficulty":25,
+      "description":"A thick cream made by indirectly heating full-cream cow's milk using steam or a water bath and then leaving it in shallow pans to cool slowly."
+    }
+  }

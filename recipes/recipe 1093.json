@@ -1,0 +1,26 @@
+  {
+    "name":"salt and vinegar crisps",
+    "recipeid":"1093",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","pstate":"chopped"},
+        {"id":"salt"},
+        {"id":"vinegar","ratio":20,"loss":0},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ]
+    },
+    "result":{
+      "id":"crisps",
+      "name":"salt and vinegar crisps",
+      "difficulty":45,
+      "description":"Thinly sliced potato covered in oil and baked, flavoured with salt and vinegar."
+    }
+  }

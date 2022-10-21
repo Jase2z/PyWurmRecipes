@@ -1,0 +1,25 @@
+  {
+    "name":"fruit biscuits",
+    "recipeid":"801",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"any fruit","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"# biscuit",
+      "refrealtemplate":"any fruit",
+      "difficulty":15,
+      "description":"A golden-brown biscuit with added fruit."
+    }
+  }

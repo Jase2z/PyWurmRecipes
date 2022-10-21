@@ -1,0 +1,30 @@
+  {
+    "name":"undistilled brandy",
+    "recipeid":"1104",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "oneof":[
+        {
+          "list":[
+            {"id":"red wine","pstate":"none","ratio":0,"loss":0},
+            {"id":"white wine","pstate":"none","ratio":0,"loss":0},
+            {"id":"rice wine","pstate":"none","ratio":0,"loss":0}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"brandy",
+      "pstate":"undistilled",
+      "realtemplate":"none",
+      "difficulty":40,
+      "description":"A wine that needs to be distilled."
+    }
+  }

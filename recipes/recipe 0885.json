@@ -1,0 +1,28 @@
+  {
+    "name":"toad in the hole",
+    "recipeid":"885",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"batter"},
+        {"id":"any oil","ratio":10,"loss":100},
+        {"id":"sausage"}
+      ],
+      "optional":[
+        {"id":"gravy","ratio":100,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"toad in the hole",
+      "difficulty":30,
+      "description":"A traditional British dish consisting of sausages in Yorkshire pudding batter."
+    }
+  }

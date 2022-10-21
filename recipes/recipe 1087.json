@@ -1,0 +1,28 @@
+  {
+    "name":"plain crisps",
+    "recipeid":"1087",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":2}
+      ]
+    },
+    "result":{
+      "id":"crisps",
+      "name":"plain crisps",
+      "difficulty":20,
+      "description":"Thinly sliced potato covered in oil and baked."
+    }
+  }

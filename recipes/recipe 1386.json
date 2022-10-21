@@ -1,0 +1,40 @@
+  {
+    "name":"stew (fish fillet)",
+    "recipeid":"1386",
+    "skill":"hot food cooking",
+    "known":true,
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":2}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"fish fillet stew",
+      "difficulty":4,
+      "description":"A delicious fish and veg stew."
+    }
+  }

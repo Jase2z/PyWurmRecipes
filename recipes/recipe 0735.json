@@ -1,0 +1,27 @@
+  {
+    "name":"fried veg",
+    "recipeid":"735",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"any veg",
+      "cstate":"fried",
+      "difficulty":5,
+      "description":"Fried veg, ready to be eaten."
+    }
+  }

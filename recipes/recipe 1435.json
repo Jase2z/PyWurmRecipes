@@ -1,0 +1,23 @@
+  {
+    "name":"Cerber's triple hops",
+    "recipeid":"1435",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"wheat","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"Cerber's triple hops",
+      "realtemplate":"wheat",
+      "achievement":"beer",
+      "description":"A rich, very dark, robust brew with a fine hop balance."
+    }
+  }

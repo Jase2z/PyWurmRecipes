@@ -1,0 +1,29 @@
+  {
+    "name":"plain sponge cake",
+    "recipeid":"789",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"}
+      ],
+      "optional":[
+        {"id":"jam"},
+        {"id":"cream","pstate":"whipped","ratio":25,"loss":0},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"plain sponge cake",
+      "realtemplate":"cake mix",
+      "difficulty":15,
+      "description":"A cake made with love!"
+    }
+  }

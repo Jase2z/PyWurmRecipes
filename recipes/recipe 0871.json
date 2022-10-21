@@ -1,0 +1,51 @@
+  {
+    "name":"fish gulasch",
+    "recipeid":"871",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"any spice","pstate":"ground"},
+        {"id":"stock","ratio":100,"loss":25}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"corn","pstate":"chopped","difficulty":2},
+            {"id":"garlic","pstate":"chopped","difficulty":2},
+            {"id":"potato","pstate":"chopped","difficulty":2},
+            {"id":"pumpkin","pstate":"chopped","difficulty":2},
+            {"id":"cabbage","pstate":"chopped","difficulty":2},
+            {"id":"lettuce","pstate":"chopped","difficulty":2},
+            {"id":"pea","pstate":"chopped","difficulty":2},
+            {"id":"pea pod","pstate":"chopped","difficulty":2},
+            {"id":"tomato","pstate":"chopped","difficulty":2},
+            {"id":"cucumber","pstate":"chopped","difficulty":2}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"gulasch",
+      "name":"# gulasch",
+      "refrealtemplate":"fish fillet",
+      "difficulty":30,
+      "achievement":"any goulash",
+      "description":"A rich fish stew."
+    }
+  }

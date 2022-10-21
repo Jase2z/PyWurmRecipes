@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented orange gin",
+    "recipeid":"1114",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"orange","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"orange gin",
+      "pstate":"unfermented",
+      "realtemplate":"orange",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra oranges, ready to be distilled."
+    }
+  }

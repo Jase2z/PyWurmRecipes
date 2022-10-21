@@ -1,0 +1,23 @@
+  {
+    "name":"undistilled blueberry gin",
+    "recipeid":"1450",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"fermenting","realtemplate":"blueberry","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"blueberry gin",
+      "pstate":"undistilled",
+      "realtemplate":"blueberry",
+      "achievement":"gin",
+      "description":"Clear but coloured by blueberries, but not drinkable yet."
+    }
+  }

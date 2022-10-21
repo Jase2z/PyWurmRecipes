@@ -1,0 +1,46 @@
+  {
+    "name":"stir fry",
+    "recipeid":"846",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any oil","ratio":33,"loss":100}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"}
+          ]
+        }
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"any meat","pstate":"diced"},
+            {"id":"fish fillet","pstate":"chopped"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any mushroom","difficulty":5},
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stir fry",
+      "difficulty":40,
+      "description":"A melange of various ingredients, quickly fried to keep their freshness and texture."
+    }
+  }      

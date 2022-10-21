@@ -1,0 +1,31 @@
+  {
+    "name":"christmas cake",
+    "recipeid":"796",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"any fruit","cstate":"raw"},
+        {"id":"icing"}
+      ],
+      "optional":[
+        {"id":"any nut","cstate":"raw","difficulty":5},
+        {"id":"brandy","pstate":"none","ratio":25,"loss":0,"difficulty":10},
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"christmas cake",
+      "refrealtemplate":"any fruit",
+      "difficulty":70,
+      "description":"A cake made with chopped candied fruit and/or dried fruit, nuts, and spices, and (occasionally) soaked in spirits and with icing on top."
+    }
+  }

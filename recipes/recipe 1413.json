@@ -1,0 +1,20 @@
+  {
+    "name":"cider",
+    "recipeid":"1413",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cider","pstate":"fermenting","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"cider",
+      "pstate":"none",
+      "achievement":"cider"
+    }
+  }

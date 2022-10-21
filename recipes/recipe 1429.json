@@ -1,0 +1,30 @@
+  {
+    "name":"stout",
+    "recipeid":"1429",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"hops","ratio":0,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"wood scrap","material":"oakenwood"},
+            {"id":"wood scrap","material":"willow"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"stout",
+      "realtemplate":"basil",
+      "achievement":"beer",
+      "description":"Malt flavors work to create strong chocolate notes, but without overpowering the taste and aroma of the hops."
+    }
+  }

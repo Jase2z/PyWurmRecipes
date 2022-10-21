@@ -1,0 +1,40 @@
+  {
+    "name":"risotto",
+    "recipeid":"895",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"rice","cstate":"raw"},
+        {"id":"olive oil","ratio":25,"loss":100},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"stock","ratio":200,"loss":50}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"red wine","pstate":"none","ratio":10,"loss":0,"difficulty":5},
+            {"id":"white wine","pstate":"none","ratio":10,"loss":0,"difficulty":5},
+            {"id":"rice wine","pstate":"none","ratio":10,"loss":0,"difficulty":5}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any cheese","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"risotto",
+      "difficulty":50
+    }
+  }

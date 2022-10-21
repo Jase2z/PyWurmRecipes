@@ -1,0 +1,32 @@
+  {
+    "name":"mushy peas",
+    "recipeid":"741",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":50,"loss":100}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"pea"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"mint","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"mushy peas",
+      "difficulty":10
+    }
+  }

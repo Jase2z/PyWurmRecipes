@@ -1,0 +1,23 @@
+  {
+    "name":"passata",
+    "recipeid":"624",
+    "skill":"cooking",
+    "active":{"id":"fork"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"garlic"},
+        {"id":"tomato"},
+        {"id":"any herb"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"passata",
+      "difficulty":10
+    }
+  }

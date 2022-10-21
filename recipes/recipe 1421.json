@@ -1,0 +1,24 @@
+  {
+    "name":"gin",
+    "recipeid":"1421",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"undistilled","realtemplate":"none","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "pstate":"none",
+      "realtemplate":"none",
+      "achievement":"gin",
+      "description":"Crystal clear with a hint of botanicals and maternal ruin."
+    }
+  }

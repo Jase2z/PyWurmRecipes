@@ -1,0 +1,29 @@
+  {
+    "name":"scone mix",
+    "recipeid":"608",
+    "skill":"baking",
+    "active":{"id":"spoon"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"butter"},
+        {"id":"salt"},
+        {"id":"any milk","ratio":100,"loss":0}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"flour","material":"wheat"},
+            {"id":"flour","material":"barley"},
+            {"id":"flour","material":"oat"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"scone mix",
+      "difficulty":10
+    }
+  }

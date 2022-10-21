@@ -1,0 +1,14 @@
+  {
+    "name":"blueberry juice",
+    "recipeid":"562",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"blueberry","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"blueberry juice",
+      "realtemplate":"blueberry",
+      "difficulty":20
+    }
+  }

@@ -1,0 +1,35 @@
+  {
+    "name":"fish pie",
+    "recipeid":"945",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"potato","cstate":"raw","pstate":"mashed"},
+        {"id":"white sauce","realtemplate":"milk","ratio":50,"loss":0}
+      ],
+      "optional":[
+        {"id":"pastry","difficulty":5},
+        {"id":"cheese","difficulty":5},
+        {"id":"egg","cstate":"boiled","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"# pie",
+      "refrealtemplate":"fish fillet",
+      "difficulty":35,
+      "achievement":"fish pie",
+      "description":"A pie with chopped # and white sauce, with mashed potato on top."
+    }
+  }

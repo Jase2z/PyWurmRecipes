@@ -1,0 +1,14 @@
+  {
+    "name":"raw fries",
+    "recipeid":"519",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"butchering knife"},
+    "target":{"id":"potato","cstate":"raw","pstate":"none"},
+    "result":{
+      "id":"fries",
+      "cstate":"raw",
+      "difficulty":5,
+      "description":"Potatos thick cut julienne."
+    }
+  }    

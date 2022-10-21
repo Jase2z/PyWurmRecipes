@@ -1,0 +1,27 @@
+  {
+    "name":"Takeout",
+    "recipeid":"1464",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+		{"id":"meat","cstate":"fried","material":"canine"},
+        {"id":"ginger"},
+		{"id":"corn"},
+		{"id":"dough"},
+        {"id":"raspberries","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"stir fry",
+      "name":"Takeout",
+      "difficulty":25,
+      "description":"A quick and easy dish thats full of flavour. Beats eating at home."
+    }
+  }

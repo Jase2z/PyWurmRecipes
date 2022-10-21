@@ -1,0 +1,35 @@
+  {
+    "name":"oatmeal",
+    "recipeid":"1158",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"open helm"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"oat","amount":2}
+      ],
+      "optional":[
+        {"id":"any berry","cstate":"raw","difficulty":3},
+        {"id":"tomato ketchup","difficulty":1},
+        {"id":"any milk","ratio":100,"loss":10,"difficulty":1},
+        {"id":"sugar","difficulty":5},
+        {"id":"white sauce","realtemplate":"green apple","ratio":20,"loss":0,"difficulty":2}
+      ]
+    },
+    "result":{
+      "id":"porridge",
+      "name":"oatmeal",
+      "cstate":"cooked",
+      "material":"oat",
+      "difficulty":15,
+      "achievement":"scotsman",
+      "description":"A grain, which in England is generally given to horses, but in Scotland supports the people."
+    }
+  }

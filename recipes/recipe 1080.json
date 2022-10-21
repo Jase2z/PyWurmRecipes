@@ -1,0 +1,25 @@
+  {
+    "name":"clotted bison cream",
+    "recipeid":"1080",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cream","pstate":"none","realtemplate":"bison milk","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"cream",
+      "pstate":"clotted",
+      "name":"bison cream",
+      "realtemplate":"bison milk",
+      "difficulty":35,
+      "description":"A thick cream made by indirectly heating full-cream bison's milk using steam or a water bath and then leaving it in shallow pans to cool slowly."
+    }
+  }

@@ -1,0 +1,27 @@
+  {
+    "name":"roasted veg",
+    "recipeid":"734",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"any veg",
+      "cstate":"roasted",
+      "difficulty":5,
+      "description":"Roased veg, perfect!"
+    }
+  }

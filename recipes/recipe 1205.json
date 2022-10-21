@@ -1,0 +1,23 @@
+  {
+    "name":"fruit sorbet",
+    "recipeid":"1205",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"fruit juice","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"# sorbet",
+      "refrealtemplate":"fruit juice",
+      "difficulty":30,
+      "description":"A frozen dessert made from sweetened water with flavouring."
+    }
+  }

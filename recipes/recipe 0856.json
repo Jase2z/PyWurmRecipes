@@ -1,0 +1,33 @@
+  {
+    "name":"veg stew with dumplings",
+    "recipeid":"856",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"water","ratio":300,"loss":0},
+        {"id":"flour"},
+        {"id":"dough"}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"# stew with dumplings",
+      "refrealtemplate":"any veg",
+      "difficulty":25,
+      "description":"A vegetable stew with dumplings buried under the surface."
+    }
+  }

@@ -1,0 +1,27 @@
+  {
+    "name":"ham sandwich",
+    "recipeid":"662",
+    "skill":"baking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"slice of bread","cstate":"raw","amount":2},
+        {"id":"any meat","cstate":"roasted","material":"pork"}
+      ],
+      "optional":[
+        {"id":"butter","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sandwich",
+      "name":"ham sandwich",
+      "difficulty":20,
+      "description":"Sliced bread, containing ham."
+    }
+  }

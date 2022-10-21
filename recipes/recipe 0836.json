@@ -1,0 +1,35 @@
+  {
+    "name":"fish soup",
+    "recipeid":"836",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan","difficulty":5},
+      {"id":"pottery bowl","difficulty":5},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"water","ratio":300,"loss":10}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":2},
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"any spice","pstate":"ground","difficulty":2},
+        {"id":"croutons","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"# soup",
+      "refrealtemplate":"fish fillet",
+      "difficulty":25,
+      "description":"A fish soup, where many variations are possible."
+    }
+  }

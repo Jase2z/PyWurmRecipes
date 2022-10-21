@@ -1,0 +1,42 @@
+  {
+    "name":"stew (veg)",
+    "recipeid":"1380",
+    "skill":"hot food cooking",
+    "known":true,
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"},
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","difficulty":2}
+          ]
+        },
+        {
+          "list":[
+            {"id":"any berry","cstate":"raw","difficulty":3}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":5}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stew",
+      "name":"veg stew",
+      "difficulty":0,
+      "description":"A delicious veg and berry stew."
+    }
+  }

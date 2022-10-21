@@ -1,0 +1,41 @@
+  {
+    "name":"grilled fish and chips",
+    "recipeid":"922",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any fish","cstate":"grilled"},
+        {"id":"fries"}
+      ],
+      "zeroorone":[
+        {
+          "list":[
+            {"id":"vinegar","ratio":10,"loss":0},
+            {"id":"tomato ketchup"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"mushy peas","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"grilled # and chips",
+      "refrealtemplate":"any fish",
+      "difficulty":30,
+      "achievement":"fish and chips",
+      "description":"A dish consisting of grilled # and chips."
+    }
+  }

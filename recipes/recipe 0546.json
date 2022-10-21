@@ -1,0 +1,13 @@
+  {
+    "name":"sausage skin",
+    "recipeid":"546",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"knife"},
+    "target":{"id":"bladder","loss":20},
+    "result":{
+      "id":"sausage skin",
+      "difficulty":20,
+      "usetemplateweight":true
+    }
+  }

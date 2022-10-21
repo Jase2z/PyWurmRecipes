@@ -1,0 +1,23 @@
+  {
+    "name":"fish sashimi",
+    "recipeid":"631",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","cstate":"raw","pstate":"chopped"},
+        {"id":"pickle","realtemplate":"ginger"}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "name":"# sashimi",
+      "refrealtemplate":"fish fillet",
+      "difficulty":20,
+      "achievement":"sushi maker",
+      "description":"A thinly sliced, raw fish."
+    }
+  }

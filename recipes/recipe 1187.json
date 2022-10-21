@@ -1,0 +1,36 @@
+  {
+    "name":"veg curry",
+    "recipeid":"1187",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"any spice","pstate":"ground"},
+        {"id":"rice"},
+        {"id":"any oil","ratio":25,"loss":75}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"lemon","difficulty":5},
+        {"id":"cream","pstate":"none","ratio":25,"loss":0,"difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"# curry",
+      "refrealtemplate":"any veg",
+      "difficulty":30,
+      "achievement":"any curry",
+      "description":"A spicy # curry."
+    }
+  }

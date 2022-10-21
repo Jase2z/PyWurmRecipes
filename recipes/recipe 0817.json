@@ -1,0 +1,28 @@
+  {
+    "name":"fruit scone",
+    "recipeid":"817",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"scone mix"},
+        {"id":"any fruit","cstate":"raw"}
+      ],
+      "optional":[
+        {"id":"cream","pstate":"whipped","ratio":25,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"scone",
+      "name":"# scone",
+      "refrealtemplate":"any fruit",
+      "difficulty":20,
+      "description":"Scones studded with fruit and finished with whipped cream."
+    }
+  }

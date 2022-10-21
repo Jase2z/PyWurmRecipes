@@ -1,0 +1,31 @@
+  {
+    "name":"bacon stuffed mushroom",
+    "recipeid":"1035",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"mushroom"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"bacon"}
+      ],
+      "optional":[
+        {"id":"any cheese","difficulty":1},
+        {"id":"garlic","pstate":"chopped","difficulty":2},
+        {"id":"any herb","pstate":"chopped","difficulty":3},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"stuffed mushroom",
+      "name":"bacon stuffed #",
+      "refrealtemplate":"mushroom",
+      "difficulty":40,
+      "description":"A # stuffed with bacon."
+    }
+  }

@@ -1,0 +1,27 @@
+  {
+    "name":"bread",
+    "recipeid":"764",
+    "known":true,
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"}
+      ]
+    },
+    "result":{
+      "id":"bread",
+      "realtemplate":"dough",
+      "refmaterial":"dough",
+      "difficulty":15,
+      "achievement":"bread maker",
+      "description":"A round loaf of crunchy bread, baked to perfection."
+    }
+  }

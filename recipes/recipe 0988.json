@@ -1,0 +1,36 @@
+  {
+    "name":"meatballs",
+    "recipeid":"988",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"minced","cstate":"raw"},
+        {"id":"any herb","pstate":"chopped"},
+        {"id":"any oil","ratio":25,"loss":75}
+      ],
+      "optional":[
+        {"id":"any spice","pstate":"ground","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meatballs",
+      "name":"meatballs",
+      "cstate":"cooked",
+      "refrealtemplate":"any herb",
+      "refmaterial":"any meat",
+      "difficulty":30,
+      "description":"Balls of minced meat with herbs, fried in oil."
+    }
+  }

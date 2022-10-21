@@ -1,0 +1,28 @@
+  {
+    "name":"tomato sauce crisps",
+    "recipeid":"1096",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","pstate":"chopped"},
+        {"id":"tomato ketchup"},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"crisps",
+      "name":"tomato sauce crisps",
+      "difficulty":55,
+      "description":"Thinly sliced potato covered in oil and baked, flavoured with tomato ketchup."
+    }
+  }

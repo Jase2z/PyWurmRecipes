@@ -1,0 +1,30 @@
+  {
+    "name":"Jackal onion soup",
+    "recipeid":"1260",
+    "lootable":{"creature":"rift ogre","rarity":"common"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"forge"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"stock","ratio":50,"loss":10},
+        {"id":"slice of bread"},
+        {"id":"cheese"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"butter"}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"Jackal onion soup",
+      "difficulty":20,
+      "description":"Just like Mama used to make, with the crunchy bread and melted cheese...ooh la la!"
+    }
+  }

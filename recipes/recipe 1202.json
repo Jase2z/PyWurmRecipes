@@ -1,0 +1,21 @@
+  {
+    "name":"fermenting hops beer",
+    "recipeid":"1202",
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"wort","realtemplate":"hops","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "name":"hops beer",
+      "pstate":"fermenting",
+      "realtemplate":"hops",
+      "difficulty":10
+    }
+  }

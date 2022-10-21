@@ -1,0 +1,13 @@
+  {
+    "name":"walnut oil",
+    "recipeid":"555",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"walnut","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"walnut",
+      "difficulty":20
+    }
+  }

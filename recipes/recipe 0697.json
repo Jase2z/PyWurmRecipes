@@ -1,0 +1,20 @@
+  {
+    "name":"fermenting red wine",
+    "recipeid":"697",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"red wine","pstate":"unfermented","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"red wine",
+      "pstate":"fermenting",
+      "difficulty":30
+    }
+  }

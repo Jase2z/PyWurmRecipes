@@ -1,0 +1,42 @@
+  {
+    "name":"wurm mince pie",
+    "recipeid":"1270",
+    "lootable":{"creature":"human","rarity":"common"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"sugar"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"any meat","pstate":"minced"},
+        {"id":"green apple","cstate":"raw"},
+        {"id":"orange"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"blue grapes","cstate":"raw"},
+            {"id":"green grapes","cstate":"raw"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"nutmeg","pstate":"ground"},
+        {"id":"salt"}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"wurm mince pie",
+      "difficulty":30,
+      "description":"Just like Mama used to make, with a mixture of fruits and seasonings."
+    }
+  }

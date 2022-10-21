@@ -1,0 +1,29 @@
+  {
+    "name":"berry tart",
+    "recipeid":"963",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any berry","cstate":"raw"},
+        {"id":"pastry"}
+      ],
+      "optional":[
+        {"id":"sugar","difficulty":5},
+        {"id":"any spice","pstate":"ground","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"tart",
+      "name":"# tart",
+      "refrealtemplate":"any berry",
+      "difficulty":40,
+      "description":"A tart with # in it, and a hatched pattern on top."
+    }
+  }

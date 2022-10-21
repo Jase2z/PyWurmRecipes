@@ -1,0 +1,27 @@
+  {
+    "name":"Belrindor's maple bacon pancakes",
+    "recipeid":"1457",
+	"known":true,
+    "trigger":"heat",
+    "skill":"hot food cooking",
+	"cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"bacon"},
+		{"id":"maple syrup","ratio":25,"loss":0},
+		{"id":"flour"},
+		{"id":"egg","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"omelette",
+      "name":"Belrindor's maple bacon pancakes",
+      "difficulty":"25",
+      "description":"A light fluffy pancake that's sweet and salty."
+    }
+  }

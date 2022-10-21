@@ -1,0 +1,15 @@
+  {
+    "name":"butter (cow)",
+    "recipeid":"578",
+    "known":true,
+    "skill":"dairy food making",
+    "active":{"id":"fork"},
+    "target":{"id":"milk","ratio":0,"loss":75},
+    "result":{
+      "id":"butter",
+      "realtemplate":"milk",
+      "difficulty":25,
+      "usetemplateweight":true,
+      "description":"A solid yellowish fatty food obtained from milk by churning."
+    }
+  }

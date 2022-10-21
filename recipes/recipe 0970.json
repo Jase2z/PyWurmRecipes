@@ -1,0 +1,34 @@
+  {
+    "name":"lutefisk",
+    "recipeid":"970",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"frying pan"},
+	  {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet","pstate":"chopped"},
+        {"id":"lye","ratio":0,"loss":100}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"lutefisk",
+      "refrealtemplate":"fish fillet",
+      "difficulty":50,
+      "achievement":"lutefisk",
+      "icon":"fish",
+      "description":"A dried # treated with lye."
+    }
+  }

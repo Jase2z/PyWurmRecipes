@@ -1,0 +1,29 @@
+  {
+    "name":"ginger cookie",
+    "recipeid":"1139",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"maple syrup","ratio":50,"loss":0},
+        {"id":"ginger","pstate":"ground"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "name":"ginger cookie",
+      "realtemplate":"ginger",
+      "difficulty":35,
+      "achievement":"cookies",
+      "description":"A soft cookie tasting of ginger."
+    }
+  }

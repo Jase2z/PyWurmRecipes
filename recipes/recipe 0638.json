@@ -1,0 +1,26 @@
+  {
+    "name":"veg maki",
+    "recipeid":"638",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cooked rice"},
+        {"id":"nori"},
+        {"id":"any veg","cstate":"raw","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"pickle","realtemplate":"ginger","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "name":"# maki",
+      "refrealtemplate":"any veg",
+      "difficulty":30,
+      "description":"Rolls of rice containing vegetables, held together with dried seaweed."
+    }
+  }

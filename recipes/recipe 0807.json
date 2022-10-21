@@ -1,0 +1,25 @@
+  {
+    "name":"iced biscuits",
+    "recipeid":"807",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit mix"},
+        {"id":"icing"}
+      ]
+    },
+    "result":{
+      "id":"biscuit",
+      "name":"iced biscuits",
+      "realtemplate":"icing",
+      "difficulty":25,
+      "description":"A golden biscuit with sugar icing on top.  No cherry, alas."
+    }
+  }

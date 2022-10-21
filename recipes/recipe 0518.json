@@ -1,0 +1,12 @@
+  {
+    "name":"bacon",
+    "recipeid":"518",
+    "skill":"cooking",
+    "active":{"id":"salt"},
+    "target":{"id":"meat fillet","cstate":"raw","material":"pork"},
+    "result":{
+      "id":"bacon",
+      "cstate":"raw",
+      "difficulty":5
+    }
+  }    

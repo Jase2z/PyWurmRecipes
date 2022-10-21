@@ -1,0 +1,27 @@
+  {
+    "name":"goblin liver and onion",
+    "recipeid":"1251",
+    "lootable":{"creature":"troll","rarity":"rare"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gland"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"salt"},
+        {"id":"cooking oil","ratio":25,"loss":75}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"goblin liver and onion",
+      "difficulty":25,
+      "description":"A greasy mix only a troll could love.  Bet the goblin is feeling salty now!"
+    }
+  }

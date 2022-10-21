@@ -1,0 +1,23 @@
+  {
+    "name":"meat sashimi",
+    "recipeid":"630",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"plate"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat","cstate":"raw","pstate":"diced"},
+        {"id":"pickle","realtemplate":"ginger"}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "name":"$ sashimi",
+      "refmaterial":"meat",
+      "difficulty":20,
+      "achievement":"sushi maker",
+      "description":"A thinly sliced, raw meat."
+    }
+  }

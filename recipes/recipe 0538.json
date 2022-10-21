@@ -1,0 +1,11 @@
+  {
+    "name":"chocolate nut spread",
+    "recipeid":"538",
+    "skill":"cooking",
+    "active":{"id":"chocolate"},
+    "target":{"id":"hazelnuts"},
+    "result":{
+      "id":"chocolate nut spread",
+      "difficulty":30
+    }
+  }    

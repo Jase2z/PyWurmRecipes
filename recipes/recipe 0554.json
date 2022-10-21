@@ -1,0 +1,13 @@
+  {
+    "name":"fennel oil",
+    "recipeid":"554",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"fennel","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"fennel",
+      "difficulty":40
+    }
+  }

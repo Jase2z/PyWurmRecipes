@@ -1,0 +1,23 @@
+  {
+    "name":"Nicrolis' gingerbeer",
+    "recipeid":"1434",
+    "trigger":"time",
+    "skill":"beverages",
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"beer","pstate":"fermenting","realtemplate":"ginger","ratio":0,"loss":0},
+        {"id":"wood scrap"}
+      ]
+    },
+    "result":{
+      "id":"beer",
+      "pstate":"none",
+      "name":"Nicrolis' gingerbeer",
+      "realtemplate":"ginger",
+      "achievement":"beer",
+      "description":"Spicy and warming, with just enough fizz to tickle your nose."
+    }
+  }

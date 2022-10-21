@@ -1,0 +1,38 @@
+  {
+    "name":"unfermented lingonberry gin",
+    "recipeid":"1074",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":200,"loss":0},
+        {"id":"lingonberry","cstate":"raw"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"wheat"}
+          ]
+        },
+        {
+          "list":[
+            {"id":"sugar"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"lingonberry gin",
+      "pstate":"unfermented",
+      "realtemplate":"lingonberry",
+      "difficulty":35,
+      "description":"A mulsh of wheat with sugar and extra lingonberry, ready to be distilled."
+    }
+  }

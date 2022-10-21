@@ -1,0 +1,23 @@
+  {
+    "name":"saucy vanilla ice cream",
+    "recipeid":"1229",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"snowball"},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0},
+        {"id":"fudge sauce","ratio":100,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"ice cream",
+      "name":"saucy vanilla ice cream",
+      "difficulty":20,
+      "description":"Plain ice cream with a fudge sauce on it."
+    }
+  }

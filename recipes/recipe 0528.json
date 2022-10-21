@@ -1,0 +1,13 @@
+  {
+    "name":"raw lamb spit",
+    "recipeid":"528",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"branch"},
+    "target":{"id":"corpse","creature":"lamb"},
+    "result":{
+      "id":"lamb spit",
+      "cstate":"raw",
+      "difficulty":2
+    }
+  }    

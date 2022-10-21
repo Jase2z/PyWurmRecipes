@@ -1,0 +1,28 @@
+  {
+    "name":"chocolate coated rose petals",
+    "recipeid":"1049",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":7}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"rose flower"},
+        {"id":"chocolate"}
+      ]
+    },
+    "result":{
+      "id":"sweet",
+      "name":"rose petals",
+      "cstate":"chocolate coated",
+      "realtemplate":"chocolate",
+      "difficulty":30,
+      "icon":"rose flower",
+      "description":"Rose petals coated with chocolate."
+    }
+  }

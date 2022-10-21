@@ -1,0 +1,37 @@
+  {
+    "name":"kalakukko",
+    "recipeid":"931",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry","material":"rye"},
+        {"id":"bacon"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"roach"},
+            {"id":"perch"}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasty",
+      "name":"kalakukko",
+      "difficulty":50,
+      "description":"A traditional food from the Finnish region of Savonia made from fish baked in rye pastry."
+    }
+  }

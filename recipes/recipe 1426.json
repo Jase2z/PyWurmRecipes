@@ -1,0 +1,23 @@
+  {
+    "name":"moonshine",
+    "recipeid":"1426",
+    "trigger":"time",
+    "skill":"beverages",
+    "cookers":[
+      {"id":"still"}
+    ],
+    "containers":[
+      {"id":"boiler"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"moonshine","pstate":"undistilled","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"moonshine",
+      "pstate":"none",
+      "achievement":"moonshine",
+      "description":"If you can still see after drinking this, you didn't drink enough."
+    }
+  }

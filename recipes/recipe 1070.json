@@ -1,0 +1,26 @@
+  {
+    "name":"fairy cakes",
+    "recipeid":"1070",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"any flower"},
+        {"id":"icing"}
+      ]
+    },
+    "result":{
+      "id":"muffin",
+      "name":"fairy cakes",
+      "refrealtemplate":"any flower",
+      "difficulty":35,
+      "description":"Tiny cakes, fit for fairy princesses."
+    }
+  }

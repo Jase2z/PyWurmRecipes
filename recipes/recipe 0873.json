@@ -1,0 +1,61 @@
+  {
+    "name":"meat gulasch with wine",
+    "recipeid":"873",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","pstate":"diced"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"any spice","pstate":"ground"},
+        {"id":"fat"},
+        {"id":"flour"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"corn","pstate":"chopped","difficulty":2},
+            {"id":"garlic","pstate":"chopped","difficulty":2},
+            {"id":"potato","pstate":"chopped","difficulty":2},
+            {"id":"pumpkin","pstate":"chopped","difficulty":2},
+            {"id":"cabbage","pstate":"chopped","difficulty":2},
+            {"id":"lettuce","pstate":"chopped","difficulty":2},
+            {"id":"pea","pstate":"chopped","difficulty":2},
+            {"id":"pea pod","pstate":"chopped","difficulty":2},
+            {"id":"tomato","pstate":"chopped","difficulty":2},
+            {"id":"cucumber","pstate":"chopped","difficulty":2}
+          ]
+        }
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"red wine","pstate":"none","ratio":10,"loss":0},
+            {"id":"white wine","pstate":"none","ratio":10,"loss":0},
+            {"id":"rice wine","pstate":"none","ratio":10,"loss":0}
+          ]
+        }
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"gulasch",
+      "name":"$ gulasch with wine",
+      "refmaterial":"any meat",
+      "difficulty":35,
+      "achievement":"any goulash",
+      "description":"A rich meat stew, with wine added for extra depth."
+    }
+  }

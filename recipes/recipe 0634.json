@@ -1,0 +1,26 @@
+  {
+    "name":"tekka maki",
+    "recipeid":"634",
+    "skill":"cooking",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cooked rice"},
+        {"id":"nori"},
+        {"id":"fish fillet","realtemplate":"tuna","cstate":"raw","pstate":"chopped"}
+      ],
+      "optional":[
+        {"id":"pickle","realtemplate":"ginger","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"sushi",
+      "name":"tekka maki",
+      "difficulty":30,
+      "achievement":"sushi maker",
+      "description":"Tuna rolled up with rice and dried seaweed."
+    }
+  }

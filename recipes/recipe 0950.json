@@ -1,0 +1,29 @@
+  {
+    "name":"raspberry pi",
+    "recipeid":"950",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"raspberries","cstate":"raw"},
+        {"id":"pastry"}
+      ],
+      "optional":[
+        {"id":"sugar","difficulty":5},
+        {"id":"custard","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"raspberry pi",
+      "difficulty":50,
+      "achievement":"raspberry pi",
+      "description":"A series of credit card-sized single-board computers...no, wait, its just a pie with raspberries in it."
+    }
+  }

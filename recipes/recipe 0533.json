@@ -1,0 +1,12 @@
+  {
+    "name":"coconut",
+    "recipeid":"533",
+    "skill":"cooking",
+    "active":{"id":"cocoa"},
+    "target":{"id":"hazelnuts","cstate":"raw"},
+    "result":{
+      "id":"coconut",
+      "cstate":"raw",
+      "difficulty":60
+    }
+  }    

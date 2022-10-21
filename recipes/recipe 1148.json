@@ -1,0 +1,34 @@
+  {
+    "name":"undistilled raspberry brandy",
+    "recipeid":"1148",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"raspberries","cstate":"raw"}
+      ],
+      "oneof":[
+        {
+          "list":[
+            {"id":"red wine","pstate":"none","ratio":0,"loss":0},
+            {"id":"white wine","pstate":"none","ratio":0,"loss":0},
+            {"id":"rice wine","pstate":"none","ratio":0,"loss":0}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"brandy",
+      "name":"raspberry brandy",
+      "pstate":"undistilled",
+      "realtemplate":"raspberries",
+      "difficulty":45,
+      "description":"A wine with added raspberries, that needs to be distilled."
+    }
+  }

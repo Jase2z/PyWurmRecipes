@@ -1,0 +1,14 @@
+  {
+    "name":"green grape juice",
+    "recipeid":"549",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"green grapes","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"green grape juice",
+      "realtemplate":"green grapes",
+      "difficulty":10
+    }
+  }

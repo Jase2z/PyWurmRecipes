@@ -1,0 +1,28 @@
+  {
+    "name":"roasted meat",
+    "recipeid":"722",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","pstate":"none"}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meat",
+      "cstate":"roasted",
+      "refmaterial":"any meat",
+      "difficulty":5,
+      "description":"Roasted meat from an animal."
+    }
+  }

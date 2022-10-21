@@ -1,0 +1,32 @@
+  {
+    "name":"meat ravioli",
+    "recipeid":"1004",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pasta","cstate":"raw"},
+        {"id":"any meat","pstate":"minced"},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"$ ravioli",
+      "refmaterial":"any meat",
+      "difficulty":50,
+      "achievement":"any pasta",
+      "description":"Parcels of meat-filled pasta, boiled in water until cooked."
+    }
+  }

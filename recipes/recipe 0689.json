@@ -1,0 +1,26 @@
+  {
+    "name":"plain cheesecake",
+    "recipeid":"689",
+    "skill":"cooking",
+    "trigger":"create",
+    "active":{"id":"hand"},
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"biscuit","realtemplate":"biscuit mix"},
+        {"id":"any cheese"},
+        {"id":"gelatine","ratio":50,"loss":0}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cheesecake",
+      "name":"plain cheesecake",
+      "difficulty":20,
+      "description":"A standard plain cheesecake, with no baking required."
+    }
+  }

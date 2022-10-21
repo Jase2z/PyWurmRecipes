@@ -1,0 +1,32 @@
+  {
+    "name":"veg ravioli",
+    "recipeid":"1005",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pasta","cstate":"raw"},
+        {"id":"any veg","pstate":"chopped"},
+        {"id":"water","ratio":100,"loss":90}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"# ravioli",
+      "refrealtemplate":"any veg",
+      "difficulty":50,
+      "achievement":"any pasta",
+      "description":"Parcels of finely-chopped # in pasta parcels, boiled in water until cooked."
+    }
+  }

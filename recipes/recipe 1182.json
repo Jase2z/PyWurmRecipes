@@ -1,0 +1,50 @@
+  {
+    "name":"red veg curry",
+    "recipeid":"1182",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5}
+    ],
+    "containers":[
+      {"id":"sauce pan"},
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"onion","pstate":"chopped"},
+        {"id":"coconut"},
+        {"id":"any oil","ratio":25,"loss":75},
+        {"id":"red mushroom"},
+        {"id":"garlic","pstate":"chopped"},
+        {"id":"ginger","pstate":"ground"},
+        {"id":"cumin","pstate":"ground"},
+        {"id":"turmeric","pstate":"ground"},
+        {"id":"rice"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"corn","pstate":"chopped","difficulty":5},
+            {"id":"potato","pstate":"chopped","difficulty":5},
+            {"id":"pumpkin","pstate":"chopped","difficulty":5},
+            {"id":"cabbage","pstate":"chopped","difficulty":5},
+            {"id":"carrot","pstate":"chopped","difficulty":5},
+            {"id":"lettuce","pstate":"chopped","difficulty":5},
+            {"id":"pea","pstate":"chopped","difficulty":5},
+            {"id":"pea pod","pstate":"chopped","difficulty":5},
+            {"id":"tomato","pstate":"chopped","difficulty":5},
+            {"id":"cucumber","pstate":"chopped","difficulty":5}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"curry",
+      "name":"red veg curry",
+      "difficulty":45,
+      "achievement":"any curry",
+      "description":"A fragrant vegetable curry, with the heat tempered by coconut milk."
+    }
+  }

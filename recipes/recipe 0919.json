@@ -1,0 +1,31 @@
+  {
+    "name":"Lisabet's corned beef and cabbage",
+    "recipeid":"919",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"roasting dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat","cstate":"raw","pstate":"minced","material":"beef"},
+        {"id":"potato"},
+        {"id":"carrot","pstate":"chopped"},
+        {"id":"cabbage","pstate":"chopped"},
+        {"id":"salt"}
+      ],
+      "optional":[
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"corned beef and cabbage",
+      "difficulty":40,
+      "description":"A meal made primarily with cabbage and beef."
+    }
+  }

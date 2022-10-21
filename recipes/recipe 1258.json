@@ -1,0 +1,30 @@
+  {
+    "name":"horseburger and chips",
+    "recipeid":"1258",
+    "lootable":{"creature":"goblin","rarity":"fantastic"},
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"campfire"},
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"frying pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"meat","cstate":"raw","material":"horse"},
+        {"id":"fries","cstate":"raw"},
+        {"id":"fat"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"bread"},
+        {"id":"tomato ketchup"}
+      ]
+    },
+    "result":{
+      "id":"meal",
+      "name":"horseburger and chips",
+      "difficulty":40,
+      "description":"Ever wondered why horses hate goblins?  It's neigh joke!"
+    }
+  }

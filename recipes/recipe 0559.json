@@ -1,0 +1,14 @@
+  {
+    "name":"strawberry juice",
+    "recipeid":"559",
+    "known":true,
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"strawberries","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"strawberry juice",
+      "realtemplate":"strawberries",
+      "difficulty":20
+    }
+  }

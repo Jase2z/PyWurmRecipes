@@ -1,0 +1,29 @@
+  {
+    "name":"nutty cookie",
+    "recipeid":"1141",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"flour"},
+        {"id":"butter"},
+        {"id":"egg","cstate":"raw"},
+        {"id":"sugar"},
+        {"id":"any nut","cstate":"raw"}
+      ]
+    },
+    "result":{
+      "id":"cookie",
+      "difficulty":45,
+      "name":"nutty cookie",
+      "refrealtemplate":"any nut",
+      "achievement":"cookies",
+      "description":"A cookie tasting of #."
+    }
+  }

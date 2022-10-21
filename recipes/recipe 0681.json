@@ -1,0 +1,23 @@
+  {
+    "name":"buttercream icing",
+    "recipeid":"681",
+    "skill":"baking",
+    "active":{"id":"fork"},
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"sugar"},
+        {"id":"butter"},
+        {"id":"any milk","ratio":33,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"icing",
+      "name":"buttercream icing",
+      "realtemplate":"cream",
+      "difficulty":20,
+      "description":"A type of icing or filling used inside cakes, as a coating, and as decoration."
+    }
+  }

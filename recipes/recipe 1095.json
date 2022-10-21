@@ -1,0 +1,29 @@
+  {
+    "name":"lamb and mint crisps",
+    "recipeid":"1095",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"potato","pstate":"chopped"},
+        {"id":"meat","pstate":"minced","material":"lamb"},
+        {"id":"mint","pstate":"chopped"},
+        {"id":"cooking oil","ratio":25,"loss":80}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"crisps",
+      "name":"lamb and mint crisps",
+      "difficulty":55,
+      "description":"Thinly sliced potato covered in oil and baked, flavoured with lamb and mint."
+    }
+  }

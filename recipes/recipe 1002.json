@@ -1,0 +1,33 @@
+  {
+    "name":"lasagne",
+    "recipeid":"1002",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pasta","cstate":"raw","realtemplate":"egg"},
+        {"id":"any meat","pstate":"minced"},
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"any cheese"},
+        {"id":"white sauce","realtemplate":"milk","ratio":25,"loss":10}
+      ],
+      "optional":[
+        {"id":"bacon","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pasta",
+      "cstate":"cooked",
+      "name":"lasagne",
+      "difficulty":40,
+      "achievement":"any pasta",
+      "description":"Sheets of pasta interspersed with meat and white sauce, topped with cheese, and baked in an oven."
+    }
+  }

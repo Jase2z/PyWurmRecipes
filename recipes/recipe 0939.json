@@ -1,0 +1,32 @@
+  {
+    "name":"steak and ale pie",
+    "recipeid":"939",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"pastry"},
+        {"id":"any meat","pstate":"diced","material":"beef"},
+        {"id":"beer","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"any veg","pstate":"chopped","difficulty":5},
+        {"id":"salt","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"steak and ale pie",
+      "difficulty":25,
+      "achievement":"steak and ale pie",
+      "description":"A pie that has beef and beer inside, and maybe a veg."
+    }
+  }

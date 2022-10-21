@@ -1,0 +1,27 @@
+  {
+    "name":"spearmint tea",
+    "recipeid":"1117",
+    "skill":"beverages",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"cauldron"},
+      {"id":"pottery bowl","difficulty":1}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"water","ratio":800,"loss":0},
+        {"id":"mint","pstate":"chopped"}
+      ]
+    },
+    "result":{
+      "id":"tea",
+      "name":"spearmint tea",
+      "realtemplate":"mint",
+      "difficulty":25,
+      "description":"A herbal tea made from an infusion of mint."
+    }
+  }

@@ -1,0 +1,25 @@
+  {
+    "name":"clotted sheep cream",
+    "recipeid":"1079",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"sauce pan"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cream","pstate":"none","realtemplate":"sheep milk","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"cream",
+      "pstate":"clotted",
+      "name":"sheep cream",
+      "realtemplate":"sheep milk",
+      "difficulty":30,
+      "description":"A thick cream made by indirectly heating full-cream sheep's milk using steam or a water bath and then leaving it in shallow pans to cool slowly."
+    }
+  }

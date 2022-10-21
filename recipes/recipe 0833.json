@@ -1,0 +1,35 @@
+  {
+    "name":"cream of tomato soup",
+    "recipeid":"833",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven","difficulty":5},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"sauce pan","difficulty":5},
+      {"id":"pottery bowl","difficulty":5},
+      {"id":"cauldron"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"tomato","pstate":"chopped"},
+        {"id":"water","ratio":200,"loss":10},
+        {"id":"cream","pstate":"none","ratio":100,"loss":0}
+      ],
+      "optional":[
+        {"id":"any herb","pstate":"chopped","difficulty":2},
+        {"id":"any spice","pstate":"ground","difficulty":2},
+        {"id":"croutons","difficulty":5},
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"soup",
+      "name":"cream of tomato soup",
+      "realtemplate":"tomato",
+      "difficulty":30,
+      "description":"A rich, creamy soup of pureed tomato."
+    }
+  }

@@ -1,0 +1,13 @@
+  {
+    "name":"pineapple juice",
+    "recipeid":"542",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"pineapple","cstate":"raw","loss":10},
+    "result":{
+      "id":"fruit juice",
+      "name":"pineapple juice",
+      "realtemplate":"pineapple",
+      "difficulty":25
+    }
+  }

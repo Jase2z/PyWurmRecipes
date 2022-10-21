@@ -1,0 +1,32 @@
+  {
+    "name":"Retrograde pie",
+    "recipeid":"1018",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"forge"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"any meat","cstate":"raw","material":"snake"},
+        {"id":"salt"},
+        {"id":"onion","pstate":"chopped"},
+        {"id":"gravy","ratio":50,"loss":0}
+      ],
+      "optional":[
+        {"id":"garlic","pstate":"chopped","difficulty":5},
+        {"id":"tomato ketchup","difficulty":5},
+        {"id":"white sauce","realtemplate":"egg","ratio":20,"loss":0,"difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"Retrograde pie",
+      "difficulty":75,
+      "description":"The kind of pie you'd write about once a week."
+    }
+  }

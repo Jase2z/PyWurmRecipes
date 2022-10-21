@@ -1,0 +1,29 @@
+  {
+    "name":"custard pie",
+    "recipeid":"957",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"pie dish"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"custard","ratio":100,"loss":10},
+        {"id":"pastry"}
+      ],
+      "optional":[
+        {"id":"nutmeg","pstate":"ground","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"pie",
+      "name":"custard pie",
+      "realtemplate":"custard",
+      "difficulty":35,
+      "achievement":"custard pie",
+      "description":"A pie with custard in it, normally sweetened, possibly spiced too."
+    }
+  }

@@ -1,0 +1,45 @@
+  {
+    "name":"casserole (fish fillet)",
+    "recipeid":"1370",
+    "known":true,
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire","difficulty":5},
+      {"id":"forge","difficulty":10}
+    ],
+    "containers":[
+      {"id":"pottery bowl"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"fish fillet"}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any fruit","cstate":"raw","difficulty":5},
+            {"id":"any cereal","difficulty":5},
+            {"id":"any veg","difficulty":5},
+            {"id":"any berry","cstate":"raw","difficulty":5},
+            {"id":"any nut","cstate":"raw","difficulty":5},
+            {"id":"any mushroom","difficulty":5}
+          ]
+        }
+      ],
+      "any":[
+        {"id":"any herb","difficulty":5}
+      ],
+      "optional":[
+        {"id":"salt","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"casserole",
+      "name":"# casserole",
+      "refrealtemplate":"fish fillet",
+      "difficulty":9,
+      "description":"A tasty # casserole."
+    }
+  }

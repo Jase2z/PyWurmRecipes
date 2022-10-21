@@ -363,7 +363,7 @@ class Recipes(object):
     def get(self) -> list[Recipe]:
         return self.recipes
 
-recipes : Recipes = Recipes(Path(r'C:\Users\Jason\Documents\WO\recipes'))
+recipes : Recipes = Recipes(Path(r'.\recipes'))
 
 
 class RecipeBook:
@@ -418,16 +418,31 @@ class RecipeBook:
                 for i in rec.optional:
                     t.insert(io_id, "end", text=f"{str(i).rstrip(', ')}")
 
-            # TODO  oneof, zeroormore, oneormore are lists of list and need different handeling.
+            # TODO  oneof, zeroorone, oneormore are lists of list and need different handeling.
             if rec.oneof != EMPTY_ONEOF:
                 ioo_id = f"{rec.recipeid}_oneof"
                 t.insert(rec.recipeid, "end", ioo_id, text="One of")
                 for i, v1 in enumerate(rec.oneof):
                     ioog_id = f"{rec.recipeid}_oneof_{i}"
                     t.insert(ioo_id, "end", ioog_id, text=f"One of group")
-                    for v2 in v1:
+                    for v2 in v1[0]:
                         t.insert(ioog_id, "end", text=f"{str(v2).rstrip(', ')}")
-
+            if rec.zeroorone != EMPTY_ZEROORONE:
+                izo_id = f"{rec.recipeid}_zeroorone"
+                t.insert(rec.recipeid, "end", izo_id, text="Zero or one")
+                for i, v1 in enumerate(rec.zeroorone):
+                    izog_id = f"{rec.recipeid}_zeroorone_{i}"
+                    t.insert(izo_id, "end", izog_id, text=f"Zero or one group")
+                    for v2 in v1[0]:
+                        t.insert(izog_id, "end", text=f"{str(v2).rstrip(', ')}")
+            if rec.oneormore != EMPTY_ONEORMORE:
+                iom_id = f"{rec.recipeid}_oneormore"
+                t.insert(rec.recipeid, "end", iom_id, text="One or more")
+                for i, v1 in enumerate(rec.oneormore):
+                    iorg_id = f"{rec.recipeid}_oneormore_{i}"
+                    t.insert(iom_id, "end", iorg_id, text=f"One or more group")
+                    for v2 in v1[0]:
+                        t.insert(iorg_id, "end", text=f"{str(v2).rstrip(', ')}")
             if rec.anyIngredient != EMPTY_ANYINGREDIENT:
                 ia_id = "{}_any".format(rec.recipeid)
                 t.insert(rec.recipeid, "end", ia_id, text="Any")

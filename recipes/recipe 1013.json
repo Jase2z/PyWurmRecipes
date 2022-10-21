@@ -1,0 +1,44 @@
+  {
+    "name":"full house pizza",
+    "recipeid":"1013",
+    "skill":"hot food cooking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"},
+      {"id":"campfire"}
+    ],
+    "containers":[
+      {"id":"baking stone"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"dough"},
+        {"id":"passata","ratio":20,"loss":0}
+      ],
+      "oneormore":[
+        {
+          "list":[
+            {"id":"any veg","pstate":"chopped"},
+            {"id":"any herb","pstate":"chopped"},
+            {"id":"any cheese"},
+            {"id":"any nut","cstate":"raw"},
+            {"id":"any meat"},
+            {"id":"any fish"},
+            {"id":"any spice","pstate":"ground"},
+            {"id":"bacon"},
+            {"id":"sausage"},
+            {"id":"fries"},
+            {"id":"pesto","ratio":100,"loss":0},
+            {"id":"haggis"}
+          ]
+        }
+      ]
+    },
+    "result":{
+      "id":"pizza",
+      "name":"full house pizza",
+      "difficulty":40,
+      "achievement":"full house pizza",
+      "description":"When you can't decide what you want on your pizza, and just throw everything on?  This is that pizza."
+    }
+  }

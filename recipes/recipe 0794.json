@@ -1,0 +1,33 @@
+  {
+    "name":"black forest gateau",
+    "recipeid":"794",
+    "skill":"baking",
+    "trigger":"heat",
+    "cookers":[
+      {"id":"oven"}
+    ],
+    "containers":[
+      {"id":"cake tin"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"cake mix"},
+        {"id":"cherries"},
+        {"id":"cocoa"},
+        {"id":"chocolate"},
+        {"id":"moonshine","pstate":"none","ratio":10,"loss":50},
+        {"id":"cream","pstate":"whipped","ratio":25,"loss":0}
+      ],
+      "optional":[
+        {"id":"sweet","cstate":"chocolate coated","realtemplate":"chocolate","difficulty":5}
+      ]
+    },
+    "result":{
+      "id":"cake",
+      "name":"black forest gateau",
+      "realtemplate":"cherries",
+      "difficulty":60,
+      "achievement":"black forest gateau",
+      "description":"A cake that consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries."
+    }
+  }

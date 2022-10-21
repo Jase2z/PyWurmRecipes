@@ -1,0 +1,13 @@
+  {
+    "name":"raw ram spit",
+    "recipeid":"529",
+    "known":true,
+    "skill":"cooking",
+    "active":{"id":"branch"},
+    "target":{"id":"corpse","creature":"ram"},
+    "result":{
+      "id":"lamb spit",
+      "cstate":"raw",
+      "difficulty":4
+    }
+  }    

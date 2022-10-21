@@ -1,0 +1,22 @@
+  {
+    "name":"fermenting lingonberry flavoured gin",
+    "recipeid":"1242",
+    "skill":"beverages",
+    "active":{"id":"wood scrap"},
+    "containers":[
+      {"id":"wine barrel"}
+    ],
+    "ingredients":{
+      "mandatory":[
+        {"id":"gin","pstate":"unfermented","realtemplate":"lingonberry","ratio":0,"loss":0}
+      ]
+    },
+    "result":{
+      "id":"gin",
+      "name":"# gin",
+      "pstate":"fermenting",
+      "realtemplate":"lingonberry",
+      "difficulty":25,
+      "description":"Mostly clear with lots of bubbles and a tinge of dark red."
+    }
+  }

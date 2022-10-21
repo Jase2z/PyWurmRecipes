@@ -1,0 +1,13 @@
+  {
+    "name":"nutmeg oil",
+    "recipeid":"553",
+    "skill":"beverages",
+    "active":{"id":"fruit press"},
+    "target":{"id":"nutmeg","loss":10},
+    "result":{
+      "id":"cooking oil",
+      "name":"# oil",
+      "realtemplate":"nutmeg",
+      "difficulty":50
+    }
+  }
